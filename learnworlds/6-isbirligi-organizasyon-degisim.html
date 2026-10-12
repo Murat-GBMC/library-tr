@@ -1,0 +1,134 @@
+<!--
+  GBMC CoE — Kütüphane ve Bağlantılar · BÖLÜM KARTLARI
+  LearnWorlds'te ilgili bölümün altındaki "Embed / Custom code" öğesine bu dosyanın TAMAMINI yapıştırın.
+  Değiştirmeniz gereken tek yer aşağıdaki div'in ayarlarıdır:
+    data-src      : depodaki data/kutuphane.json dosyasının raw adresi (hazır doldurulmuş)
+    data-platform : "CoE" veya "PDU Circle"
+    data-kategori : bu bölümün kategorisi (Excel'deki Ana Kategori ile birebir aynı yazım)
+-->
+<div class="gbmc-kutuphane"
+     data-src="https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/kutuphane.json"
+     data-platform="CoE"
+     data-kategori="İşbirliği, Organizasyon ve Değişim"></div>
+
+<style>
+.gbmc-kutuphane{--t:#0B6A6A;--ink:#0E2427;--ink2:#1D3538;--mut:#4A5F62;--line:#D5E0E0;--soft:#EEF3F3;--mint:#E1F0EF;
+  font-family:inherit;color:var(--ink);font-size:16px;line-height:1.5;box-sizing:border-box;width:100%}
+.gbmc-kutuphane *,.gbmc-kutuphane *::before,.gbmc-kutuphane *::after{box-sizing:border-box}
+.gbmc-kutuphane .gk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;align-items:stretch}
+.gbmc-kutuphane .gk-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:13px;box-shadow:0 1px 2px rgba(14,36,39,.04)}
+.gbmc-kutuphane .gk-meta{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;color:var(--t);text-transform:uppercase;letter-spacing:.06em}
+.gbmc-kutuphane .gk-meta svg{flex:none}
+.gbmc-kutuphane .gk-dur{color:var(--mut);text-transform:none;letter-spacing:0;font-weight:600}
+.gbmc-kutuphane .gk-card h3{margin:0;font-size:18px;line-height:1.3;font-weight:700;color:var(--ink)}
+.gbmc-kutuphane .gk-src{font-size:14px;color:var(--mut);margin-top:3px}
+.gbmc-kutuphane .gk-tags{display:flex;flex-wrap:wrap;gap:6px}
+.gbmc-kutuphane .gk-tag{padding:3px 10px;border-radius:6px;font-size:13px;font-weight:600;background:var(--soft);color:var(--ink)}
+.gbmc-kutuphane .gk-free{background:var(--mint);color:#0B5555}
+.gbmc-kutuphane .gk-part{background:#FBEFE2;color:#7A410C}
+.gbmc-kutuphane .gk-paid{background:#ECEFF0;color:#3E5053}
+.gbmc-kutuphane .gk-lbl{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-bottom:3px}
+.gbmc-kutuphane .gk-note{margin:0;font-size:15px;color:var(--ink2)}
+.gbmc-kutuphane .gk-q{background:var(--mint);border-radius:12px;padding:13px 15px}
+.gbmc-kutuphane .gk-q .gk-lbl{color:#0B5555}
+.gbmc-kutuphane .gk-q p{margin:0;font-size:15px;font-weight:600;color:var(--ink)}
+.gbmc-kutuphane .gk-gbmc{font-size:15px;font-weight:700;color:var(--t)}
+.gbmc-kutuphane .gk-aud{display:flex;flex-wrap:wrap;gap:6px}
+.gbmc-kutuphane .gk-aud span{padding:3px 10px;border-radius:999px;border:1px solid #B9CCCC;font-size:13px;color:var(--ink2)}
+.gbmc-kutuphane .gk-spacer{flex:1}
+.gbmc-kutuphane .gk-go{display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;min-height:44px;padding:0 20px;border-radius:10px;background:var(--t);color:#fff !important;font-size:15px;font-weight:700;text-decoration:none !important}
+.gbmc-kutuphane .gk-go:hover{background:#085656}
+.gbmc-kutuphane .gk-go:focus-visible{outline:3px solid #F2A65A;outline-offset:2px}
+.gbmc-kutuphane .gk-msg{border:1px dashed var(--line);border-radius:12px;padding:18px;color:var(--mut);font-size:15px}
+@media (max-width:640px){
+  .gbmc-kutuphane .gk-grid{grid-template-columns:1fr}
+  .gbmc-kutuphane .gk-go{align-self:stretch}
+}
+</style>
+
+<script>
+(function () {
+  var CTA = { 'Makale': 'Oku', 'Video': 'İzle', 'Podcast': 'Dinle', 'Kitap': 'İncele', 'Online Eğitim': 'Eğitime git', 'Webinar': 'İzle' };
+  var IKON = {
+    'Makale': '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 13h6M10 17h6"/>',
+    'Video': '<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/>',
+    'Webinar': '<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/>',
+    'Podcast': '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>',
+    'Kitap': '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/>',
+    'Rapor / Araştırma': '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
+    'Model / Araç': '<path d="M12 3l9 16H3z"/><path d="M7.5 11h9M5.5 15h13"/>',
+    'Online Eğitim': '<path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/>',
+    'Kurumsal Portal': '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>'
+  };
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function guvenliUrl(u) { return /^https:\/\//i.test(u || '') ? u : '#'; }
+  function erisimSinif(e) {
+    if (e === 'Ücretsiz') return 'gk-free';
+    if (e === 'Ücretli' || /ücretli\)/i.test(e)) return 'gk-paid';
+    return 'gk-part';
+  }
+  function dilEtiket(d) { return d === 'TR' ? 'Türkçe' : d === 'EN' ? 'İngilizce' : d === 'TR + EN' ? 'Türkçe + İngilizce' : d; }
+
+  function kart(k) {
+    var h = '<article class="gk-card">';
+    h += '<div class="gk-meta"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (IKON[k.tur] || IKON['Makale']) + '</svg>';
+    h += '<span>' + esc(k.tur) + '</span>' + (k.sure ? '<span aria-hidden="true" style="color:#8AA3A5">·</span><span class="gk-dur">' + esc(k.sure) + '</span>' : '') + '</div>';
+    h += '<div><h3>' + esc(k.baslik) + '</h3><div class="gk-src">' + esc(k.yil ? k.kaynak + ' · ' + k.yil : k.kaynak) + '</div></div>';
+    h += '<div class="gk-tags"><span class="gk-tag">' + esc(dilEtiket(k.dil)) + '</span>' + (k.erisim ? '<span class="gk-tag ' + erisimSinif(k.erisim) + '">' + esc(k.erisim) + '</span>' : '') + '</div>';
+    if (k.not) h += '<div><div class="gk-lbl">Neden öneriyoruz?</div><p class="gk-note">' + esc(k.not) + '</p></div>';
+    if (k.soru) h += '<div class="gk-q"><div class="gk-lbl">Düşünün / Uygulayın</div><p>' + esc(k.soru) + '</p></div>';
+    if (k.gbmc) h += '<div><div class="gk-lbl">GBMC\'de devam edin</div><div class="gk-gbmc">' + esc(k.gbmc) + '</div></div>';
+    if (k.hedef && k.hedef.length) {
+      h += '<div><div class="gk-lbl">Kimler için</div><div class="gk-aud">';
+      k.hedef.forEach(function (a) { h += '<span>' + esc(a) + '</span>'; });
+      h += '</div></div>';
+    }
+    h += '<div class="gk-spacer"></div><a class="gk-go" href="' + esc(guvenliUrl(k.url)) + '" target="_blank" rel="noopener">' + esc(CTA[k.tur] || 'İncele') + ' →</a>';
+    return h + '</article>';
+  }
+
+  function ciz(root, paket) {
+    var kat = root.getAttribute('data-kategori');
+    var pl = root.getAttribute('data-platform') || 'CoE';
+    var liste = ((paket && paket.kaynaklar) || []).filter(function (k) {
+      if (kat && k.kategori !== kat) return false;
+      if (k.platform && k.platform !== 'Her ikisi' && k.platform !== pl) return false;
+      return true;
+    });
+    if (!liste.length) {
+      root.innerHTML = '<div class="gk-msg">Bu konuda yakında yeni kaynaklar eklenecek.</div>';
+      return;
+    }
+    var h = '<div class="gk-grid">';
+    liste.forEach(function (k) { h += kart(k); });
+    root.innerHTML = h + '</div>';
+  }
+
+  function veriAl(src) {
+    window.__gbmcKutuphane = window.__gbmcKutuphane || {};
+    if (window.GBMC_KUTUPHANE_VERI) return Promise.resolve(window.GBMC_KUTUPHANE_VERI);
+    if (!window.__gbmcKutuphane[src]) {
+      var u = src + (src.indexOf('?') < 0 ? '?' : '&') + 't=' + Math.floor(Date.now() / 300000);
+      window.__gbmcKutuphane[src] = fetch(u, { cache: 'no-store' }).then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      });
+    }
+    return window.__gbmcKutuphane[src];
+  }
+
+  var kokler = document.querySelectorAll('.gbmc-kutuphane:not([data-hazir])');
+  Array.prototype.forEach.call(kokler, function (root) {
+    root.setAttribute('data-hazir', '1');
+    root.innerHTML = '<div class="gk-msg">Kaynaklar yükleniyor…</div>';
+    veriAl(root.getAttribute('data-src')).then(function (p) { ciz(root, p); }).catch(function () {
+      root.innerHTML = '<div class="gk-msg">Kaynaklar şu anda yüklenemedi. Lütfen sayfayı daha sonra yenileyin.</div>';
+    });
+  });
+})();
+</script>
