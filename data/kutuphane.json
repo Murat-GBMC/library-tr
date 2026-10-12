@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "guncellendi": "2026-10-12T10:00:00Z",
+ "guncellendi": "2026-10-12T11:15:00Z",
  "adet": 56,
  "kaynaklar": [
   {
@@ -16,7 +16,7 @@
    "sure": "~25 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2015/03/why-strategy-execution-unravelsand-what-to-do-about-it",
-   "not": "İcranın neden aksadığına dair yaygın inanışları araştırma verisiyle sorgular. Sorunun çoğu zaman hizalamada değil, birimler arası koordinasyonda olduğunu gösterir.",
+   "not": "Bu makale icranın neden aksadığına dair yaygın inanışları araştırma verisiyle sorguluyor. Sorunun çoğu zaman hizalamada değil, birimler arası koordinasyonda olduğunu gösteriyor.",
    "soru": "Son öncelikli girişiminiz aksadığında, sorun hedeflerin netliğinde mi, yoksa başka bir birimden beklediğiniz katkıda mıydı?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -41,7 +41,7 @@
    "sure": "8 dk",
    "erisim": "Kayıt gerekli",
    "url": "https://sloanreview.mit.edu/article/no-one-knows-your-strategy-not-even-your-top-leaders/",
-   "not": "Yöneticilerin büyük kısmı şirketin stratejik önceliklerini sayamıyor. Kısa, veriye dayalı ve üst yönetim toplantısında tartışmaya açmak için ideal.",
+   "not": "Yöneticilerin büyük kısmı şirketin stratejik önceliklerini sayamıyor. Bu kısa ve veriye dayalı makale, konuyu üst yönetim toplantısında tartışmaya açmak için ideal bir fırsat sunuyor.",
    "soru": "Ekibinizden üç kişiye kurumun ilk üç önceliğini sorsanız, cevaplar ne kadar örtüşür?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -65,7 +65,7 @@
    "sure": "~10 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
-   "not": "Planlama ile stratejiyi birbirinden ayıran en net 10 dakika. Hedefler, girişimler ve bütçeden oluşan bir listenin neden strateji olmadığını gösterir.",
+   "not": "Roger Martin bu 10 dakikalık videoda planlama ile stratejiyi net biçimde birbirinden ayırıyor. Hedef, girişim ve bütçe listesinin neden tek başına strateji olmadığını gösteriyor.",
    "soru": "Bu yılki planınızda 'ne yapmayacağız' sorusunun açık bir cevabı var mı?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -89,7 +89,7 @@
    "sure": "~12 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.ted.com/talks/john_doerr_why_the_secret_to_success_is_setting_the_right_goals",
-   "not": "OKR yaklaşımına en kısa ve ilham verici giriş. Hedeflerin neden açık, ölçülebilir ve herkesin görebileceği şekilde konması gerektiğini anlatır.",
+   "not": "John Doerr bu konuşmada OKR yaklaşımını kısa ve ilham verici bir dille anlatıyor. Hedeflerin neden açık, ölçülebilir ve herkesin görebileceği şekilde konması gerektiğini örneklerle açıklıyor.",
    "soru": "Ekibinizin bu çeyrekteki hedeflerinden birini, sonucu ölçen bir 'key result' cümlesine çevirebilir misiniz?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -114,7 +114,7 @@
    "sure": "~290 sayfa",
    "erisim": "Ücretli",
    "url": "https://www.penguinrandomhouse.com/books/isbn/9780609610572",
-   "not": "İcrayı bir disiplin olarak ele alan klasik. İnsanlar, strateji ve operasyon süreçlerinin birbirine nasıl bağlanması gerektiğini uygulayıcı gözüyle anlatır.",
+   "not": "İcrayı bir disiplin olarak ele alan klasik bir kitap. Yazarlar insan, strateji ve operasyon süreçlerinin birbirine nasıl bağlanması gerektiğini uygulayıcı gözüyle anlatıyor.",
    "soru": "Strateji, kaynak (insan) ve operasyon kararlarınız aynı masada mı alınıyor, yoksa ayrı toplantılarda mı?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -138,7 +138,7 @@
    "sure": "~25 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/successful-transformations",
-   "not": "McKinsey'nin dönüşüm araştırmalarını tek sayfada toplar. Dönüşümlerin çoğunun neden hedefine ulaşmadığını ve başarıyı en çok hangi eylemlerin artırdığını veriyle gösterir.",
+   "not": "McKinsey bu sayfada dönüşüm araştırmalarını bir araya getiriyor. Dönüşümlerin çoğunun neden hedefine ulaşamadığını ve başarıyı en çok hangi adımların artırdığını veriyle gösteriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -162,7 +162,7 @@
    "sure": "~30 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2007/04/promise-based-management-the-essence-of-execution",
-   "not": "Kurumu bir taahhütler ağı olarak görür ve icra sorunlarının çoğunu kötü kurulmuş taahhütlere bağlar. GBMC'nin takip ve taahhüt yaklaşımının düşünsel temellerinden biri.",
+   "not": "Bu makale kurumu bir taahhütler ağı olarak görüyor. İcra sorunlarının çoğunu kötü kurulmuş taahhütlere bağlıyor ve iyi bir taahhüdün nasıl kurulacağını adım adım anlatıyor.",
    "soru": "Son toplantınızda verilen sözlerden kaçının sahibi, teslim tarihi ve 'tamam' tanımı açıkça konuşuldu?",
    "gbmc": "Follow Up and Commitment (FC) eğitimi",
    "hedef": [
@@ -187,7 +187,7 @@
    "sure": "~20 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2010/06/the-decision-driven-organization",
-   "not": "Organizasyon şemasını değiştirmek yerine kritik kararların nerede ve kim tarafından alındığına odaklanmayı önerir. Karar hakları ve yönetişim tartışmalarına iyi bir giriş.",
+   "not": "Bu makale organizasyon şemasını değiştirmek yerine kritik kararların nerede ve kim tarafından alındığına odaklanmayı öneriyor. Karar hakları ve yönetişim konusuna iyi bir giriş sunuyor.",
    "soru": "Projenizde gecikmeye yol açan son karar için, kimin önereceği, kimin karar vereceği ve kimin uygulayacağı netti mi?",
    "gbmc": "Action Management (AM) eğitimi",
    "hedef": [
@@ -211,7 +211,7 @@
    "sure": "~350 sayfa",
    "erisim": "Ücretli",
    "url": "https://www.simonandschuster.ca/books/The-4-Disciplines-of-Execution-Revised-and-Updated/Chris-McChesney/9781982156985",
-   "not": "Günlük operasyon yoğunluğu içinde önemli hedeflerin nasıl kaybolmadığını anlatan pratik bir çerçeve. Ekip düzeyinde düzenli hesap verme ritmi kurmak isteyenler için.",
+   "not": "Bu kitap günlük iş yoğunluğu içinde önemli hedeflerin nasıl kaybolduğunu ve bunun nasıl önleneceğini anlatıyor. Ekipte düzenli bir takip ve hesap verme ritmi kurmak isteyenler için pratik bir çerçeve sunuyor.",
    "soru": "Ekibiniz 'acil işler' dışında, en önemli hedef için haftada ne kadar zaman ayırıyor ve bunu kim takip ediyor?",
    "gbmc": "Follow Up and Commitment (FC) eğitimi",
    "hedef": [
@@ -236,7 +236,7 @@
    "sure": "~10 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.tablegroup.com/topics-and-resources/teamwork-5-dysfunctions/",
-   "not": "Hesap verebilirlik ve sonuç odağının neden güven, açık tartışma ve gerçek bağlılık olmadan kurulamadığını basit bir piramitle gösterir. Ücretsiz özet ve PDF içerir.",
+   "not": "Lencioni bu modelde hesap verebilirliğin ve sonuç odağının güven, açık tartışma ve gerçek bağlılık olmadan kurulamayacağını basit bir piramitle gösteriyor. Sayfada ücretsiz bir özet ve PDF de var.",
    "soru": "Ekibinizde bir arkadaşınızın verdiği sözü tutmadığını ona doğrudan söyleyebiliyor musunuz, yoksa bunu yöneticiye mi bırakıyorsunuz?",
    "gbmc": "Follow Up and Commitment (FC) eğitimi",
    "hedef": [
@@ -260,7 +260,7 @@
    "sure": "~20 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2021/11/the-project-economy-has-arrived",
-   "not": "Projelerin operasyonların yerini alarak değer üretiminin ana motoru hâline geldiğini savunur. Sponsorlar ve üst yönetim için proje yetkinliğinin neden stratejik olduğunu gösterir.",
+   "not": "Bu makale projelerin artık değer üretiminin ana motoru hâline geldiğini savunuyor. Sponsorlar ve üst yöneticiler için proje yetkinliğinin neden stratejik bir konu olduğunu gösteriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -284,7 +284,7 @@
    "sure": "~300 sayfa",
    "erisim": "Ücretli",
    "url": "https://www.panmacmillan.com/authors/bent-flyvbjerg/how-big-things-get-done/9781035018932",
-   "not": "Büyük projelerin neden bütçe ve takvim hedeflerini aştığını anlamak, planlama hatalarını ve karar yanlılıklarını fark etmek için.",
+   "not": "Bu kitap büyük projelerin neden bütçe ve takvim hedeflerini aştığını anlatıyor. Planlama hatalarını ve karar yanlılıklarını fark etmek isteyen herkes için değerli dersler içeriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -309,7 +309,7 @@
    "sure": "Göz atma",
    "erisim": "Ücretsiz",
    "url": "https://arge.com/yayinlarimiz/makaleler/",
-   "not": "Yılmaz Argüden'in strateji, yönetişim, değişim ve yönetim kalitesi üzerine yüzü aşkın Türkçe yazısı. Türkiye bağlamında düşünmek isteyenler için başlangıç noktası.",
+   "not": "Yılmaz Argüden'in strateji, yönetişim, değişim ve yönetim kalitesi üzerine yüzü aşkın Türkçe yazısı burada. Konulara Türkiye bağlamında bakmak isteyenler için iyi bir başlangıç noktası.",
    "soru": "Bu arşivden kurumunuzun bugünkü gündemine en yakın bir yazıyı seçin: ekibinizle hangi soruyu tartışmak isterdiniz?",
    "gbmc": "",
    "hedef": [
@@ -335,7 +335,7 @@
    "sure": "~3 dk",
    "erisim": "Ücretsiz",
    "url": "https://arguden.net/makale/kurumsal-benimseme-ve-uygulama-etkinligi/",
-   "not": "Yeni bir yaklaşımın kurumda kalıcı hâle gelmesi için gerekenleri kısa bir reçeteyle özetler. Stratejiyi uygulamaya çevirmenin Türkçe ve sade bir anlatımı.",
+   "not": "Bu kısa yazı yeni bir yaklaşımın kurumda kalıcı hâle gelmesi için nelerin gerektiğini sade bir dille özetliyor. Stratejiyi uygulamaya dönüştürmek isteyenler için pratik bir kontrol listesi gibi.",
    "soru": "Son başlattığınız girişimin hedefleri, ölçümü ve ödül sistemiyle bağı kurulmuş mu, yoksa yalnızca duyurulmuş mu?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -360,7 +360,7 @@
    "sure": "~3 dk",
    "erisim": "Ücretsiz",
    "url": "https://arguden.net/makale/karar-kalitesini-artirmak/",
-   "not": "Kurumun geleceğini belirleyen stratejik kararların nasıl daha iyi alınabileceğini toplantı pratikleri üzerinden anlatır.",
+   "not": "Bu yazı kurumun geleceğini belirleyen stratejik kararların nasıl daha iyi alınabileceğini anlatıyor. Toplantılarda hemen uygulanabilecek somut öneriler içeriyor.",
    "soru": "Son önemli kararınızda en az iki alternatif gerçekten masaya geldi mi, ve kararın sonucunu sonradan değerlendirdiniz mi?",
    "gbmc": "Action Management (AM) eğitimi",
    "hedef": [
@@ -384,7 +384,7 @@
    "sure": "~4 dk",
    "erisim": "Ücretsiz",
    "url": "https://arguden.net/makale/degisimi-sahiplendirebilmek/",
-   "not": "Değişimin, özellikle kriz dönemlerinde, nasıl benimsetilebileceğini kısa ve uygulanabilir adımlarla anlatır.",
+   "not": "Bu yazı değişimin, özellikle kriz dönemlerinde, çalışanlara nasıl benimsetilebileceğini anlatıyor. Kısa ve uygulanabilir adımlar sunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -409,7 +409,7 @@
    "sure": "34 sayfa",
    "erisim": "Ücretsiz",
    "url": "https://arguden.net/kitaplar/degisim-yonetimi.pdf",
-   "not": "ARGE'nin değişim yönetimi metodolojisini anlatan ücretsiz Türkçe kitapçık. Paydaş analizi ve iletişim araçlarıyla birlikte.",
+   "not": "Bu ücretsiz Türkçe kitapçık ARGE'nin değişim yönetimi yaklaşımını anlatıyor. Paydaş analizi ve iletişim araçlarıyla birlikte adım adım bir yol haritası sunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -433,7 +433,7 @@
    "sure": "~3 dk",
    "erisim": "Ücretsiz",
    "url": "https://arguden.net/makale/mega-projeleri-yonetebilmek/",
-   "not": "Büyük projelerin neden başarısız olduğunu Türkiye bağlamında tartışır. Flyvbjerg'in kitabının iyi bir Türkçe tamamlayıcısı.",
+   "not": "Bu yazı büyük projelerin neden başarısız olduğunu Türkiye örnekleri üzerinden tartışıyor. Flyvbjerg'in kitabını okuyanlar için iyi bir Türkçe tamamlayıcı.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -458,7 +458,7 @@
    "sure": "~4 dk",
    "erisim": "Ücretsiz",
    "url": "https://arguden.net/makale/kurumsal-yonetisim-kurumsal-guvenin-temeli/",
-   "not": "Yönetişimi kurallardan çok kültür ve davranış olarak ele alır. PMO ve yönetişim tartışmalarına Türkçe bir giriş.",
+   "not": "Bu yazı yönetişimi kurallardan çok kültür ve davranış meselesi olarak ele alıyor. PMO ve yönetişim konusuna Türkçe ve sade bir giriş sunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -482,7 +482,7 @@
    "sure": "Göz atma",
    "erisim": "Kısmen ücretli",
    "url": "https://www.pmi.org.tr/",
-   "not": "Türkiye'deki proje yönetimi topluluğunun merkezi. Etkinlikler, Proje Yönetimi Zirvesi, Türkçe yazılar ve dergiler.",
+   "not": "PMI Türkiye, Türkiye'deki proje yönetimi topluluğunun buluşma noktası. Sitede etkinlikleri, Proje Yönetimi Zirvesi'ni, Türkçe yazıları ve dergileri bulabilirsiniz.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -506,7 +506,7 @@
    "sure": "~2 dk",
    "erisim": "Ücretsiz",
    "url": "https://agilemanifesto.org/iso/tr/manifesto.html",
-   "not": "Çevik yaklaşımın dört temel değerinin resmî Türkçe çevirisi. Çevik dönüşüm konuşmalarında ortak dil için.",
+   "not": "Çevik Manifesto'nun resmî Türkçe çevirisi. Çevik yaklaşımın dört temel değerini kısaca anlatıyor ve ekipler arasında ortak bir dil kurmaya yardımcı oluyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -530,7 +530,7 @@
    "sure": "16 sayfa",
    "erisim": "Ücretsiz",
    "url": "https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Turkish-2.0.pdf",
-   "not": "Scrum'ın resmî kılavuzunun Türkçe sürümü. Roller, etkinlikler ve çıktılar için kısa ve yetkili kaynak.",
+   "not": "Scrum'ın resmî kılavuzunun Türkçe sürümü. Rolleri, etkinlikleri ve çıktıları kısa ve güvenilir bir şekilde tanımlıyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -554,7 +554,7 @@
    "sure": "Göz atma",
    "erisim": "Kısmen ücretli",
    "url": "https://www.pmi.org/learning/thought-leadership",
-   "not": "PMI'ın araştırma merkezi: raporlar, vaka çalışmaları ve AI, PMO, yetenek açığı gibi güncel konularda yayınlar.",
+   "not": "PMI'ın araştırma merkezi. Burada yapay zekâ, PMO ve yetenek açığı gibi güncel konularda raporlar ve vaka çalışmaları bulabilirsiniz.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -579,7 +579,7 @@
    "sure": "~40 dk",
    "erisim": "Üyelik gerekli (ücretli)",
    "url": "https://www.pmi.org/learning/thought-leadership/driving-success-in-complex-projects",
-   "not": "PMI'ın yıllık araştırmasının en güncel sayısı. Karmaşık projelerde başarının en iyi uygulamalardan çok sistem düşüncesine bağlı olduğunu savunur.",
+   "not": "PMI'ın yıllık araştırmasının en güncel sayısı. Karmaşık projelerde başarının en iyi uygulamalardan çok sistem düşüncesine bağlı olduğunu savunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -604,7 +604,7 @@
    "sure": "Kapsamlı referans",
    "erisim": "Kayıt gerekli",
    "url": "https://ipma.world/ipma-standards-development-programme/icb4/",
-   "not": "Proje, program ve portföy yöneticilerinin yetkinliklerini tanımlayan IPMA standardı. Yetkinlik modeli kurmak isteyen PMO'lar için temel referans.",
+   "not": "IPMA'nın proje, program ve portföy yöneticilerinin yetkinliklerini tanımlayan standardı. Kurumunda yetkinlik modeli kurmak isteyen PMO'lar için temel bir başvuru kaynağı.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -627,7 +627,7 @@
    "sure": "Kapsamlı referans",
    "erisim": "Kayıt gerekli",
    "url": "https://ipma.world/ipma-standards-development-programme/peb/",
-   "not": "Projelerde mükemmelliği değerlendirmek ve geliştirmek için IPMA modeli. Proje olgunluğu ve ödül süreçleri için referans.",
+   "not": "IPMA'nın projelerde mükemmelliği değerlendirmek ve geliştirmek için kullandığı model. Proje olgunluğunu ölçmek isteyen kurumlar için iyi bir referans.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -650,7 +650,7 @@
    "sure": "Ana bulgular ~15 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
-   "not": "2030'a kadar hangi işlerin ve becerilerin büyüyüp küçüleceğine dair küresel işveren araştırması. Yetenek ve gelişim planlaması için.",
+   "not": "Dünya Ekonomik Forumu bu raporda 2030'a kadar hangi işlerin ve becerilerin öne çıkacağını küresel işverenlere soruyor. Yetenek ve gelişim planlaması yapanlar için yol gösterici.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -674,7 +674,7 @@
    "sure": "~45 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-   "not": "Şirketlerin AI'ı ne ölçüde benimsediğini ve somut iş değerine ne kadar dönüştürebildiğini gösteren yıllık araştırma.",
+   "not": "McKinsey bu yıllık araştırmada şirketlerin yapay zekâyı ne ölçüde benimsediğini inceliyor. Yapay zekânın somut iş değerine ne kadar dönüştüğünü verilerle gösteriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -698,7 +698,7 @@
    "sure": "~20 dk",
    "erisim": "Ücretsiz",
    "url": "https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness",
-   "not": "Google'ın etkili ekip araştırması. Ekibin kimlerden oluştuğundan çok nasıl çalıştığının önemli olduğunu ve psikolojik güvenliğin ilk sırada geldiğini gösterir.",
+   "not": "Google bu araştırmada etkili ekipleri inceliyor. Ekibin kimlerden oluştuğundan çok nasıl çalıştığının önemli olduğunu ve psikolojik güvenliğin ilk sırada geldiğini gösteriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -722,7 +722,7 @@
    "sure": "~20 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2005/07/turning-great-strategy-into-great-performance",
-   "not": "Stratejilerin vaat ettiği değerin önemli bir kısmının icrada kaybolduğunu gösterir ve bu kaybı azaltacak pratik kurallar önerir.",
+   "not": "Bu makale stratejilerin vaat ettiği değerin önemli bir kısmının uygulamada kaybolduğunu gösteriyor. Bu kaybı azaltmak için yedi pratik kural öneriyor.",
    "soru": "Stratejik planınızdaki hedefler ile bütçe ve kaynak kararlarınız aynı varsayımlara mı dayanıyor?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -746,7 +746,7 @@
    "sure": "~25 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/1995/07/discovery-driven-planning",
-   "not": "Belirsiz girişimlerde planı bir tahminler listesi olarak görüp varsayımları adım adım sınamayı önerir. Yeni iş ve dönüşüm projeleri için klasik.",
+   "not": "Bu klasik makale belirsiz girişimlerde planı bir tahminler listesi olarak görmeyi öneriyor. Varsayımları adım adım sınayarak ilerlemeyi anlatıyor; yeni iş ve dönüşüm projeleri için çok değerli.",
    "soru": "Projenizin iş gerekçesindeki en kritik üç varsayım hangisi ve bunları ne zaman sınayacaksınız?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -771,7 +771,7 @@
    "sure": "~20 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2018/09/too-many-projects",
-   "not": "Kurumların neden aynı anda çok fazla girişim yürüttüğünü ve bunun icrayı nasıl tıkadığını anlatır. Portföy önceliklendirmesi için.",
+   "not": "Bu makale kurumların neden aynı anda çok fazla girişim yürüttüğünü ve bunun icrayı nasıl tıkadığını anlatıyor. Portföyü önceliklendirmek isteyenler için somut öneriler sunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -795,7 +795,7 @@
    "sure": "~20 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2016/05/embracing-agile",
-   "not": "Çevik yöntemlerin yazılım dışında nerede işe yarayıp nerede yaramadığını yöneticiler için açıklar.",
+   "not": "Bu makale çevik yöntemlerin yazılım dışında nerede işe yarayıp nerede yaramadığını yöneticiler için açıklıyor. Çevikliği kurum geneline yaymayı düşünenler için dengeli bir bakış sunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -819,7 +819,7 @@
    "sure": "~270 sayfa",
    "erisim": "Ücretli",
    "url": "https://projecttoproduct.org/",
-   "not": "Projeden ürüne geçişi ve değer akışlarının nasıl ölçüleceğini anlatır. Proje ve ürün yönetimi ilişkisini tartışan kurumlar için.",
+   "not": "Bu kitap projeden ürüne geçişi ve değer akışlarının nasıl ölçüleceğini anlatıyor. Proje ve ürün yönetimi arasındaki ilişkiyi tartışan kurumlar için faydalı.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -842,7 +842,7 @@
    "sure": "~13 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.ted.com/talks/amy_edmondson_how_to_turn_a_group_of_strangers_into_a_team",
-   "not": "Hızla bir araya gelen ekiplerin nasıl birlikte çalışabildiğini psikolojik güvenlik üzerinden anlatır. Proje liderleri için özellikle değerli.",
+   "not": "Amy Edmondson bu konuşmada hızla bir araya gelen ekiplerin nasıl birlikte çalışabildiğini anlatıyor. Psikolojik güvenliğin rolünü örneklerle gösteriyor; proje liderleri için özellikle değerli.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -866,7 +866,7 @@
    "sure": "~25 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/1993/03/the-discipline-of-teams-2",
-   "not": "Bir grubu gerçek ekibe dönüştüren şeyin ortak amaç ve karşılıklı hesap verebilirlik olduğunu anlatan klasik.",
+   "not": "Bu klasik makale bir grubu gerçek bir ekibe dönüştüren şeyin ne olduğunu anlatıyor. Ortak amacın ve karşılıklı hesap verebilirliğin önemini net biçimde ortaya koyuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -890,7 +890,7 @@
    "sure": "~340 sayfa",
    "erisim": "Ücretli",
    "url": "https://www.radicalcandor.com/the-book",
-   "not": "Hem kişiyi önemseyip hem de doğrudan geri bildirim vermenin nasıl mümkün olduğunu anlatır. Takip ve hesap verebilirlik konuşmaları için.",
+   "not": "Bu kitap hem kişiyi önemseyip hem de doğrudan geri bildirim vermenin nasıl mümkün olduğunu anlatıyor. Zor takip ve hesap verebilirlik konuşmalarına hazırlanmak için çok faydalı.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -915,7 +915,7 @@
    "sure": "~210 sayfa",
    "erisim": "Ücretli",
    "url": "https://atulgawande.com/book/the-checklist-manifesto/",
-   "not": "Karmaşık işlerde basit kontrol listelerinin hataları nasıl azalttığını tıp, havacılık ve inşaat örnekleriyle anlatır. Takip disiplinine somut bir bakış.",
+   "not": "Bu kitap karmaşık işlerde basit kontrol listelerinin hataları nasıl azalttığını tıp, havacılık ve inşaat örnekleriyle anlatıyor. Takip disiplinine somut ve akılda kalıcı bir bakış sunuyor.",
    "soru": "Ekibinizde sürekli tekrarlanan ve atlandığında sorun çıkaran üç adımı bir kontrol listesine dönüştürebilir misiniz?",
    "gbmc": "Follow Up and Commitment (FC) eğitimi",
    "hedef": [
@@ -939,7 +939,7 @@
    "sure": "~20 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/1995/03/leading-change-why-transformation-efforts-fail-2",
-   "not": "Dönüşüm çabalarının neden başarısız olduğunu sekiz hata üzerinden anlatan klasik. Değişim yönetimi tartışmalarının ortak referansı.",
+   "not": "Bu klasik makale dönüşüm çabalarının neden başarısız olduğunu sekiz yaygın hata üzerinden anlatıyor. Değişim yönetimi konuşmalarında hâlâ en çok başvurulan kaynaklardan biri.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -963,7 +963,7 @@
    "sure": "~300 sayfa",
    "erisim": "Ücretli",
    "url": "https://www.penguinrandomhouse.com/books/317066/team-of-teams-by-general-stanley-mcchrystal-tantum-collins-david-silverman-and-chris-fussell/",
-   "not": "Siloları aşmak için hiyerarşik yapının ekipler ağına nasıl dönüştürülebileceğini anlatır. Fonksiyonlar arası işbirliği için güçlü bir örnek.",
+   "not": "Bu kitap siloları aşmak için hiyerarşik yapının ekipler ağına nasıl dönüştürülebileceğini anlatıyor. Fonksiyonlar arası işbirliği için güçlü ve ilham verici bir örnek sunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -987,7 +987,7 @@
    "sure": "~20 dk",
    "erisim": "Kısmen ücretli",
    "url": "https://hbr.org/2023/11/keep-your-ai-projects-on-track",
-   "not": "AI projelerinin neden sıkça başarısız olduğunu ve yaşam döngüsü boyunca nasıl yönetilmesi gerektiğini anlatır. AI projesi yürüten proje liderleri için.",
+   "not": "Bu makale yapay zekâ projelerinin neden sıkça başarısız olduğunu ve baştan sona nasıl yönetilmesi gerektiğini anlatıyor. Yapay zekâ projesi yürüten proje liderleri için pratik bir rehber.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1011,7 +1011,7 @@
    "sure": "256 sayfa",
    "erisim": "Ücretli",
    "url": "https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/",
-   "not": "Üretken yapay zekâyı bir çalışma arkadaşı olarak kullanmaya dair araştırmaya dayalı, pratik bir rehber.",
+   "not": "Bu kitap üretken yapay zekâyı bir çalışma arkadaşı gibi kullanmanın yollarını anlatıyor. Araştırmaya dayalı ve hemen uygulanabilir öneriler içeriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1037,7 +1037,7 @@
    "sure": "15–30 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.agilealliance.org/agile101/agile-glossary/",
-   "not": "Scrum'dan Kanban'a çevik terimlerin kısa ve sade tanımları. Ekipler arasında ortak dil kurmak için başvuru kaynağı.",
+   "not": "Bu sözlük Scrum'dan Kanban'a çevik terimleri kısa ve sade biçimde tanımlıyor. Ekipler arasında ortak bir dil kurmak için kullanışlı bir başvuru kaynağı.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1061,7 +1061,7 @@
    "sure": "Göz atma",
    "erisim": "Ücretsiz",
    "url": "https://www.scrum.org/resources",
-   "not": "Scrum ve çevik ürün geliştirme üzerine makale, beyaz kitap, vaka çalışması ve öz değerlendirme arşivi.",
+   "not": "Scrum.org'un kaynak arşivinde Scrum ve çevik ürün geliştirme üzerine makaleler, beyaz kitaplar, vaka çalışmaları ve öz değerlendirmeler bulabilirsiniz.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1085,7 +1085,7 @@
    "sure": "1–2 saat",
    "erisim": "Kayıt gerekli",
    "url": "https://www.pmi.org/disciplined-agile/da-browser",
-   "not": "PMI'ın 'kendi çalışma yönteminizi seçin' araç seti. Ekiplerin duruma uygun uygulamaları hedef ve karar noktaları üzerinden seçmesine yardım eder.",
+   "not": "PMI'ın 'kendi çalışma yönteminizi seçin' yaklaşımına dayanan araç seti. Ekiplerin kendi durumlarına uygun uygulamaları hedefler ve karar noktaları üzerinden seçmesine yardımcı oluyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1108,7 +1108,7 @@
    "sure": "1–3 saat",
    "erisim": "Ücretsiz",
    "url": "https://framework.scaledagile.com/",
-   "not": "Çevikliği portföy ve kurum ölçeğine taşımak için en yaygın kullanılan çerçevenin resmî başvuru sitesi.",
+   "not": "Çevikliği portföy ve kurum ölçeğine taşımak için en yaygın kullanılan çerçevenin resmî sitesi. Roller ve yapıları tıklanabilir bir genel görünüm üzerinden incelemenizi sağlıyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1131,7 +1131,7 @@
    "sure": "30–45 dk",
    "erisim": "Kayıt gerekli",
    "url": "https://www.stateofagile.com/",
-   "not": "Çevik uygulamaların dünyadaki durumuna dair uzun soluklu anket. Son sayı yapay zekânın yazılım teslimatını nasıl değiştirdiğine odaklanıyor.",
+   "not": "Bu rapor çevik uygulamaların dünyadaki durumunu yıllardır izleyen bir anketin son sayısı. Bu yıl yapay zekânın yazılım teslimatını nasıl değiştirdiğine odaklanıyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1154,7 +1154,7 @@
    "sure": "Özet ~30 dk",
    "erisim": "Ücretsiz",
    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
-   "not": "Yapay zekâdaki gelişmeyi teknik performans, yatırım, benimseme ve politika açısından ölçen en kapsamlı bağımsız yıllık rapor.",
+   "not": "Stanford'un bu yıllık raporu yapay zekâdaki gelişmeyi teknik performans, yatırım, benimseme ve politika açısından ölçüyor. Alandaki en kapsamlı bağımsız kaynaklardan biri.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1177,7 +1177,7 @@
    "sure": "1–2 saat",
    "erisim": "Ücretsiz",
    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
-   "not": "Yapay zekâ risklerini kurum genelinde yönetmek için yaygın kabul gören çerçeve. AI projeleri için yönetişim kurmak isteyen PMO ve sponsorlar için.",
+   "not": "Bu çerçeve yapay zekâ risklerini kurum genelinde yönetmek için yaygın kabul görüyor. Yapay zekâ projeleri için yönetişim kurmak isteyen PMO'lar ve sponsorlar için temel bir başvuru kaynağı.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1201,7 +1201,7 @@
    "sure": "~1 saat",
    "erisim": "Ücretsiz",
    "url": "https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083",
-   "not": "PMI'ın proje yöneticileri için ücretsiz üretken yapay zekâ giriş eğitimi. Kısa, uygulamaya dönük ve PDU kazandırıyor.",
+   "not": "PMI'ın proje yöneticileri için hazırladığı ücretsiz üretken yapay zekâ eğitimi. Kısa, uygulamaya dönük ve tamamlayanlara PDU kazandırıyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1225,7 +1225,7 @@
    "sure": "~10 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.bcg.com/publications/2026/the-formula-for-agentic-ai-value",
-   "not": "Şirketlerin yapay zekâdan gerçekten değer elde edip etmediğini ölçen BCG araştırması. Öncü şirketlerin farkını ve yapay zekâ ajanlarının yönetişim açığını gösterir.",
+   "not": "BCG bu araştırmada şirketlerin yapay zekâdan gerçekten değer elde edip etmediğini ölçüyor. Öncü şirketlerin farkını ve yapay zekâ ajanlarındaki yönetişim açığını gösteriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1248,7 +1248,7 @@
    "sure": "~25 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.accenture.com/us-en/insights/consulting/change-reinvented",
-   "not": "Kurumların değişim yetkinliğini nasıl ölçüp güçlendirebileceğini anlatan Accenture araştırması. Sürekli dönüşüm yaşayan kurumlar için.",
+   "not": "Accenture bu araştırmada kurumların değişim yetkinliğini nasıl ölçüp güçlendirebileceğini anlatıyor. Sürekli dönüşüm içinde olan kurumlar için faydalı bir bakış sunuyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1272,7 +1272,7 @@
    "sure": "~8 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.bain.com/insights/the-three-common-transformation-talent-mistakes-and-how-to-avoid-them/",
-   "not": "Dönüşümlerin büyük çoğunluğunun neden hedefine ulaşamadığını yetenek kararları üzerinden açıklar. En iyi çalışanları aşırı yüklemenin bedelini gösterir.",
+   "not": "Bain bu makalede dönüşümlerin büyük çoğunluğunun neden hedefine ulaşamadığını yetenek kararları üzerinden açıklıyor. En iyi çalışanları aşırı yüklemenin bedelini gösteriyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1296,7 +1296,7 @@
    "sure": "~60 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html",
-   "not": "İnsan ve yapay zekânın birlikte çalıştığı organizasyonlarda liderlerin vermesi gereken kararları ele alan yıllık Deloitte araştırması.",
+   "not": "Deloitte bu yıllık araştırmada insan ve yapay zekânın birlikte çalıştığı organizasyonlarda liderlerin vermesi gereken kararları ele alıyor.",
    "soru": "",
    "gbmc": "",
    "hedef": [
@@ -1319,7 +1319,7 @@
    "sure": "~20 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.pwc.com.tr/tr/yayinlar/ceo-arastirmalari/asset/2026/29-kuresel-ceo-arastirmasi-tr-sonuclari-yonetici-ozeti-v2.pdf",
-   "not": "Dünya ve Türkiye'deki CEO'ların gündemini, dönüşüm hızına ve yapay zekâya dair kaygılarını gösteren yıllık araştırmanın Türkçe özeti.",
+   "not": "Bu rapor dünyada ve Türkiye'de CEO'ların gündemini özetliyor. Dönüşümün hızına ve yapay zekâya dair kaygıları Türkçe olarak okuyabilirsiniz.",
    "soru": "Araştırmada CEO'ların en büyük kaygısı dönüşümü yeterince hızlı yapamamak. Kurumunuzda dönüşümün hızını en çok ne yavaşlatıyor?",
    "gbmc": "Stratejiden İcraya eğitim serisi",
    "hedef": [
@@ -1342,7 +1342,7 @@
    "sure": "~15 dk",
    "erisim": "Ücretsiz",
    "url": "https://www.ey.com/tr_tr/ceo/ceo-outlook-global-report",
-   "not": "CEO'ların dönüşüm ve yapay zekâ önceliklerini izleyen EY araştırması. Türkçe sayfası mevcut.",
+   "not": "EY bu araştırmada CEO'ların dönüşüm ve yapay zekâ önceliklerini izliyor. Raporun Türkçe sayfası da mevcut.",
    "soru": "",
    "gbmc": "",
    "hedef": [

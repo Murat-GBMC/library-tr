@@ -136,7 +136,7 @@
 
   function kart(k) {
     var acik = !!state.acik[k.id];
-    var detayVar = k.soru || k.gbmc || (k.hedef && k.hedef.length);
+    var detayVar = k.soru || (k.hedef && k.hedef.length);
     var h = '<article class="gk-card" data-id="' + esc(k.id) + '">';
     h += '<div class="gk-meta"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (IKON[k.tur] || IKON['Makale']) + '</svg>';
     h += '<span>' + esc(k.tur) + '</span>' + (k.sure ? '<span aria-hidden="true" style="color:#8AA3A5">·</span><span class="gk-dur">' + esc(k.sure) + '</span>' : '') + '</div>';
@@ -150,9 +150,8 @@
     h += '</div>';
     if (detayVar) {
       h += '<div class="gk-det" id="gk-d-' + esc(k.id) + '"' + (acik ? '' : ' hidden') + '>';
-      if (k.soru) h += '<div class="gk-q"><div class="gk-lbl">Düşünün / Uygulayın</div><p>' + esc(k.soru) + '</p></div>';
-      if (k.gbmc) h += '<div><div class="gk-lbl">GBMC\'de devam edin</div><div class="gk-gbmc">' + esc(k.gbmc) + '</div></div>';
-      if (k.hedef && k.hedef.length) {
+      if (k.soru) h += '<div class="gk-q"><p>' + esc(k.soru) + '</p></div>';
+        if (k.hedef && k.hedef.length) {
         h += '<div><div class="gk-lbl">Kimler için</div><div class="gk-aud">';
         k.hedef.forEach(function (a) { h += '<span>' + esc(a) + '</span>'; });
         h += '</div></div>';

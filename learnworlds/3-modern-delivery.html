@@ -85,8 +85,7 @@ html,body{margin:0;padding:0;background:transparent}
     h += '<div><h3>' + esc(k.baslik) + '</h3><div class="gk-src">' + esc(k.yil ? k.kaynak + ' · ' + k.yil : k.kaynak) + '</div></div>';
     h += '<div class="gk-tags"><span class="gk-tag">' + esc(dilEtiket(k.dil)) + '</span>' + (k.erisim ? '<span class="gk-tag ' + erisimSinif(k.erisim) + '">' + esc(k.erisim) + '</span>' : '') + '</div>';
     if (k.not) h += '<div><div class="gk-lbl">Neden öneriyoruz?</div><p class="gk-note">' + esc(k.not) + '</p></div>';
-    if (k.soru) h += '<div class="gk-q"><div class="gk-lbl">Düşünün / Uygulayın</div><p>' + esc(k.soru) + '</p></div>';
-    if (k.gbmc) h += '<div><div class="gk-lbl">GBMC\'de devam edin</div><div class="gk-gbmc">' + esc(k.gbmc) + '</div></div>';
+    if (k.soru) h += '<div class="gk-q"><p>' + esc(k.soru) + '</p></div>';
     if (k.hedef && k.hedef.length) {
       h += '<div><div class="gk-lbl">Kimler için</div><div class="gk-aud">';
       k.hedef.forEach(function (a) { h += '<span>' + esc(a) + '</span>'; });
