@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "guncellendi": "2026-10-12T11:15:00Z",
+ "guncellendi": "2026-10-12T12:58:44.916Z",
  "adet": 56,
  "kaynaklar": [
   {
@@ -147,7 +147,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "CoE",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-007",
@@ -320,7 +320,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-017",
@@ -683,7 +683,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-032",
@@ -1116,7 +1116,7 @@
     "Sponsorlar ve Fonksiyon Yöneticileri"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-050",
@@ -1139,7 +1139,7 @@
     "Sponsorlar ve Fonksiyon Yöneticileri"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-051",
@@ -1233,7 +1233,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-055",
@@ -1257,7 +1257,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-056",
@@ -1281,7 +1281,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-057",
@@ -1304,7 +1304,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-058",
@@ -1327,7 +1327,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   },
   {
    "id": "LIB-059",
@@ -1350,7 +1350,7 @@
     "Üst Yöneticiler"
    ],
    "platform": "Her ikisi",
-   "kurumsal": true
+   "kurumsal": false
   }
  ]
 }
