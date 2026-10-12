@@ -13,7 +13,7 @@ Bu depo CoE ve PDU Circle kütüphane sayfasının yayın verisini ve LearnWorld
 | Klasör | İçerik |
 |---|---|
 | `data/` | `kutuphane.json`: yayındaki kaynaklar (yalnızca kamuya açık kart alanları) |
-| `learnworlds/` | Bölüm başına bileşen kodları (1–7) ve tek parça tam sayfa bileşeni |
+| `learnworlds/` | Bölüm başına bileşen kodları (1–7) |
 | `excel/` | Office Script: Excel'den bu depoya yayın |
 
 ## Kurallar
