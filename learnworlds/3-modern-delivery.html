@@ -6,14 +6,18 @@
     data-platform : "CoE" veya "PDU Circle"
     data-kategori : bu bölümün kategorisi (Excel'deki Ana Kategori ile birebir aynı yazım)
 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 <div class="gbmc-kutuphane"
      data-src="https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/kutuphane.json"
      data-platform="CoE"
      data-kategori="Modern Delivery"></div>
 
 <style>
+html,body{margin:0;padding:0;background:transparent}
 .gbmc-kutuphane{--t:#0B6A6A;--ink:#0E2427;--ink2:#1D3538;--mut:#4A5F62;--line:#D5E0E0;--soft:#EEF3F3;--mint:#E1F0EF;
-  font-family:inherit;color:var(--ink);font-size:16px;line-height:1.5;box-sizing:border-box;width:100%}
+  font-family:'Raleway',system-ui,-apple-system,'Segoe UI',sans-serif;color:var(--ink);font-size:16px;line-height:1.5;box-sizing:border-box;width:100%}
 .gbmc-kutuphane *,.gbmc-kutuphane *::before,.gbmc-kutuphane *::after{box-sizing:border-box}
 .gbmc-kutuphane .gk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;align-items:stretch}
 .gbmc-kutuphane .gk-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:13px;box-shadow:0 1px 2px rgba(14,36,39,.04)}
