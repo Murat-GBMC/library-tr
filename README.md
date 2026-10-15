@@ -44,6 +44,7 @@ Proje yöneticisi arayan firmaların ilanlarına bağlantı veren PDU Circle say
 
 - Yalnızca olgular ve bağlantı: ilan metni, logo ve görsel kopyalanmaz; kısa not kendi cümlemizle (en fazla 160 karakter).
 - Kişi adı ve iletişim bilgisi yayınlanmaz; ayrımcı şart içeren ve aracı site ilanları alınmaz.
+- Yurt dışı ilanlar yalnızca Türkiye'den başvurulabiliyorsa alınır: Türkiye'den uzaktan çalışmaya açık ya da taşınma/vize desteği belirten ilanlar. O ülkede çalışma izni şartı koyan ilanlar alınmaz.
 - Son başvuru tarihi olmayan ilan, ilan tarihinden itibaren 30 gün görünür.
 - `staging/` klasörü LearnWorlds'te gösterilmez; yalnızca Excel'e aktarım içindir.
 
