@@ -1,0 +1,260 @@
+<!--
+  GBMC PDU Circle — İlanlar · İLAN KARTLARI
+  LearnWorlds'te İlanlar sayfasındaki "Embed / Custom code" öğesine bu dosyanın TAMAMINI yapıştırın.
+  Ayarlar aşağıdaki div'de:
+    data-src   : depodaki data/ilanlar.json dosyasının raw adresi (hazır doldurulmuş)
+    data-omur  : son başvuru tarihi olmayan ilanların ilan tarihinden itibaren kaç gün görüneceği (varsayılan 30)
+  Süresi dolan ilanlar JSON yeniden yayınlanmasa bile tarayıcıda otomatik gizlenir.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<div class="gbmc-ilanlar"
+     data-src="https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/ilanlar.json"
+     data-omur="30"></div>
+
+<style>
+html,body{margin:0;padding:0;background:transparent}
+.gbmc-ilanlar{--t:#0B6A6A;--t2:#085656;--ink:#0E2427;--ink2:#1D3538;--mut:#4A5F62;--line:#D5E0E0;--soft:#EEF3F3;--mint:#E1F0EF;--warn:#FBEFE2;--warnInk:#7A410C;
+  font-family:'Raleway',system-ui,-apple-system,'Segoe UI',sans-serif;color:var(--ink);font-size:16px;line-height:1.5;box-sizing:border-box;width:100%}
+.gbmc-ilanlar *,.gbmc-ilanlar *::before,.gbmc-ilanlar *::after{box-sizing:border-box}
+.gbmc-ilanlar button,.gbmc-ilanlar input,.gbmc-ilanlar select{font-family:inherit}
+
+/* Araç çubuğu */
+.gbmc-ilanlar .gi-bar{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:14px;margin-bottom:18px}
+.gbmc-ilanlar .gi-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.gbmc-ilanlar .gi-search{flex:1 1 260px;min-height:44px;border:1px solid var(--line);border-radius:10px;padding:0 14px;font-size:15px;color:var(--ink);background:var(--soft)}
+.gbmc-ilanlar .gi-search:focus,.gbmc-ilanlar .gi-sel:focus{outline:3px solid #F2A65A;outline-offset:1px;background:#fff}
+.gbmc-ilanlar .gi-sel{min-height:44px;border:1px solid var(--line);border-radius:10px;padding:0 12px;font-size:14.5px;color:var(--ink);background:#fff;font-weight:600;max-width:100%}
+.gbmc-ilanlar .gi-group{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.gbmc-ilanlar .gi-glbl{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-right:4px}
+.gbmc-ilanlar .gi-chip{min-height:36px;padding:0 14px;border-radius:999px;border:1px solid #B9CCCC;background:#fff;color:var(--ink2);font-size:14px;font-weight:600;cursor:pointer}
+.gbmc-ilanlar .gi-chip[aria-pressed="true"]{background:var(--t);border-color:var(--t);color:#fff}
+.gbmc-ilanlar .gi-chip:focus-visible{outline:3px solid #F2A65A;outline-offset:2px}
+.gbmc-ilanlar .gi-sum{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;font-size:14px;color:var(--mut)}
+.gbmc-ilanlar .gi-sum b{color:var(--ink);font-weight:700}
+.gbmc-ilanlar .gi-clear{background:none;border:0;color:var(--t);font-weight:700;font-size:14px;cursor:pointer;padding:6px 0;text-decoration:underline}
+
+/* Kartlar */
+.gbmc-ilanlar .gi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;align-items:stretch}
+.gbmc-ilanlar .gi-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:13px;box-shadow:0 1px 2px rgba(14,36,39,.04)}
+.gbmc-ilanlar .gi-head{display:flex;gap:12px;align-items:flex-start}
+.gbmc-ilanlar .gi-av{flex:none;width:44px;height:44px;border-radius:12px;background:var(--mint);color:var(--t2);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;letter-spacing:.02em}
+.gbmc-ilanlar .gi-card h3{margin:0;font-size:18px;line-height:1.3;font-weight:700;color:var(--ink)}
+.gbmc-ilanlar .gi-firm{font-size:14.5px;color:var(--mut);margin-top:3px;font-weight:600}
+.gbmc-ilanlar .gi-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:12.5px;font-weight:700;color:var(--t);text-transform:uppercase;letter-spacing:.06em}
+.gbmc-ilanlar .gi-new{background:var(--t);color:#fff;border-radius:6px;padding:2px 8px;font-size:11.5px;letter-spacing:.06em}
+.gbmc-ilanlar .gi-age{color:var(--mut);text-transform:none;letter-spacing:0;font-weight:600}
+.gbmc-ilanlar .gi-tags{display:flex;flex-wrap:wrap;gap:6px}
+.gbmc-ilanlar .gi-tag{padding:3px 10px;border-radius:6px;font-size:13px;font-weight:600;background:var(--soft);color:var(--ink)}
+.gbmc-ilanlar .gi-tag.gi-mode{background:var(--mint);color:#0B5555}
+.gbmc-ilanlar .gi-note{margin:0;font-size:15px;color:var(--ink2)}
+.gbmc-ilanlar .gi-dl{background:var(--warn);color:var(--warnInk);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:700}
+.gbmc-ilanlar .gi-foot{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.gbmc-ilanlar .gi-src{font-size:13px;color:var(--mut)}
+.gbmc-ilanlar .gi-src b{color:var(--ink2);font-weight:700}
+.gbmc-ilanlar .gi-spacer{flex:1}
+.gbmc-ilanlar .gi-go{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:10px;background:var(--t);color:#fff !important;font-size:15px;font-weight:700;text-decoration:none !important}
+.gbmc-ilanlar .gi-go:hover{background:var(--t2)}
+.gbmc-ilanlar .gi-go:focus-visible{outline:3px solid #F2A65A;outline-offset:2px}
+.gbmc-ilanlar .gi-msg{border:1px dashed var(--line);border-radius:12px;padding:18px;color:var(--mut);font-size:15px;background:#fff}
+.gbmc-ilanlar .gi-legal{margin-top:22px;font-size:13px;color:var(--mut);line-height:1.55;border-top:1px solid var(--line);padding-top:14px}
+@media (max-width:640px){
+  .gbmc-ilanlar .gi-grid{grid-template-columns:1fr}
+  .gbmc-ilanlar .gi-sel{flex:1 1 100%}
+  .gbmc-ilanlar .gi-go{align-self:stretch}
+}
+</style>
+
+<script>
+(function () {
+  var GUN = 86400000;
+  var KIDEM_SIRA = ['Giriş', 'Uzman', 'Kıdemli', 'Lider / Yönetici'];
+  var CALISMA_SIRA = ['Ofis', 'Hibrit', 'Uzaktan'];
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function guvenliUrl(u) { return /^https:\/\//i.test(u || '') ? u : '#'; }
+  // İstanbul saatine göre bugünün tarihi (YYYY-MM-DD)
+  function bugun() { return new Date(Date.now() + 3 * 3600000).toISOString().slice(0, 10); }
+  function gunFarki(a, b) { return Math.round((Date.parse(a) - Date.parse(b)) / GUN); }
+  function gunEkle(t, n) { return new Date(Date.parse(t) + n * GUN).toISOString().slice(0, 10); }
+  var AYLAR = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+  function tarihYaz(t) { if (!t) return ''; var p = t.split('-'); return +p[2] + ' ' + AYLAR[+p[1] - 1] + ' ' + p[0]; }
+  function basHarf(f) {
+    var k = String(f || '?').replace(/\(.*?\)/g, '').trim().split(/\s+/).filter(function (w) { return /[A-Za-zÇĞİÖŞÜçğıöşü0-9]/.test(w); });
+    var h = (k[0] || '?').charAt(0) + (k[1] ? k[1].charAt(0) : '');
+    return h.toLocaleUpperCase('tr-TR');
+  }
+  function yasYaz(d) {
+    if (d <= 0) return 'Bugün eklendi';
+    if (d === 1) return 'Dün eklendi';
+    if (d < 7) return d + ' gün önce';
+    if (d < 14) return '1 hafta önce';
+    return Math.floor(d / 7) + ' hafta önce';
+  }
+  function benzersiz(liste, alan, sira) {
+    var s = {};
+    liste.forEach(function (i) { if (i[alan]) s[i[alan]] = 1; });
+    var d = Object.keys(s);
+    if (sira) d.sort(function (a, b) { var x = sira.indexOf(a), y = sira.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); });
+    else d.sort(function (a, b) { return a.localeCompare(b, 'tr'); });
+    return d;
+  }
+
+  function kart(i, bg) {
+    var yas = i.ilanTarihi ? gunFarki(bg, i.ilanTarihi) : 99;
+    var h = '<article class="gi-card">';
+    h += '<div class="gi-top">' + (yas <= 7 ? '<span class="gi-new">Yeni</span>' : '') + '<span>' + esc(i.rol || 'Proje Yönetimi') + '</span>';
+    if (i.ilanTarihi) h += '<span aria-hidden="true" style="color:#8AA3A5">·</span><span class="gi-age">' + esc(yasYaz(yas)) + '</span>';
+    h += '</div>';
+    h += '<div class="gi-head"><div class="gi-av" aria-hidden="true">' + esc(basHarf(i.firma)) + '</div><div><h3>' + esc(i.pozisyon) + '</h3><div class="gi-firm">' + esc(i.firma) + '</div></div></div>';
+    var yer = i.sehir ? (i.sehir + (i.ulke && i.ulke !== 'Türkiye' ? ', ' + i.ulke : '')) : (i.ulke || '');
+    h += '<div class="gi-tags">';
+    if (yer) h += '<span class="gi-tag">' + esc(yer) + '</span>';
+    if (i.calisma) h += '<span class="gi-tag gi-mode">' + esc(i.calisma) + '</span>';
+    if (i.kidem) h += '<span class="gi-tag">' + esc(i.kidem) + '</span>';
+    if (i.istihdam && i.istihdam !== 'Tam zamanlı') h += '<span class="gi-tag">' + esc(i.istihdam) + '</span>';
+    if (i.sertifika) h += '<span class="gi-tag">' + esc(i.sertifika) + '</span>';
+    if (i.dil === 'EN') h += '<span class="gi-tag">İngilizce ilan</span>';
+    h += '</div>';
+    if (i.not) h += '<p class="gi-note">' + esc(i.not) + '</p>';
+    if (i.sonBasvuru) {
+      var kalan = gunFarki(i.sonBasvuru, bg);
+      if (kalan <= 3) h += '<div class="gi-dl">' + (kalan <= 0 ? 'Son başvuru bugün' : 'Son başvuruya ' + kalan + ' gün: ' + esc(tarihYaz(i.sonBasvuru))) + '</div>';
+    }
+    h += '<div class="gi-spacer"></div><div class="gi-foot"><div class="gi-src">Kaynak: <b>' + esc(i.kaynak || 'Bağlantı') + '</b>';
+    if (i.sonBasvuru && gunFarki(i.sonBasvuru, bg) > 3) h += '<br>Son başvuru: ' + esc(tarihYaz(i.sonBasvuru));
+    if (i.kontrol) h += '<br>Kontrol: ' + esc(tarihYaz(i.kontrol));
+    h += '</div><a class="gi-go" href="' + esc(guvenliUrl(i.url)) + '" target="_blank" rel="noopener noreferrer">İlana git ↗</a></div>';
+    return h + '</article>';
+  }
+
+  function kur(root, paket) {
+    var omur = parseInt(root.getAttribute('data-omur'), 10) || 30;
+    var bg = bugun();
+    // Süresi dolanları ele: son başvuru geçmişse ya da son başvuru yoksa ilan tarihi + ömür geçmişse
+    var tum = ((paket && paket.ilanlar) || []).filter(function (i) {
+      var bitis = i.sonBasvuru || (i.ilanTarihi ? gunEkle(i.ilanTarihi, omur) : '');
+      return bitis && bitis >= bg && i.url;
+    });
+
+    var durum = { q: '', sehir: '', rol: '', calisma: {}, kidem: {}, sira: 'yeni' };
+
+    if (!tum.length) {
+      root.innerHTML = '<div class="gi-msg">Şu anda yayında ilan yok. Yeni ilanlar haftada iki kez eklenir.</div>' + yasal();
+      return;
+    }
+
+    var sehirler = benzersiz(tum, 'sehir');
+    var roller = benzersiz(tum, 'rol');
+    var calismalar = benzersiz(tum, 'calisma', CALISMA_SIRA);
+    var kidemler = benzersiz(tum, 'kidem', KIDEM_SIRA);
+
+    function secenek(ad, liste, tumu) {
+      var h = '<select class="gi-sel" data-f="' + ad + '" aria-label="' + esc(tumu) + '"><option value="">' + esc(tumu) + '</option>';
+      liste.forEach(function (v) { h += '<option value="' + esc(v) + '">' + esc(v) + '</option>'; });
+      return h + '</select>';
+    }
+    function cipler(ad, etiket, liste) {
+      if (liste.length < 2) return '';
+      var h = '<div class="gi-group" role="group" aria-label="' + esc(etiket) + '"><span class="gi-glbl">' + esc(etiket) + '</span>';
+      liste.forEach(function (v) { h += '<button type="button" class="gi-chip" data-c="' + ad + '" data-v="' + esc(v) + '" aria-pressed="false">' + esc(v) + '</button>'; });
+      return h + '</div>';
+    }
+
+    var h = '<div class="gi-bar">';
+    h += '<div class="gi-row"><input class="gi-search" type="search" placeholder="Pozisyon ya da firma ara" aria-label="Pozisyon ya da firma ara">';
+    if (sehirler.length > 1) h += secenek('sehir', sehirler, 'Tüm şehirler');
+    if (roller.length > 1) h += secenek('rol', roller, 'Tüm roller');
+    h += '<select class="gi-sel" data-f="sira" aria-label="Sıralama"><option value="yeni">En yeni</option><option value="son">Son başvurusu yaklaşan</option></select></div>';
+    var c = cipler('calisma', 'Çalışma şekli', calismalar) + cipler('kidem', 'Kıdem', kidemler);
+    if (c) h += '<div class="gi-row" style="gap:16px">' + c + '</div>';
+    h += '<div class="gi-sum"><span class="gi-count"></span><button type="button" class="gi-clear" hidden>Filtreleri temizle</button></div>';
+    h += '</div><div class="gi-list"></div>' + yasal();
+    root.innerHTML = h;
+
+    var liste = root.querySelector('.gi-list');
+    var sayac = root.querySelector('.gi-count');
+    var temizle = root.querySelector('.gi-clear');
+    var arama = root.querySelector('.gi-search');
+
+    function filtreVar() {
+      return durum.q || durum.sehir || durum.rol || Object.keys(durum.calisma).length || Object.keys(durum.kidem).length;
+    }
+    function ciz() {
+      var q = durum.q.toLocaleLowerCase('tr-TR');
+      var sonuc = tum.filter(function (i) {
+        if (q && (String(i.pozisyon) + ' ' + String(i.firma)).toLocaleLowerCase('tr-TR').indexOf(q) < 0) return false;
+        if (durum.sehir && i.sehir !== durum.sehir) return false;
+        if (durum.rol && i.rol !== durum.rol) return false;
+        if (Object.keys(durum.calisma).length && !durum.calisma[i.calisma]) return false;
+        if (Object.keys(durum.kidem).length && !durum.kidem[i.kidem]) return false;
+        return true;
+      });
+      sonuc.sort(function (a, b) {
+        if (durum.sira === 'son') {
+          var x = a.sonBasvuru || '9999', y = b.sonBasvuru || '9999';
+          if (x !== y) return x < y ? -1 : 1;
+        }
+        return (b.ilanTarihi || '').localeCompare(a.ilanTarihi || '');
+      });
+      sayac.innerHTML = '<b>' + sonuc.length + '</b> ' + (filtreVar() ? 'ilan filtrelere uyuyor (toplam ' + tum.length + ' aktif ilan)' : 'aktif ilan');
+      temizle.hidden = !filtreVar();
+      if (!sonuc.length) {
+        liste.innerHTML = '<div class="gi-msg">Filtrelere uyan ilan yok. Filtreleri gevşetmeyi deneyin.</div>';
+        return;
+      }
+      var g = '<div class="gi-grid">';
+      sonuc.forEach(function (i) { g += kart(i, bg); });
+      liste.innerHTML = g + '</div>';
+    }
+
+    arama.addEventListener('input', function () { durum.q = arama.value.trim(); ciz(); });
+    Array.prototype.forEach.call(root.querySelectorAll('.gi-sel'), function (s) {
+      s.addEventListener('change', function () { durum[s.getAttribute('data-f')] = s.value; ciz(); });
+    });
+    Array.prototype.forEach.call(root.querySelectorAll('.gi-chip'), function (b) {
+      b.addEventListener('click', function () {
+        var grup = durum[b.getAttribute('data-c')], v = b.getAttribute('data-v');
+        if (grup[v]) delete grup[v]; else grup[v] = 1;
+        b.setAttribute('aria-pressed', grup[v] ? 'true' : 'false');
+        ciz();
+      });
+    });
+    temizle.addEventListener('click', function () {
+      durum.q = ''; durum.sehir = ''; durum.rol = ''; durum.calisma = {}; durum.kidem = {};
+      arama.value = '';
+      Array.prototype.forEach.call(root.querySelectorAll('.gi-sel'), function (s) { if (s.getAttribute('data-f') !== 'sira') s.value = ''; });
+      Array.prototype.forEach.call(root.querySelectorAll('.gi-chip'), function (b) { b.setAttribute('aria-pressed', 'false'); });
+      ciz();
+    });
+    ciz();
+  }
+
+  function yasal() {
+    return '<div class="gi-legal">Bu sayfadaki ilanlar kamuya açık kaynaklardan derlenmiştir. GBMC ilan sahibi değildir ve işe alım sürecine aracılık etmez. Başvurular ilgili platformda yapılır. Bilgiler son kontrol tarihindeki hâliyle verilmiştir. Kaldırılmasını istediğiniz bir ilan için bize yazın.</div>';
+  }
+
+  function veriAl(src) {
+    if (window.GBMC_ILAN_VERI) return Promise.resolve(window.GBMC_ILAN_VERI);
+    var u = src + (src.indexOf('?') < 0 ? '?' : '&') + 't=' + Math.floor(Date.now() / 300000);
+    return fetch(u, { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    });
+  }
+
+  var kokler = document.querySelectorAll('.gbmc-ilanlar:not([data-hazir])');
+  Array.prototype.forEach.call(kokler, function (root) {
+    root.setAttribute('data-hazir', '1');
+    root.innerHTML = '<div class="gi-msg">İlanlar yükleniyor…</div>';
+    veriAl(root.getAttribute('data-src')).then(function (p) { kur(root, p); }).catch(function () {
+      root.innerHTML = '<div class="gi-msg">İlanlar şu anda yüklenemedi. Lütfen sayfayı daha sonra yenileyin.</div>';
+    });
+  });
+})();
+</script>

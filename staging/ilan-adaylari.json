@@ -1,0 +1,7 @@
+{
+ "surum": 1,
+ "olusturuldu": "",
+ "aciklama": "Claude'un hazırladığı aday ilanlar. Excel'deki 'Adayları Getir' düğmesi bunları Taslak olarak ekler. Bu dosya LearnWorlds'te gösterilmez.",
+ "adet": 0,
+ "adaylar": []
+}
