@@ -102,7 +102,10 @@ async function main(workbook: ExcelScript.Workbook) {
   const paket: AdayPaketi = await yanit.json();
   const adaylar = (paket && paket.adaylar) || [];
 
-  const degerler = sayfa.getUsedRange(true).getValues();
+  const kullanilan = sayfa.getUsedRange(true);
+  const degerler = kullanilan.getValues();
+  const ilkSatir = kullanilan.getRowIndex();
+  const ilkSutun = kullanilan.getColumnIndex();
   const basliklar = degerler[0].map((h) => String(h).trim());
   const sutun = (ad: string): number => {
     const i = basliklar.indexOf(ad);
@@ -176,10 +179,10 @@ async function main(workbook: ExcelScript.Workbook) {
   });
 
   if (yeniSatirlar.length > 0) {
-    const bas = degerler.length;
-    sayfa.getRangeByIndexes(bas, 0, yeniSatirlar.length, basliklar.length).setValues(yeniSatirlar);
+    const bas = ilkSatir + degerler.length;
+    sayfa.getRangeByIndexes(bas, ilkSutun, yeniSatirlar.length, basliklar.length).setValues(yeniSatirlar);
     ["İlan Tarihi", "Son Başvuru", "Eklenme Tarihi", "Son Kontrol"].forEach((ad) => {
-      sayfa.getRangeByIndexes(bas, sutun(ad), yeniSatirlar.length, 1).setNumberFormat("dd.mm.yyyy");
+      sayfa.getRangeByIndexes(bas, ilkSutun + sutun(ad), yeniSatirlar.length, 1).setNumberFormat("dd.mm.yyyy");
     });
   }
 
