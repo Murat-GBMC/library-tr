@@ -98,10 +98,10 @@ html,body{margin:0;padding:0;background:transparent}
   }
   function benzersiz(liste, alan, sira) {
     var s = {};
-    liste.forEach(function (i) { if (i[alan]) s[i[alan]] = 1; });
+    liste.forEach(function (i) { var v = i[alan] || (alan === 'ulke' ? 'Türkiye' : ''); if (v) s[v] = 1; });
     var d = Object.keys(s);
     if (sira) d.sort(function (a, b) { var x = sira.indexOf(a), y = sira.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); });
-    else d.sort(function (a, b) { return a.localeCompare(b, 'tr'); });
+    else d.sort(function (a, b) { if (a === 'Türkiye') return -1; if (b === 'Türkiye') return 1; return a.localeCompare(b, 'tr'); });
     return d;
   }
 
@@ -142,13 +142,14 @@ html,body{margin:0;padding:0;background:transparent}
       return bitis && bitis >= bg && i.url;
     });
 
-    var durum = { q: '', sehir: '', rol: '', calisma: {}, kidem: {}, sira: 'yeni' };
+    var durum = { q: '', ulke: '', sehir: '', rol: '', calisma: {}, kidem: {}, sira: 'yeni' };
 
     if (!tum.length) {
       root.innerHTML = '<div class="gi-msg">Şu anda yayında ilan yok. Yeni ilanlar haftada iki kez eklenir.</div>' + yasal();
       return;
     }
 
+    var ulkeler = benzersiz(tum, 'ulke');
     var sehirler = benzersiz(tum, 'sehir');
     var roller = benzersiz(tum, 'rol');
     var calismalar = benzersiz(tum, 'calisma', CALISMA_SIRA);
@@ -168,6 +169,7 @@ html,body{margin:0;padding:0;background:transparent}
 
     var h = '<div class="gi-bar">';
     h += '<div class="gi-row"><input class="gi-search" type="search" placeholder="Pozisyon ya da firma ara" aria-label="Pozisyon ya da firma ara">';
+    if (ulkeler.length > 1) h += secenek('ulke', ulkeler, 'Tüm ülkeler');
     if (sehirler.length > 1) h += secenek('sehir', sehirler, 'Tüm şehirler');
     if (roller.length > 1) h += secenek('rol', roller, 'Tüm roller');
     h += '<select class="gi-sel" data-f="sira" aria-label="Sıralama"><option value="yeni">En yeni</option><option value="son">Son başvurusu yaklaşan</option></select></div>';
@@ -183,12 +185,13 @@ html,body{margin:0;padding:0;background:transparent}
     var arama = root.querySelector('.gi-search');
 
     function filtreVar() {
-      return durum.q || durum.sehir || durum.rol || Object.keys(durum.calisma).length || Object.keys(durum.kidem).length;
+      return durum.q || durum.ulke || durum.sehir || durum.rol || Object.keys(durum.calisma).length || Object.keys(durum.kidem).length;
     }
     function ciz() {
       var q = durum.q.toLocaleLowerCase('tr-TR');
       var sonuc = tum.filter(function (i) {
         if (q && (String(i.pozisyon) + ' ' + String(i.firma)).toLocaleLowerCase('tr-TR').indexOf(q) < 0) return false;
+        if (durum.ulke && (i.ulke || 'Türkiye') !== durum.ulke) return false;
         if (durum.sehir && i.sehir !== durum.sehir) return false;
         if (durum.rol && i.rol !== durum.rol) return false;
         if (Object.keys(durum.calisma).length && !durum.calisma[i.calisma]) return false;
@@ -226,7 +229,7 @@ html,body{margin:0;padding:0;background:transparent}
       });
     });
     temizle.addEventListener('click', function () {
-      durum.q = ''; durum.sehir = ''; durum.rol = ''; durum.calisma = {}; durum.kidem = {};
+      durum.q = ''; durum.ulke = ''; durum.sehir = ''; durum.rol = ''; durum.calisma = {}; durum.kidem = {};
       arama.value = '';
       Array.prototype.forEach.call(root.querySelectorAll('.gi-sel'), function (s) { if (s.getAttribute('data-f') !== 'sira') s.value = ''; });
       Array.prototype.forEach.call(root.querySelectorAll('.gi-chip'), function (b) { b.setAttribute('aria-pressed', 'false'); });
