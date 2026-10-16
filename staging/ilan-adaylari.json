@@ -1,7 +1,44 @@
 {
  "surum": 1,
- "olusturuldu": "",
+ "olusturuldu": "2026-10-16T10:45:00+03:00",
  "aciklama": "Claude'un hazırladığı aday ilanlar. Excel'deki 'Adayları Getir' düğmesi bunları Taslak olarak ekler. Bu dosya LearnWorlds'te gösterilmez.",
- "adet": 0,
- "adaylar": []
+ "adet": 2,
+ "adaylar": [
+  {
+   "pozisyon": "Senior Project Manager (Hybrid)",
+   "firma": "Amaris Consulting",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "Danışmanlık",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "Hibrit",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-10-14",
+   "sonBasvuru": "",
+   "kaynak": "Firma kariyer sayfası",
+   "url": "https://careers.amaris.com/jobs/42260",
+   "not": "Bankacılık projelerinde çok paydaşlı teknik proje liderliği. Teknik analiz ve entegrasyon deneyimi ile en az B2 İngilizce aranıyor.",
+   "icNot": "Indeed alarmından bulundu, bağlantı firmanın kariyer sayfası. İlan tarihi Indeed'e göre."
+  },
+  {
+   "pozisyon": "Transformation Office Lead",
+   "firma": "AXA Sigorta",
+   "rol": "PMO",
+   "kidem": "Lider / Yönetici",
+   "sektor": "Finans / Bankacılık",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-10-15",
+   "sonBasvuru": "",
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/jobs?q=Transformation+Office+Lead+AXA&l=%C4%B0stanbul",
+   "not": "Şirket genelindeki dönüşüm programlarını koordine eden ofisin liderlik rolü.",
+   "icNot": "KONTROL: Bağlantı geçici (Indeed arama sayfası). İlanı açıp kalıcı adresi Bağlantı'ya yapıştırın; çalışma şeklini ve rol içeriğini doğrulayın."
+  }
+ ]
 }
