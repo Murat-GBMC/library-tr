@@ -249,7 +249,7 @@ async function main(workbook: ExcelScript.Workbook) {
   // Mevcut dosyanın sürüm kimliği (sha). Önbelleği atlamak için her okumada benzersiz adres kullanılır.
   const shaOku = async (): Promise<string> => {
     const r = await fetch(api + "?ref=" + BRANCH + "&t=" + Date.now(), {
-      headers: { "Authorization": "Bearer " + GITHUB_TOKEN, "Accept": "application/vnd.github+json", "Cache-Control": "no-cache" },
+      headers: { "Authorization": "Bearer " + GITHUB_TOKEN, "Accept": "application/vnd.github+json" },
     });
     if (r.status === 200) {
       const bilgi: DosyaBilgi = await r.json();
