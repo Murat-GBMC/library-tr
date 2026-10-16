@@ -244,39 +244,46 @@ async function main(workbook: ExcelScript.Workbook) {
   };
 
   const api = "https://api.github.com/repos/" + REPO + "/contents/" + DOSYA;
-  const basliklarHttp = {
-    "Authorization": "Bearer " + GITHUB_TOKEN,
-    "Accept": "application/vnd.github+json",
+  const icerik = utf8Base64(JSON.stringify(paket, null, 1));
+
+  // Mevcut dosyanın sürüm kimliği (sha). Önbelleği atlamak için her okumada benzersiz adres kullanılır.
+  const shaOku = async (): Promise<string> => {
+    const r = await fetch(api + "?ref=" + BRANCH + "&t=" + Date.now(), {
+      headers: { "Authorization": "Bearer " + GITHUB_TOKEN, "Accept": "application/vnd.github+json", "Cache-Control": "no-cache" },
+    });
+    if (r.status === 200) {
+      const bilgi: DosyaBilgi = await r.json();
+      return bilgi.sha;
+    }
+    if (r.status === 404) return "";
+    throw new Error("GitHub'a erişilemedi (" + r.status + "). Token'ı ve depo adını kontrol edin.");
   };
 
-  // Mevcut dosyanın sürüm kimliği (sha) — dosya yoksa boş kalır.
-  let sha = "";
-  const mevcut = await fetch(api + "?ref=" + BRANCH, { headers: basliklarHttp });
-  if (mevcut.status === 200) {
-    const bilgi: DosyaBilgi = await mevcut.json();
-    sha = bilgi.sha;
-  } else if (mevcut.status !== 404) {
-    throw new Error("GitHub'a erişilemedi (" + mevcut.status + "). Token'ı ve depo adını kontrol edin.");
-  }
-
-  const govde: Govde = {
-    message: "İlanlar yayını: " + ilanlar.length + " ilan",
-    content: utf8Base64(JSON.stringify(paket, null, 1)),
-    branch: BRANCH,
+  const yaz = async (sha: string) => {
+    const govde: Govde = {
+      message: "İlanlar yayını: " + ilanlar.length + " ilan",
+      content: icerik,
+      branch: BRANCH,
+    };
+    if (sha) {
+      govde.sha = sha;
+    }
+    return await fetch(api, {
+      method: "PUT",
+      headers: {
+        "Authorization": "Bearer " + GITHUB_TOKEN,
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(govde),
+    });
   };
-  if (sha) {
-    govde.sha = sha;
-  }
 
-  const yanit = await fetch(api, {
-    method: "PUT",
-    headers: {
-      "Authorization": "Bearer " + GITHUB_TOKEN,
-      "Accept": "application/vnd.github+json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(govde),
-  });
+  let yanit = await yaz(await shaOku());
+  // Sürüm çakışması (arka arkaya yayın): kimliği yeniden okuyup bir kez daha dene.
+  if (yanit.status === 409 || yanit.status === 422) {
+    yanit = await yaz(await shaOku());
+  }
 
   if (!yanit.ok) {
     const hata = await yanit.text();
