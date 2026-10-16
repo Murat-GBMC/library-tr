@@ -1,26 +1,26 @@
 {
  "surum": 1,
- "olusturuldu": "2026-10-16T10:45:00+03:00",
+ "olusturuldu": "2026-10-16T11:35:00+03:00",
  "aciklama": "Claude'un hazırladığı aday ilanlar. Excel'deki 'Adayları Getir' düğmesi bunları Taslak olarak ekler. Bu dosya LearnWorlds'te gösterilmez.",
  "adet": 2,
  "adaylar": [
   {
-   "pozisyon": "Senior Project Manager (Hybrid)",
-   "firma": "Amaris Consulting",
+   "pozisyon": "End to End Project Manager RAMET",
+   "firma": "Kenvue",
    "rol": "Proje Yöneticisi",
-   "kidem": "Kıdemli",
-   "sektor": "Danışmanlık",
+   "kidem": "",
+   "sektor": "Sağlık / İlaç",
    "sehir": "İstanbul",
    "ulke": "Türkiye",
-   "calisma": "Hibrit",
+   "calisma": "",
    "istihdam": "Tam zamanlı",
    "dil": "EN",
-   "ilanTarihi": "2026-10-14",
+   "ilanTarihi": "2026-10-08",
    "sonBasvuru": "",
-   "kaynak": "Firma kariyer sayfası",
-   "url": "https://careers.amaris.com/jobs/42260",
-   "not": "Bankacılık projelerinde çok paydaşlı teknik proje liderliği. Teknik analiz ve entegrasyon deneyimi ile en az B2 İngilizce aranıyor.",
-   "icNot": "Indeed alarmından bulundu, bağlantı firmanın kariyer sayfası. İlan tarihi Indeed'e göre."
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/viewjob?jk=eaed3a9e3ed5b34d",
+   "not": "Tüketici sağlığı alanında uçtan uca proje yönetimi rolü.",
+   "icNot": "KONTROL: İlanı açıp Kıdem ve Çalışma Şekli'ni doldurun. İlan tarihi yaklaşık (LinkedIn'de 15 Ekim'de '1 hafta önce' görünüyordu)."
   },
   {
    "pozisyon": "Transformation Office Lead",
