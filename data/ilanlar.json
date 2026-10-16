@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "guncellendi": "2026-10-16T07:54:25.579Z",
+ "guncellendi": "2026-10-16T08:42:52.226Z",
  "omur": 30,
  "adet": 2,
  "ilanlar": [
@@ -25,23 +25,23 @@
    "kontrol": "2026-10-16"
   },
   {
-   "id": "ILN-0002",
-   "pozisyon": "Senior Project Manager (Hybrid)",
-   "firma": "Amaris Consulting",
+   "id": "ILN-0004",
+   "pozisyon": "End to End Project Manager RAMET",
+   "firma": "Kenvue",
    "rol": "Proje Yöneticisi",
-   "kidem": "Kıdemli",
-   "sektor": "Danışmanlık",
+   "kidem": "Uzman",
+   "sektor": "Sağlık / İlaç",
    "sehir": "İstanbul",
    "ulke": "Türkiye",
    "calisma": "Hibrit",
    "istihdam": "Tam zamanlı",
    "sertifika": "",
    "dil": "EN",
-   "ilanTarihi": "2026-10-14",
+   "ilanTarihi": "2026-10-08",
    "sonBasvuru": "",
-   "kaynak": "Firma kariyer sayfası",
-   "url": "https://careers.amaris.com/jobs/42260",
-   "not": "Bankacılık projelerinde çok paydaşlı teknik proje liderliği. Teknik analiz ve entegrasyon deneyimi ile en az B2 İngilizce aranıyor.",
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/viewjob?jk=eaed3a9e3ed5b34d",
+   "not": "Tüketici sağlığı alanında uçtan uca proje yönetimi rolü.",
    "kontrol": "2026-10-16"
   }
  ]
