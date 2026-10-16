@@ -1,7 +1,48 @@
 {
  "surum": 1,
- "guncellendi": "2026-10-15T14:47:17.267Z",
+ "guncellendi": "2026-10-16T07:54:25.579Z",
  "omur": 30,
- "adet": 0,
- "ilanlar": []
+ "adet": 2,
+ "ilanlar": [
+  {
+   "id": "ILN-0003",
+   "pozisyon": "Transformation Office Lead",
+   "firma": "AXA Sigorta",
+   "rol": "PMO",
+   "kidem": "Lider / Yönetici",
+   "sektor": "Finans / Bankacılık",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "Ofis",
+   "istihdam": "Tam zamanlı",
+   "sertifika": "",
+   "dil": "EN",
+   "ilanTarihi": "2026-10-15",
+   "sonBasvuru": "",
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/jobs?q=Transformation+Office+Lead+AXA&l=İstanbul&vjk=8a7ee9e66468d8b9",
+   "not": "Şirket genelindeki dönüşüm programlarını koordine eden ofisin liderlik rolü.",
+   "kontrol": "2026-10-16"
+  },
+  {
+   "id": "ILN-0002",
+   "pozisyon": "Senior Project Manager (Hybrid)",
+   "firma": "Amaris Consulting",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "Danışmanlık",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "Hibrit",
+   "istihdam": "Tam zamanlı",
+   "sertifika": "",
+   "dil": "EN",
+   "ilanTarihi": "2026-10-14",
+   "sonBasvuru": "",
+   "kaynak": "Firma kariyer sayfası",
+   "url": "https://careers.amaris.com/jobs/42260",
+   "not": "Bankacılık projelerinde çok paydaşlı teknik proje liderliği. Teknik analiz ve entegrasyon deneyimi ile en az B2 İngilizce aranıyor.",
+   "kontrol": "2026-10-16"
+  }
+ ]
 }
