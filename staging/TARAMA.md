@@ -39,7 +39,7 @@ Yalnızca e-postada görünen ilan kimliğinden kalıcı adres kurulur. Firma si
 | pozisyon | İlandaki unvan, olduğu gibi |
 | firma | Firma adı |
 | rol | Proje Yöneticisi / Program Yöneticisi / PMO / Portföy Yöneticisi / Agile / Scrum / Proje Koordinatörü / Proje Uzmanı |
-| kidem | Giriş / Uzman / Kıdemli / Lider / Yönetici; bilinmiyorsa boş |
+| kidem | Giriş / Uzman / Kıdemli / Lider / Yönetici; bilinmiyorsa boş. Ayrım için aşağıdaki "Kıdem kuralları"na bakın. |
 | sektor | Excel listesindeki değerlerden biri; bilinmiyorsa boş |
 | sehir, ulke | Şehir ve ülke (Türkiye için ulke = "Türkiye") |
 | calisma | Ofis / Hibrit / Uzaktan; e-postada yoksa boş |
@@ -51,6 +51,26 @@ Yalnızca e-postada görünen ilan kimliğinden kalıcı adres kurulur. Firma si
 | url | Bölüm 3'e göre |
 | not | En fazla 160 karakter, **kendi cümlemizle**, ilan metninden kopyalamadan. Bilinmeyeni uydurma; yalnızca e-postada görünen olgulardan yaz. |
 | icNot | Kontrol gerektiren her şey "KONTROL: ..." ile başlar |
+
+### Kıdem kuralları
+
+Önce e-postada görünen deneyim yılına bakılır; yoksa unvana. İkisi de belirsizse alan boş kalır, tahmin edilmez.
+
+1. Deneyim yılı (e-postada yazıyorsa):
+   - 0–2 yıl → Giriş
+   - 2–5 yıl → Uzman
+   - 5–10 yıl → Kıdemli
+   - 10+ yıl ya da ekip/portföy/PMO yönetimi → Lider / Yönetici
+2. Unvandaki işaretler (yıl yoksa):
+   - "Junior", "Jr.", "Associate", "Asistan", "Yardımcı" → Giriş
+   - "Specialist", "Uzman" (başında Senior yoksa) → Uzman
+   - "Senior", "Sr.", "Kıdemli" → Kıdemli
+   - "Lead", "Head", "Director", "Direktör", "Senior Manager", "PMO Manager" → Lider / Yönetici
+3. Özel durumlar:
+   - "Senior Specialist" gibi birleşimlerde Senior baskındır → Kıdemli.
+   - Tek başına "Project Manager", "Proje Yöneticisi", "Proje Müdürü", "Program Manager" → yıl yoksa boş; icNot'a "KONTROL: kıdem" yazılır.
+   - Unvan ile e-postadaki özet çelişirse (ör. unvan "Manager", özet "Senior Specialist") özete göre seçilir ve icNot'ta belirtilir.
+   - Körfez ilanlarında "Manager" unvanı daha alt seviyeye denk gelebilir; yalnızca unvandan Lider / Yönetici seçilmez.
 
 ## 5. Çıktı
 
