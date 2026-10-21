@@ -40,7 +40,7 @@ Yalnızca e-postada görünen ilan kimliğinden kalıcı adres kurulur. Firma si
 | firma | Firma adı |
 | rol | Proje Yöneticisi / Program Yöneticisi / PMO / Portföy Yöneticisi / Agile / Scrum / Proje Koordinatörü / Proje Uzmanı |
 | kidem | Giriş / Uzman / Kıdemli / Lider / Yönetici; bilinmiyorsa boş. Ayrım için aşağıdaki "Kıdem kuralları"na bakın. |
-| sektor | Excel listesindeki değerlerden biri; bilinmiyorsa boş |
+| sektor | Excel listesindeki değerlerden biri; bilinmiyorsa boş. Çok sektörlü firmalar için aşağıdaki "Sektör kuralları"na bakın. |
 | sehir, ulke | Şehir ve ülke (Türkiye için ulke = "Türkiye") |
 | calisma | Ofis / Hibrit / Uzaktan; e-postada yoksa boş |
 | istihdam | Tam zamanlı (aksi yazmıyorsa) |
@@ -71,6 +71,16 @@ Yalnızca e-postada görünen ilan kimliğinden kalıcı adres kurulur. Firma si
    - Tek başına "Project Manager", "Proje Yöneticisi", "Proje Müdürü", "Program Manager" → yıl yoksa boş; icNot'a "KONTROL: kıdem" yazılır.
    - Unvan ile e-postadaki özet çelişirse (ör. unvan "Manager", özet "Senior Specialist") özete göre seçilir ve icNot'ta belirtilir.
    - Körfez ilanlarında "Manager" unvanı daha alt seviyeye denk gelebilir; yalnızca unvandan Lider / Yönetici seçilmez.
+
+### Sektör kuralları
+
+Sektör, firmanın bütününe göre değil **rolün çalıştığı iş koluna** göre seçilir. Holding ve çok sektörlü gruplarda:
+
+1. Rol belirli bir iş kolundaysa o iş kolunun sektörü yazılır. İşaretler: şirket adı ("X Energy", "X Motors"), proje türü (konut, otel, santral), aranan deneyim. Örnekler: gayrimenkul geliştirme → İnşaat / Altyapı; otomotiv → Otomotiv; enerji → Enerji.
+2. Rol grup düzeyindeyse (holding PMO'su, strateji, dönüşüm ofisi gibi tüm iş kollarına hizmet eden roller) sektor = "Diğer". icNot: "KONTROL: Holding (iş kolları virgülle); rol grup düzeyinde".
+3. Hangisi olduğu anlaşılmıyorsa sektor boş bırakılır. icNot: "KONTROL: sektör (çok sektörlü holding)".
+
+İş kolları yalnızca e-postada görünen bilgiden yazılır; firma hakkında dışarıdan bilgi eklenmez.
 
 ## 5. Çıktı
 
