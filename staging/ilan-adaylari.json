@@ -1,8 +1,8 @@
 {
  "surum": 1,
- "olusturuldu": "2026-10-26T09:34:14+03:00",
+ "olusturuldu": "2026-10-26T09:36:55+03:00",
  "aciklama": "Claude'un hazırladığı aday ilanlar. Excel'deki 'Adayları Getir' düğmesi bunları Taslak olarak ekler. Bu dosya LearnWorlds'te gösterilmez.",
- "adet": 100,
+ "adet": 101,
  "adaylar": [
   {
    "pozisyon": "End to End Project Manager RAMET",
@@ -663,7 +663,7 @@
    "calisma": "",
    "istihdam": "Tam zamanlı",
    "dil": "TR",
-   "ilanTarihi": "2026-10-19",
+   "ilanTarihi": "2026-10-18",
    "sonBasvuru": "",
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4479677042/",
@@ -1803,6 +1803,24 @@
    "url": "https://www.linkedin.com/jobs/view/4476343659/",
    "not": "Kuveyt'te proje destek ve kontrol pozisyonu.",
    "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: şehir ve sektör."
+  },
+  {
+   "pozisyon": "Proje Müdürü",
+   "firma": "Kiler Holding",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "Ofis",
+   "istihdam": "Tam zamanlı",
+   "dil": "TR",
+   "ilanTarihi": "2026-10-17",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4475200153/",
+   "not": "Kâğıthane'de bir holding bünyesinde ofisten çalışılacak proje müdürü pozisyonu; aktif işe alım yapılıyor.",
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör (çok sektörlü holding)."
   }
  ]
 }
