@@ -1,9 +1,29 @@
 {
  "surum": 1,
- "guncellendi": "2026-10-22T20:47:45.382Z",
+ "guncellendi": "2026-10-26T06:17:51.833Z",
  "omur": 30,
  "adet": 29,
  "ilanlar": [
+  {
+   "id": "ILN-0037",
+   "pozisyon": "Project Support Officer",
+   "firma": "Spektrum",
+   "rol": "PMO",
+   "kidem": "Uzman",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "İzmir",
+   "ulke": "Türkiye",
+   "calisma": "Ofis",
+   "istihdam": "Tam zamanlı",
+   "sertifika": "",
+   "dil": "EN",
+   "ilanTarihi": "2026-10-23",
+   "sonBasvuru": "",
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/viewjob?jk=bf757e725179dd6e",
+   "not": "NATO iletişim ve bilgi ajansı (NCIA) bağlamındaki siber güvenlik projelerine proje destek hizmeti veren rol; İzmir'de.",
+   "kontrol": "2026-10-26"
+  },
   {
    "id": "ILN-0035",
    "pozisyon": "Scrum Master",
@@ -22,26 +42,6 @@
    "kaynak": "Indeed",
    "url": "https://tr.indeed.com/viewjob?jk=941d2fa9f2d7cbc3",
    "not": "İstanbul'daki teknoloji firmasında büyük ölçekli projelerin başlangıçtan teslime kadar yürütülmesini üstlenen Scrum Master rolü.",
-   "kontrol": "2026-10-22"
-  },
-  {
-   "id": "ILN-0036",
-   "pozisyon": "Delivery Excellence Manager (m/f/d)",
-   "firma": "Siemens",
-   "rol": "PMO",
-   "kidem": "Kıdemli",
-   "sektor": "Bilişim / Teknoloji",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "Ofis",
-   "istihdam": "Tam zamanlı",
-   "sertifika": "",
-   "dil": "EN",
-   "ilanTarihi": "2026-10-20",
-   "sonBasvuru": "",
-   "kaynak": "Indeed",
-   "url": "https://tr.indeed.com/jobs?q=Delivery+Excellence+Manager+Siemens&l=T%C3%BCrkiye",
-   "not": "Şebeke yazılımı biriminde proje performansı ve proje yönetişimini güçlendiren, küresel PMO ve bölge ekipleriyle çalışan rol.",
    "kontrol": "2026-10-22"
   },
   {
