@@ -1,8 +1,8 @@
 {
  "surum": 1,
- "olusturuldu": "2026-10-22T08:56:33+03:00",
+ "olusturuldu": "2026-10-26T08:56:04+03:00",
  "aciklama": "Claude'un hazırladığı aday ilanlar. Excel'deki 'Adayları Getir' düğmesi bunları Taslak olarak ekler. Bu dosya LearnWorlds'te gösterilmez.",
- "adet": 35,
+ "adet": 36,
  "adaylar": [
   {
    "pozisyon": "End to End Project Manager RAMET",
@@ -633,6 +633,24 @@
    "url": "https://tr.indeed.com/jobs?q=Delivery+Excellence+Manager+Siemens&l=T%C3%BCrkiye",
    "not": "Şebeke yazılımı biriminde proje performansı ve proje yönetişimini güçlendiren, küresel PMO ve bölge ekipleriyle çalışan rol.",
    "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör (Grid Software Solutions; Enerji de olabilir)."
+  },
+  {
+   "pozisyon": "Project Support Officer",
+   "firma": "Spektrum",
+   "rol": "PMO",
+   "kidem": "",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "İzmir",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-10-23",
+   "sonBasvuru": "",
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/jobs?q=Project+Support+Officer+Spektrum&l=T%C3%BCrkiye",
+   "not": "NATO iletişim ve bilgi ajansı (NCIA) bağlamındaki siber güvenlik projelerine proje destek hizmeti veren rol; İzmir'de.",
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: NATO projesi; uyruk veya güvenlik izni şartı olup olmadığını ilanda kontrol edin. KONTROL: sektör (savunma/kamu hizmeti de olabilir)."
   }
  ]
 }
