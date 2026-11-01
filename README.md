@@ -4,7 +4,7 @@ Bu depo CoE ve PDU Circle kütüphane sayfasının yayın verisini ve LearnWorld
 
 ## Akış
 
-1. Küratör SharePoint'teki **Master Excel**'i günceller (tek veri kaynağı).
+1. Küratör SharePoint'teki **Master Excel**'i günceller (tek veri kaynağı). Claude'un aylık taramasındaki aday kaynaklar `staging/kutuphane-adaylari.json` dosyasına yazılır; Excel'deki **Kütüphane Adaylarını Getir** düğmesi (`excel/KutuphaneAdaylariniGetir.ts`) bunları Katalog'a *Taslak* olarak, sıradaki LIB numarası ve formüllerle ekler (kopyala-yapıştır gerekmez).
 2. Excel'deki **Kütüphaneyi Yayınla** düğmesi (`excel/KutuphaneYayinla.ts`), Durum = *Yayında* olan satırların kart alanlarını `data/kutuphane.json` dosyasına yazar. Her yayın bu depoda bir commit olarak saklanır.
 3. LearnWorlds sayfasındaki bileşenler bu dosyayı okur ve kartları çizer (birkaç dakika içinde güncellenir).
 
@@ -14,7 +14,7 @@ Bu depo CoE ve PDU Circle kütüphane sayfasının yayın verisini ve LearnWorld
 |---|---|
 | `data/` | `kutuphane.json`: yayındaki kaynaklar · `ilanlar.json`: yayındaki ilanlar (yalnızca kamuya açık alanlar) |
 | `learnworlds/` | Kütüphane bölüm bileşenleri (1–7) · `ilanlar.html` |
-| `staging/` | `ilan-adaylari.json`: Claude'un hazırladığı, kontrol bekleyen aday ilanlar |
+| `staging/` | `ilan-adaylari.json` ve `kutuphane-adaylari.json`: Claude'un hazırladığı, kontrol bekleyen adaylar (LearnWorlds'te gösterilmez) |
 | `excel/` | Office Script'ler ve `GBMC_Ilanlar.xlsx` şablonu |
 
 ## Kurallar
