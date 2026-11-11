@@ -3,7 +3,8 @@
   LearnWorlds'te İlanlar sayfasındaki "Embed / Custom code" öğesine bu dosyanın TAMAMINI yapıştırın.
   Ayarlar aşağıdaki div'de:
     data-src   : depodaki data/ilanlar.json dosyasının raw adresi (hazır doldurulmuş)
-    data-omur  : son başvuru tarihi olmayan ilanların ilan tarihinden itibaren kaç gün görüneceği (varsayılan 30)
+    data-omur  : son başvuru tarihi olmayan ilanların ilan tarihinden itibaren kaç gün görüneceği (yayın dosyasında omur alanı varsa o kullanılır; yoksa bu değer, varsayılan 21)
+    data-bildir : kapanmış ilan bildirimlerinin gideceği e-posta adresi
   Süresi dolan ilanlar JSON yeniden yayınlanmasa bile tarayıcıda otomatik gizlenir.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +12,8 @@
 
 <div class="gbmc-ilanlar"
      data-src="https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/ilanlar.json"
-     data-omur="30"></div>
+     data-omur="21"
+     data-bildir="gbmc_tr@bmc-global.com"></div>
 
 <style>
 html,body{margin:0;padding:0;background:transparent}
@@ -53,6 +55,9 @@ html,body{margin:0;padding:0;background:transparent}
 .gbmc-ilanlar .gi-foot{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
 .gbmc-ilanlar .gi-src{font-size:13px;color:var(--mut)}
 .gbmc-ilanlar .gi-src b{color:var(--ink2);font-weight:700}
+.gbmc-ilanlar .gi-flag{font-size:12.5px;color:var(--mut);text-decoration:underline;text-underline-offset:2px}
+.gbmc-ilanlar .gi-flag:hover{color:var(--t)}
+.gbmc-ilanlar .gi-legal a{color:var(--t);font-weight:600}
 .gbmc-ilanlar .gi-spacer{flex:1}
 .gbmc-ilanlar .gi-go{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:10px;background:var(--t);color:#fff !important;font-size:15px;font-weight:700;text-decoration:none !important}
 .gbmc-ilanlar .gi-go:hover{background:var(--t2)}
@@ -105,6 +110,13 @@ html,body{margin:0;padding:0;background:transparent}
     return d;
   }
 
+  var BILDIR = '';
+  function bildirLink(i) {
+    if (!BILDIR) return '';
+    var konu = 'Kapanmış ilan: ' + (i.id || '') + ' ' + (i.pozisyon || '') + ' / ' + (i.firma || '');
+    var govde = 'Bu ilan kapanmış ya da başvuru almıyor görünüyor.\n\nİlan: ' + (i.pozisyon || '') + '\nFirma: ' + (i.firma || '') + '\nKod: ' + (i.id || '') + '\nBağlantı: ' + (i.url || '') + '\n';
+    return 'mailto:' + BILDIR + '?subject=' + encodeURIComponent(konu) + '&body=' + encodeURIComponent(govde);
+  }
   function kart(i, bg) {
     var yas = i.ilanTarihi ? gunFarki(bg, i.ilanTarihi) : 99;
     var h = '<article class="gi-card">';
@@ -129,12 +141,15 @@ html,body{margin:0;padding:0;background:transparent}
     h += '<div class="gi-spacer"></div><div class="gi-foot"><div class="gi-src">Kaynak: <b>' + esc(i.kaynak || 'Bağlantı') + '</b>';
     if (i.sonBasvuru && gunFarki(i.sonBasvuru, bg) > 3) h += '<br>Son başvuru: ' + esc(tarihYaz(i.sonBasvuru));
     if (i.kontrol) h += '<br>Kontrol: ' + esc(tarihYaz(i.kontrol));
+    var bl = bildirLink(i);
+    if (bl) h += '<br><a class="gi-flag" href="' + esc(bl) + '" target="_blank" rel="noopener">İlan kapanmış mı? Bildirin</a>';
     h += '</div><a class="gi-go" href="' + esc(guvenliUrl(i.url)) + '" target="_blank" rel="noopener noreferrer">İlana git ↗</a></div>';
     return h + '</article>';
   }
 
   function kur(root, paket) {
-    var omur = parseInt(root.getAttribute('data-omur'), 10) || 30;
+    var omur = (paket && parseInt(paket.omur, 10)) || parseInt(root.getAttribute('data-omur'), 10) || 21;
+    BILDIR = root.getAttribute('data-bildir') || '';
     var bg = bugun();
     // Süresi dolanları ele: son başvuru geçmişse ya da son başvuru yoksa ilan tarihi + ömür geçmişse
     var tum = ((paket && paket.ilanlar) || []).filter(function (i) {
@@ -239,7 +254,7 @@ html,body{margin:0;padding:0;background:transparent}
   }
 
   function yasal() {
-    return '<div class="gi-legal">Bu sayfadaki ilanlar kamuya açık kaynaklardan derlenmiştir. GBMC ilan sahibi değildir ve işe alım sürecine aracılık etmez. Başvurular ilgili platformda yapılır. Bilgiler son kontrol tarihindeki hâliyle verilmiştir. Kaldırılmasını istediğiniz bir ilan için bize yazın.</div>';
+    return '<div class="gi-legal">Bu sayfadaki ilanlar kamuya açık kaynaklardan derlenmiştir. GBMC ilan sahibi değildir ve işe alım sürecine aracılık etmez. Başvurular ilgili platformda yapılır. Bilgiler son kontrol tarihindeki hâliyle verilmiştir. Kaldırılmasını istediğiniz ya da kapanmış bir ilan için ' + (BILDIR ? '<a href="mailto:' + esc(BILDIR) + '" target="_blank" rel="noopener">bize yazın</a>' : 'bize yazın') + '.</div>';
   }
 
   function veriAl(src) {

@@ -26,7 +26,7 @@ const BRANCH = "main";
 const DOSYA = "data/ilanlar.json";
 const SAYFA = "İlanlar";
 // Son başvuru tarihi olmayan ilanlar, ilan tarihinden itibaren kaç gün yayında kalsın:
-const VARSAYILAN_OMUR = 30;
+const VARSAYILAN_OMUR = 21;
 // -----------------------------------------
 
 interface Ilan {
