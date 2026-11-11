@@ -1,8 +1,8 @@
 {
  "surum": 1,
- "olusturuldu": "2026-11-09T09:00:58+03:00",
+ "olusturuldu": "2026-11-11T10:55:00+03:00",
  "aciklama": "Claude'un hazırladığı aday ilanlar. Excel'deki 'Adayları Getir' düğmesi bunları Taslak olarak ekler. Bu dosya LearnWorlds'te gösterilmez.",
- "adet": 220,
+ "adet": 223,
  "adaylar": [
   {
    "pozisyon": "Scrum Master",
@@ -3963,6 +3963,60 @@
    "url": "https://www.linkedin.com/jobs/view/4487257476/",
    "not": "Doha'da elektrik-mekanik dönüşüm programını yönetecek başkan.",
    "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: İlan tarihi e-posta tarihidir."
+  },
+  {
+   "pozisyon": "Proje Yöneticisi / Yönetmeni",
+   "firma": "Pozitera Perakende Geliştirme Hizmetleri Tic. A.Ş.",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Perakende / FMCG",
+   "sehir": "",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "TR",
+   "ilanTarihi": "2026-11-10",
+   "sonBasvuru": "",
+   "kaynak": "Kariyer.net",
+   "url": "https://www.kariyer.net/is-ilanlari/pozitera+perakende",
+   "not": "Perakende geliştirme hizmetleri veren bir firmada proje yöneticiliği rolü.",
+   "icNot": "KONTROL: Kariyer.net bağlantısı geçici. Kariyer.net'te ilanı açıp adres çubuğundaki kariyer.net/is-ilani/... adresini yapıştırın; şehir ve çalışma şeklini doldurun. E-postadaki Başvur düğmesine basmayın. KONTROL: kıdem"
+  },
+  {
+   "pozisyon": "Proje Müdürü",
+   "firma": "Kuzu Toplu Konut İnşaat A.Ş.",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "İnşaat / Altyapı",
+   "sehir": "",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "TR",
+   "ilanTarihi": "2026-10-27",
+   "sonBasvuru": "",
+   "kaynak": "Kariyer.net",
+   "url": "https://www.kariyer.net/is-ilanlari/kuzu+toplu",
+   "not": "Konut inşaatı yapan bir firmada proje müdürlüğü rolü.",
+   "icNot": "KONTROL: Kariyer.net bağlantısı geçici. Kariyer.net'te ilanı açıp adres çubuğundaki kariyer.net/is-ilani/... adresini yapıştırın; şehir ve çalışma şeklini doldurun. E-postadaki Başvur düğmesine basmayın. KONTROL: kıdem. Aynı grubun LinkedIn'deki 'Project Manager – International Projects' ilanından farklı bir ilan olduğunu doğrulayın."
+  },
+  {
+   "pozisyon": "Plant Project Manager - Dairy Facility",
+   "firma": "Michael Page",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Üretim / Sanayi",
+   "sehir": "",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-10-27",
+   "sonBasvuru": "",
+   "kaynak": "Kariyer.net",
+   "url": "https://www.kariyer.net/is-ilanlari/michael+page",
+   "not": "Süt ürünleri tesisi için fabrika projesi yönetimi; ilan bir işe alım danışmanlığı üzerinden veriliyor.",
+   "icNot": "KONTROL: Kariyer.net bağlantısı geçici. Kariyer.net'te ilanı açıp adres çubuğundaki kariyer.net/is-ilani/... adresini yapıştırın; şehir ve çalışma şeklini doldurun. E-postadaki Başvur düğmesine basmayın. İşveren firma adı ilanda geçiyorsa Firma'ya onu yazıp Michael Page'i nota taşıyın."
   }
  ]
 }

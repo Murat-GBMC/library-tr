@@ -27,7 +27,8 @@ Alınmaz:
 
 Yalnızca e-postada görünen ilan kimliğinden kalıcı adres kurulur. Firma sitelerinde tahminle adres aranmaz.
 - LinkedIn: `https://www.linkedin.com/jobs/view/{ID}/` (ID, e-postadaki `/jobs/view/{ID}/` bağlantısından).
-- Kariyer.net: e-postadaki `kariyer.net/is-ilani/...-{ID}` adresi, izleme parametreleri atılmış hâliyle.
+- Kariyer.net: e-postada `kariyer.net/is-ilani/...-{ID}` adresi varsa o adres, izleme parametreleri atılmış hâliyle. Kariyer.net'in "İş tercihlerine uygun ilanlara göz at" öneri e-postalarında ise yalnızca tek kullanımlık `link.kariyer.net/p/be/cl/...` izleme bağlantıları bulunur; bunlar çözülemez. Bu durumda ilan **atlanmaz**: Bağlantı = `https://www.kariyer.net/is-ilanlari/{firma adının ilk iki kelimesi, küçük harf, Türkçe karakterler sadeleştirilmiş, + ile birleşik}` (ör. `https://www.kariyer.net/is-ilanlari/pozitera+perakende`); iç not "KONTROL: Kariyer.net bağlantısı geçici. Kariyer.net'te ilanı açıp adres çubuğundaki kariyer.net/is-ilani/... adresini yapıştırın; şehir ve çalışma şeklini doldurun. E-postadaki Başvur düğmesine basmayın." Bu e-postalarda şehir ve ilan tarihi yoktur: sehir boş, ilanTarihi = e-posta tarihi.
+- Kariyer.net'in "Bu hafta yayınlanan ilanlar", mülakat provası, anket, uygulama tanıtımı gibi e-postaları ilan içermez; yalnızca "işlendi" olarak etiketlenir.
 - Indeed: e-postadaki bağlantılar kısa ömürlü yönlendirmedir ve çözülemez. Bağlantı = `https://tr.indeed.com/jobs?q={pozisyon + firma}&l=Türkiye` arama adresi; iç not "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın."
 
 ## 4. Alanlar
@@ -97,6 +98,7 @@ Alıcı: m.muratozbilen@gmail.com. Konu: `İlan taraması GG.AA: N yeni aday`. T
 - Eklenen adaylar: pozisyon, firma, şehir; KONTROL gerektirenler ayrıca belirtilir.
 - Elenenlerin kısa özeti (neden gruplarıyla, tek tek değil).
 - Kaynaklarda sorun varsa (ör. iki taramadır LinkedIn'den hiç e-posta gelmedi) bir satır uyarı.
+- Kural dışı kaldığı için alınamayan ilan olursa (ör. bağlantı kurulamadı) sayısı ve nedeni yazılır. Uygun bir ilan hiçbir zaman sessizce atlanmaz.
 - Son satır: "Excel'de Adayları Getir'e basıp kontrol edin, ardından İlanları Yayınla."
 
 Yeni aday yoksa da e-posta gönderilir (konu: `İlan taraması GG.AA: yeni aday yok`).
