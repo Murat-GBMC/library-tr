@@ -1,9 +1,29 @@
 {
  "surum": 1,
- "guncellendi": "2026-11-11T09:51:09.367Z",
+ "guncellendi": "2026-11-11T09:58:07.160Z",
  "omur": 21,
- "adet": 135,
+ "adet": 137,
  "ilanlar": [
+  {
+   "id": "ILN-0258",
+   "pozisyon": "Proje Yöneticisi / Yönetmeni",
+   "firma": "Pozitera Perakende Geliştirme Hizmetleri Tic. A.Ş.",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "Perakende / FMCG",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "Ofis",
+   "istihdam": "Tam zamanlı",
+   "sertifika": "",
+   "dil": "TR",
+   "ilanTarihi": "2026-11-10",
+   "sonBasvuru": "",
+   "kaynak": "Kariyer.net",
+   "url": "https://www.kariyer.net/is-ilani/pozitera-perakende-gelistirme-hizmetleri-tic-a-s-proje-yoneticisi-yonetmeni-4424586",
+   "not": "Perakende geliştirme hizmetleri veren bir firmada proje yöneticiliği rolü.",
+   "kontrol": "2026-11-11"
+  },
   {
    "id": "ILN-0222",
    "pozisyon": "Proje Müdürü (İnşaat Mühendisi)",
@@ -2003,6 +2023,26 @@
    "url": "https://www.linkedin.com/jobs/view/4483539091/",
    "not": "İstanbul'da proje yöneticisi pozisyonu.",
    "kontrol": "2026-11-01"
+  },
+  {
+   "id": "ILN-0259",
+   "pozisyon": "Proje Müdürü",
+   "firma": "Kuzu Toplu Konut İnşaat A.Ş.",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Lider / Yönetici",
+   "sektor": "İnşaat / Altyapı",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "Ofis",
+   "istihdam": "Tam zamanlı",
+   "sertifika": "",
+   "dil": "TR",
+   "ilanTarihi": "2026-10-27",
+   "sonBasvuru": "",
+   "kaynak": "Kariyer.net",
+   "url": "https://www.kariyer.net/is-ilanlari/kuzu+toplu",
+   "not": "Konut inşaatı yapan bir firmada proje müdürlüğü rolü.",
+   "kontrol": "2026-11-11"
   },
   {
    "id": "ILN-0130",
