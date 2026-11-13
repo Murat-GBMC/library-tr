@@ -1,0 +1,8 @@
+{
+ "surum": 1,
+ "guncellendi": "2026-11-13",
+ "baslik": "Bu role hazırlık",
+ "aciklama": "İlan kartlarında gösterilecek PDU Circle eğitim önerileri. Kurallar sırayla denenir; ilk tutan eğitim gösterilir. rol: Rol Türü ile birebir; sertifika: Sertifika alanında geçen ifade; kelime: pozisyon ya da kısa notta geçen ifade. varsayilan: hiçbir kural tutmazsa gösterilecek eğitimin id'si (boş bırakılabilir).",
+ "varsayilan": "",
+ "egitimler": []
+}

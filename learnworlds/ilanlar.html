@@ -1,7 +1,8 @@
 <!--
   GBMC PDU Circle — İlanlar · İLAN KARTLARI
-  Sürüm: 1.3 · 13.11.2026
+  Sürüm: 1.4 · 13.11.2026
   Değişiklikler:
+    1.4 (13.11.2026) Kartlarda 'Bu role hazırlık' eğitim önerisi (data/egitimler.json'dan)
     1.3 (13.11.2026) Yurt dışı ilanlara 'Başvuru Uygunluğu' etiketi, 'Yurt dışı' filtresi ve açıklama notu
     1.2 (11.11.2026) Görünme süresi 21 gün; kartlara 'İlan kapanmış mı? Bildirin' bağlantısı
     1.1 (15.10.2026) Ülke filtresi
@@ -12,6 +13,7 @@
     data-src   : depodaki data/ilanlar.json dosyasının raw adresi (hazır doldurulmuş)
     data-omur  : son başvuru tarihi olmayan ilanların ilan tarihinden itibaren kaç gün görüneceği (yayın dosyasında omur alanı varsa o kullanılır; yoksa bu değer, varsayılan 21)
     data-bildir : kapanmış ilan bildirimlerinin gideceği e-posta adresi
+    data-egitim-src : ilan-eğitim eşleştirme dosyası (eğitimler bu dosyadan güncellenir; kodu yeniden yapıştırmak gerekmez)
   Süresi dolan ilanlar JSON yeniden yayınlanmasa bile tarayıcıda otomatik gizlenir.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +22,8 @@
 <div class="gbmc-ilanlar"
      data-src="https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/ilanlar.json"
      data-omur="21"
-     data-bildir="gbmc_tr@bmc-global.com"></div>
+     data-bildir="gbmc_tr@bmc-global.com"
+     data-egitim-src="https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/egitimler.json"></div>
 
 <style>
 html,body{margin:0;padding:0;background:transparent}
@@ -60,6 +63,10 @@ html,body{margin:0;padding:0;background:transparent}
 .gbmc-ilanlar .gi-tag.gi-abroad{background:#fff;color:#0B5555;border:1px solid #8CC5C2}
 .gbmc-ilanlar .gi-tag.gi-abroad::before{content:'✓ ';font-weight:800}
 .gbmc-ilanlar .gi-note{margin:0;font-size:15px;color:var(--ink2)}
+.gbmc-ilanlar .gi-prep{display:flex;gap:10px;align-items:flex-start;background:var(--soft);border-left:3px solid var(--t);border-radius:8px;padding:9px 12px;font-size:14px;color:var(--ink2)}
+.gbmc-ilanlar .gi-prep b{display:block;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--mut);margin-bottom:2px}
+.gbmc-ilanlar .gi-prep a{color:var(--t);font-weight:700;text-decoration:none}
+.gbmc-ilanlar .gi-prep a:hover{text-decoration:underline}
 .gbmc-ilanlar .gi-dl{background:var(--warn);color:var(--warnInk);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:700}
 .gbmc-ilanlar .gi-foot{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
 .gbmc-ilanlar .gi-src{font-size:13px;color:var(--mut)}
@@ -126,6 +133,24 @@ html,body{margin:0;padding:0;background:transparent}
     var govde = 'Bu ilan kapanmış ya da başvuru almıyor görünüyor.\n\nİlan: ' + (i.pozisyon || '') + '\nFirma: ' + (i.firma || '') + '\nKod: ' + (i.id || '') + '\nBağlantı: ' + (i.url || '') + '\n';
     return 'mailto:' + BILDIR + '?subject=' + encodeURIComponent(konu) + '&body=' + encodeURIComponent(govde);
   }
+  var EGITIM = null;
+  function kucuk(x) { return String(x || '').toLocaleLowerCase('tr-TR'); }
+  // Kurallardan biri tutarsa eğitim önerilir: rol (birebir), sertifika (içerir), kelime (pozisyon + not içinde)
+  function egitimBul(i) {
+    if (!EGITIM || !EGITIM.egitimler || !EGITIM.egitimler.length) return null;
+    var metin = kucuk(i.pozisyon) + ' ' + kucuk(i.not), sert = kucuk(i.sertifika);
+    for (var k = 0; k < EGITIM.egitimler.length; k++) {
+      var e = EGITIM.egitimler[k], r = e.kurallar || {};
+      if (!e.url || !e.ad) continue;
+      if ((r.rol || []).indexOf(i.rol) >= 0) return e;
+      if ((r.sertifika || []).some(function (x) { return sert.indexOf(kucuk(x)) >= 0; })) return e;
+      if ((r.kelime || []).some(function (x) { return metin.indexOf(kucuk(x)) >= 0; })) return e;
+    }
+    if (EGITIM.varsayilan) {
+      for (var v = 0; v < EGITIM.egitimler.length; v++) if (EGITIM.egitimler[v].id === EGITIM.varsayilan) return EGITIM.egitimler[v];
+    }
+    return null;
+  }
   function kart(i, bg) {
     var yas = i.ilanTarihi ? gunFarki(bg, i.ilanTarihi) : 99;
     var h = '<article class="gi-card">';
@@ -144,6 +169,8 @@ html,body{margin:0;padding:0;background:transparent}
     if (i.dil === 'EN') h += '<span class="gi-tag">İngilizce ilan</span>';
     h += '</div>';
     if (i.not) h += '<p class="gi-note">' + esc(i.not) + '</p>';
+    var eg = egitimBul(i);
+    if (eg) h += '<div class="gi-prep"><div><b>' + esc(EGITIM.baslik || 'Bu role hazırlık') + '</b><a href="' + esc(guvenliUrl(eg.url)) + '" target="_blank" rel="noopener">' + esc(eg.ad) + ' →</a>' + (eg.pdu ? ' <span style="color:var(--mut)">· ' + esc(eg.pdu) + ' PDU</span>' : '') + '</div></div>';
     if (i.sonBasvuru) {
       var kalan = gunFarki(i.sonBasvuru, bg);
       if (kalan <= 3) h += '<div class="gi-dl">' + (kalan <= 0 ? 'Son başvuru bugün' : 'Son başvuruya ' + kalan + ' gün: ' + esc(tarihYaz(i.sonBasvuru))) + '</div>';
@@ -270,7 +297,8 @@ html,body{margin:0;padding:0;background:transparent}
   }
 
   function veriAl(src) {
-    if (window.GBMC_ILAN_VERI) return Promise.resolve(window.GBMC_ILAN_VERI);
+    if (window.GBMC_ILAN_VERI && src.indexOf('ilanlar') >= 0) return Promise.resolve(window.GBMC_ILAN_VERI);
+    if (window.GBMC_EGITIM_VERI && src.indexOf('egitimler') >= 0) return Promise.resolve(window.GBMC_EGITIM_VERI);
     var u = src + (src.indexOf('?') < 0 ? '?' : '&') + 't=' + Math.floor(Date.now() / 300000);
     return fetch(u, { cache: 'no-store' }).then(function (r) {
       if (!r.ok) throw new Error(r.status);
@@ -282,7 +310,9 @@ html,body{margin:0;padding:0;background:transparent}
   Array.prototype.forEach.call(kokler, function (root) {
     root.setAttribute('data-hazir', '1');
     root.innerHTML = '<div class="gi-msg">İlanlar yükleniyor…</div>';
-    veriAl(root.getAttribute('data-src')).then(function (p) { kur(root, p); }).catch(function () {
+    var esrc = root.getAttribute('data-egitim-src');
+    var egitimSoz = esrc ? veriAl(esrc).catch(function () { return null; }) : Promise.resolve(null);
+    Promise.all([veriAl(root.getAttribute('data-src')), egitimSoz]).then(function (s) { EGITIM = s[1]; kur(root, s[0]); }).catch(function () {
       root.innerHTML = '<div class="gi-msg">İlanlar şu anda yüklenemedi. Lütfen sayfayı daha sonra yenileyin.</div>';
     });
   });
