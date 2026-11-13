@@ -51,7 +51,7 @@ Yalnızca e-postada görünen ilan kimliğinden kalıcı adres kurulur. Firma si
 | sonBasvuru | Biliniyorsa YYYY-AA-GG, yoksa boş |
 | kaynak | LinkedIn / Kariyer.net / Indeed |
 | url | Bölüm 3'e göre |
-| not | En fazla 160 karakter, **kendi cümlemizle**, ilan metninden kopyalamadan. Bilinmeyeni uydurma; yalnızca e-postada görünen olgulardan yaz. |
+| not | En fazla 160 karakter, **kendi cümlemizle**, ilan metninden kopyalamadan. Bilinmeyeni uydurma; yalnızca e-postada görünen olgulardan yaz. Not üyelere görünür: ilanın hangi alarmdan, e-postadan ya da kaynaktan geldiği gibi iç bilgiler buraya değil icNot'a yazılır. |
 | icNot | Kontrol gerektiren her şey "KONTROL: ..." ile başlar |
 | basvuru | Türkiye ilanlarında boş. Yurt dışı ilanlarda: **Vize / taşınma desteği** (e-postada açıkça yazıyorsa) · **Uzaktan (Türkiye dahil)** (Türkiye'den uzaktan çalışmaya açıkça izin veriyorsa) · **Yabancı adaya açık (Körfez)** (Körfez ülkesi, vatandaşlık şartı yok). Bu üç değerin dışında bir şey yazılmaz. |
 
