@@ -43,6 +43,7 @@ interface Aday {
   url: string;
   not?: string;
   icNot?: string;
+  basvuru?: string;
 }
 
 interface AdayPaketi {
@@ -175,6 +176,9 @@ async function main(workbook: ExcelScript.Workbook) {
     yaz("Eklenme Tarihi", seriTarih(bg));
     yaz("Son Kontrol", seriTarih(bg));
     yaz("İç Not", a.icNot);
+    // İsteğe bağlı sütun: sayfada varsa doldurulur.
+    const bi = basliklar.indexOf("Başvuru Uygunluğu");
+    if (bi >= 0 && a.basvuru) satir[bi] = a.basvuru;
     yeniSatirlar.push(satir);
   });
 

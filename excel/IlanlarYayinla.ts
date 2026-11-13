@@ -27,6 +27,8 @@ const DOSYA = "data/ilanlar.json";
 const SAYFA = "İlanlar";
 // Son başvuru tarihi olmayan ilanlar, ilan tarihinden itibaren kaç gün yayında kalsın:
 const VARSAYILAN_OMUR = 21;
+// Yurt dışı ilanlarda 'Başvuru Uygunluğu' boşsa kullanılacak varsayılanlar:
+const KORFEZ = ["BAE", "Birleşik Arap Emirlikleri", "Suudi Arabistan", "Katar", "Kuveyt", "Umman", "Bahreyn"];
 // -----------------------------------------
 
 interface Ilan {
@@ -48,6 +50,7 @@ interface Ilan {
   url: string;
   not: string;
   kontrol: string;
+  basvuru: string;
 }
 
 interface Paket {
@@ -71,6 +74,15 @@ interface Govde {
 
 interface CommitYanit {
   commit: { html_url: string };
+}
+
+// Yurt dışı ilanın Türkiye'den başvuru durumu. Excel'de değer varsa o kullanılır.
+function basvuruBul(deger: string, ulke: string, calisma: string): string {
+  if (deger) return deger;
+  if (ulke === "Türkiye") return "";
+  if (calisma === "Uzaktan") return "Uzaktan (Türkiye dahil)";
+  if (KORFEZ.indexOf(ulke) >= 0) return "Yabancı adaya açık (Körfez)";
+  return "";
 }
 
 // İstanbul saatine göre bugünün tarihi (YYYY-MM-DD)
@@ -171,6 +183,14 @@ async function main(workbook: ExcelScript.Workbook) {
     return v === null || v === undefined ? "" : String(v).trim();
   };
 
+  // İsteğe bağlı sütunlar: sayfada yoksa boş döner, hata vermez.
+  const metinOpt = (satir: (string | number | boolean)[], ad: string): string => {
+    const i = basliklar.indexOf(ad);
+    if (i < 0) return "";
+    const v = satir[i];
+    return v === null || v === undefined ? "" : String(v).trim();
+  };
+
   const bg = bugun();
   const ilanlar: Ilan[] = [];
   const atlanan: string[] = [];
@@ -230,6 +250,7 @@ async function main(workbook: ExcelScript.Workbook) {
       url: url,
       not: metin(s, "Kısa Not").slice(0, 160),
       kontrol: tarihOku(s[sutun("Son Kontrol")]),
+      basvuru: basvuruBul(metinOpt(s, "Başvuru Uygunluğu"), metin(s, "Ülke") || "Türkiye", metin(s, "Çalışma Şekli")),
     });
   }
 

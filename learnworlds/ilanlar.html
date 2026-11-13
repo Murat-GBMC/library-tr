@@ -50,6 +50,8 @@ html,body{margin:0;padding:0;background:transparent}
 .gbmc-ilanlar .gi-tags{display:flex;flex-wrap:wrap;gap:6px}
 .gbmc-ilanlar .gi-tag{padding:3px 10px;border-radius:6px;font-size:13px;font-weight:600;background:var(--soft);color:var(--ink)}
 .gbmc-ilanlar .gi-tag.gi-mode{background:var(--mint);color:#0B5555}
+.gbmc-ilanlar .gi-tag.gi-abroad{background:#fff;color:#0B5555;border:1px solid #8CC5C2}
+.gbmc-ilanlar .gi-tag.gi-abroad::before{content:'✓ ';font-weight:800}
 .gbmc-ilanlar .gi-note{margin:0;font-size:15px;color:var(--ink2)}
 .gbmc-ilanlar .gi-dl{background:var(--warn);color:var(--warnInk);border-radius:10px;padding:8px 12px;font-size:14px;font-weight:700}
 .gbmc-ilanlar .gi-foot{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
@@ -128,6 +130,7 @@ html,body{margin:0;padding:0;background:transparent}
     h += '<div class="gi-tags">';
     if (yer) h += '<span class="gi-tag">' + esc(yer) + '</span>';
     if (i.calisma) h += '<span class="gi-tag gi-mode">' + esc(i.calisma) + '</span>';
+    if (i.basvuru) h += '<span class="gi-tag gi-abroad" title="Türkiye\'den başvuru durumu">' + esc(i.basvuru) + '</span>';
     if (i.kidem) h += '<span class="gi-tag">' + esc(i.kidem) + '</span>';
     if (i.istihdam && i.istihdam !== 'Tam zamanlı') h += '<span class="gi-tag">' + esc(i.istihdam) + '</span>';
     if (i.sertifika) h += '<span class="gi-tag">' + esc(i.sertifika) + '</span>';
@@ -157,7 +160,7 @@ html,body{margin:0;padding:0;background:transparent}
       return bitis && bitis >= bg && i.url;
     });
 
-    var durum = { q: '', ulke: '', sehir: '', rol: '', calisma: {}, kidem: {}, sira: 'yeni' };
+    var durum = { q: '', ulke: '', sehir: '', rol: '', calisma: {}, kidem: {}, basvuru: {}, sira: 'yeni' };
 
     if (!tum.length) {
       root.innerHTML = '<div class="gi-msg">Şu anda yayında ilan yok. Yeni ilanlar haftada iki kez eklenir.</div>' + yasal();
@@ -169,14 +172,15 @@ html,body{margin:0;padding:0;background:transparent}
     var roller = benzersiz(tum, 'rol');
     var calismalar = benzersiz(tum, 'calisma', CALISMA_SIRA);
     var kidemler = benzersiz(tum, 'kidem', KIDEM_SIRA);
+    var basvurular = benzersiz(tum, 'basvuru');
 
     function secenek(ad, liste, tumu) {
       var h = '<select class="gi-sel" data-f="' + ad + '" aria-label="' + esc(tumu) + '"><option value="">' + esc(tumu) + '</option>';
       liste.forEach(function (v) { h += '<option value="' + esc(v) + '">' + esc(v) + '</option>'; });
       return h + '</select>';
     }
-    function cipler(ad, etiket, liste) {
-      if (liste.length < 2) return '';
+    function cipler(ad, etiket, liste, enAz) {
+      if (liste.length < (enAz || 2)) return '';
       var h = '<div class="gi-group" role="group" aria-label="' + esc(etiket) + '"><span class="gi-glbl">' + esc(etiket) + '</span>';
       liste.forEach(function (v) { h += '<button type="button" class="gi-chip" data-c="' + ad + '" data-v="' + esc(v) + '" aria-pressed="false">' + esc(v) + '</button>'; });
       return h + '</div>';
@@ -188,7 +192,7 @@ html,body{margin:0;padding:0;background:transparent}
     if (sehirler.length > 1) h += secenek('sehir', sehirler, 'Tüm şehirler');
     if (roller.length > 1) h += secenek('rol', roller, 'Tüm roller');
     h += '<select class="gi-sel" data-f="sira" aria-label="Sıralama"><option value="yeni">En yeni</option><option value="son">Son başvurusu yaklaşan</option></select></div>';
-    var c = cipler('calisma', 'Çalışma şekli', calismalar) + cipler('kidem', 'Kıdem', kidemler);
+    var c = cipler('calisma', 'Çalışma şekli', calismalar) + cipler('kidem', 'Kıdem', kidemler) + cipler('basvuru', 'Yurt dışı', basvurular, 1);
     if (c) h += '<div class="gi-row" style="gap:16px">' + c + '</div>';
     h += '<div class="gi-sum"><span class="gi-count"></span><button type="button" class="gi-clear" hidden>Filtreleri temizle</button></div>';
     h += '</div><div class="gi-list"></div>' + yasal();
@@ -200,7 +204,7 @@ html,body{margin:0;padding:0;background:transparent}
     var arama = root.querySelector('.gi-search');
 
     function filtreVar() {
-      return durum.q || durum.ulke || durum.sehir || durum.rol || Object.keys(durum.calisma).length || Object.keys(durum.kidem).length;
+      return durum.q || durum.ulke || durum.sehir || durum.rol || Object.keys(durum.calisma).length || Object.keys(durum.kidem).length || Object.keys(durum.basvuru).length;
     }
     function ciz() {
       var q = durum.q.toLocaleLowerCase('tr-TR');
@@ -211,6 +215,7 @@ html,body{margin:0;padding:0;background:transparent}
         if (durum.rol && i.rol !== durum.rol) return false;
         if (Object.keys(durum.calisma).length && !durum.calisma[i.calisma]) return false;
         if (Object.keys(durum.kidem).length && !durum.kidem[i.kidem]) return false;
+        if (Object.keys(durum.basvuru).length && !durum.basvuru[i.basvuru]) return false;
         return true;
       });
       sonuc.sort(function (a, b) {
@@ -244,7 +249,7 @@ html,body{margin:0;padding:0;background:transparent}
       });
     });
     temizle.addEventListener('click', function () {
-      durum.q = ''; durum.ulke = ''; durum.sehir = ''; durum.rol = ''; durum.calisma = {}; durum.kidem = {};
+      durum.q = ''; durum.ulke = ''; durum.sehir = ''; durum.rol = ''; durum.calisma = {}; durum.kidem = {}; durum.basvuru = {};
       arama.value = '';
       Array.prototype.forEach.call(root.querySelectorAll('.gi-sel'), function (s) { if (s.getAttribute('data-f') !== 'sira') s.value = ''; });
       Array.prototype.forEach.call(root.querySelectorAll('.gi-chip'), function (b) { b.setAttribute('aria-pressed', 'false'); });
@@ -254,7 +259,7 @@ html,body{margin:0;padding:0;background:transparent}
   }
 
   function yasal() {
-    return '<div class="gi-legal">Bu sayfadaki ilanlar kamuya açık kaynaklardan derlenmiştir. GBMC ilan sahibi değildir ve işe alım sürecine aracılık etmez. Başvurular ilgili platformda yapılır. Bilgiler son kontrol tarihindeki hâliyle verilmiştir. Kaldırılmasını istediğiniz ya da kapanmış bir ilan için ' + (BILDIR ? '<a href="mailto:' + esc(BILDIR) + '" target="_blank" rel="noopener">bize yazın</a>' : 'bize yazın') + '.</div>';
+    return '<div class="gi-legal">Yurt dışı ilanlar, Türkiye\'den başvurulabilecek olanlar arasından seçilir. <b>Vize / taşınma desteği</b> ve <b>Uzaktan (Türkiye dahil)</b> etiketleri ilanda açıkça yazanları gösterir. <b>Yabancı adaya açık (Körfez)</b> etiketi ilanda vatandaşlık şartı olmadığını gösterir; bu ülkelerde çalışma vizesini genellikle işveren sağlar. Başvurmadan önce ilanın şartlarını kontrol edin.<br><br>Bu sayfadaki ilanlar kamuya açık kaynaklardan derlenmiştir. GBMC ilan sahibi değildir ve işe alım sürecine aracılık etmez. Başvurular ilgili platformda yapılır. Bilgiler son kontrol tarihindeki hâliyle verilmiştir. Kaldırılmasını istediğiniz ya da kapanmış bir ilan için ' + (BILDIR ? '<a href="mailto:' + esc(BILDIR) + '" target="_blank" rel="noopener">bize yazın</a>' : 'bize yazın') + '.</div>';
   }
 
   function veriAl(src) {
