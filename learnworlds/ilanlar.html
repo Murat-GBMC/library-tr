@@ -1,7 +1,8 @@
 <!--
   GBMC PDU Circle — İlanlar · İLAN KARTLARI
-  Sürüm: 1.4 · 13.11.2026
+  Sürüm: 1.5 · 13.11.2026
   Değişiklikler:
+    1.5 (13.11.2026) Eğitim önerisinde kıdem kuralı; varsayılan başlık 'Bu rol için önerilen eğitim'
     1.4 (13.11.2026) Kartlarda 'Bu role hazırlık' eğitim önerisi (data/egitimler.json'dan)
     1.3 (13.11.2026) Yurt dışı ilanlara 'Başvuru Uygunluğu' etiketi, 'Yurt dışı' filtresi ve açıklama notu
     1.2 (11.11.2026) Görünme süresi 21 gün; kartlara 'İlan kapanmış mı? Bildirin' bağlantısı
@@ -135,7 +136,7 @@ html,body{margin:0;padding:0;background:transparent}
   }
   var EGITIM = null;
   function kucuk(x) { return String(x || '').toLocaleLowerCase('tr-TR'); }
-  // Kurallardan biri tutarsa eğitim önerilir: rol (birebir), sertifika (içerir), kelime (pozisyon + not içinde)
+  // Kurallardan biri tutarsa eğitim önerilir: rol ve kıdem (birebir), sertifika (içerir), kelime (pozisyon + not içinde)
   function egitimBul(i) {
     if (!EGITIM || !EGITIM.egitimler || !EGITIM.egitimler.length) return null;
     var metin = kucuk(i.pozisyon) + ' ' + kucuk(i.not), sert = kucuk(i.sertifika);
@@ -143,6 +144,7 @@ html,body{margin:0;padding:0;background:transparent}
       var e = EGITIM.egitimler[k], r = e.kurallar || {};
       if (!e.url || !e.ad) continue;
       if ((r.rol || []).indexOf(i.rol) >= 0) return e;
+      if ((r.kidem || []).indexOf(i.kidem) >= 0) return e;
       if ((r.sertifika || []).some(function (x) { return sert.indexOf(kucuk(x)) >= 0; })) return e;
       if ((r.kelime || []).some(function (x) { return metin.indexOf(kucuk(x)) >= 0; })) return e;
     }
@@ -170,7 +172,7 @@ html,body{margin:0;padding:0;background:transparent}
     h += '</div>';
     if (i.not) h += '<p class="gi-note">' + esc(i.not) + '</p>';
     var eg = egitimBul(i);
-    if (eg) h += '<div class="gi-prep"><div><b>' + esc(EGITIM.baslik || 'Bu role hazırlık') + '</b><a href="' + esc(guvenliUrl(eg.url)) + '" target="_blank" rel="noopener">' + esc(eg.ad) + ' →</a>' + (eg.pdu ? ' <span style="color:var(--mut)">· ' + esc(eg.pdu) + ' PDU</span>' : '') + '</div></div>';
+    if (eg) h += '<div class="gi-prep"><div><b>' + esc(EGITIM.baslik || 'Bu rol için önerilen eğitim') + '</b><a href="' + esc(guvenliUrl(eg.url)) + '" target="_blank" rel="noopener">' + esc(eg.ad) + ' →</a>' + (eg.pdu ? ' <span style="color:var(--mut)">· ' + esc(eg.pdu) + ' PDU</span>' : '') + '</div></div>';
     if (i.sonBasvuru) {
       var kalan = gunFarki(i.sonBasvuru, bg);
       if (kalan <= 3) h += '<div class="gi-dl">' + (kalan <= 0 ? 'Son başvuru bugün' : 'Son başvuruya ' + kalan + ' gün: ' + esc(tarihYaz(i.sonBasvuru))) + '</div>';

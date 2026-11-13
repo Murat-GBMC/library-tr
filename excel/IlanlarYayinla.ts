@@ -2,8 +2,9 @@
  * GBMC PDU Circle — İlanlar
  * "İlanları Yayınla" Office Script
  *
- * Sürüm: 1.4 · 13.11.2026
+ * Sürüm: 1.5 · 13.11.2026
  * Değişiklikler:
+ *   1.5 (13.11.2026) Kısa notunda iç bilgi (alarm, LinkedIn, e-posta vb.) bulunan ilan yayınlanmaz, çıktıda bildirilir
  *   1.4 (13.11.2026) İsteğe bağlı 'Başvuru Uygunluğu' sütunu; Körfez ve uzaktan ilanlara varsayılan etiket
  *   1.3 (11.11.2026) Varsayılan görünme süresi 30 günden 21 güne
  *   1.2 (16.10.2026) Tarayıcının reddettiği Cache-Control başlığı kaldırıldı
@@ -36,6 +37,8 @@ const SAYFA = "İlanlar";
 // Son başvuru tarihi olmayan ilanlar, ilan tarihinden itibaren kaç gün yayında kalsın:
 const VARSAYILAN_OMUR = 21;
 // Yurt dışı ilanlarda 'Başvuru Uygunluğu' boşsa kullanılacak varsayılanlar:
+// Kısa not üyelere görünür; bu ifadeler iç bilgi işaretidir (staging/kontrol.py ile aynı liste):
+const YASAK_NOT = ["alarm", "e-posta", "e-mail", "email", "linkedin", "indeed", "kariyer.net", "untalent", "gulftalent", "claude", "tarama", "fwd"];
 const KORFEZ = ["BAE", "Birleşik Arap Emirlikleri", "Suudi Arabistan", "Katar", "Kuveyt", "Umman", "Bahreyn"];
 // -----------------------------------------
 
@@ -167,7 +170,7 @@ function utf8Base64(metin: string): string {
 }
 
 async function main(workbook: ExcelScript.Workbook) {
-  console.log("İlanları Yayınla · sürüm 1.4 (13.11.2026)");
+  console.log("İlanları Yayınla · sürüm 1.5 (13.11.2026)");
   if (GITHUB_TOKEN.indexOf("BURAYA") === 0) {
     throw new Error("Önce scriptin başındaki GITHUB_TOKEN ayarını doldurun.");
   }
@@ -233,6 +236,12 @@ async function main(workbook: ExcelScript.Workbook) {
     if (bitis < bg) {
       aralik.getCell(r, sutun("Durum")).setValue("Arşiv");
       arsivlenen.push(id);
+      continue;
+    }
+    const kisaNot = metin(s, "Kısa Not").toLocaleLowerCase("tr-TR");
+    const yasak = YASAK_NOT.filter((y) => kisaNot.indexOf(y) >= 0);
+    if (yasak.length > 0) {
+      atlanan.push(id + " (Kısa Not iç bilgi içeriyor: '" + yasak.join("', '") + "'. Notu düzeltip yeniden yayınlayın)");
       continue;
     }
     if (!metin(s, "Pozisyon") || !metin(s, "Firma")) {

@@ -1,8 +1,178 @@
 {
- "surum": 1,
+ "surum": 2,
  "guncellendi": "2026-11-13",
- "baslik": "Bu role hazırlık",
- "aciklama": "İlan kartlarında gösterilecek PDU Circle eğitim önerileri. Kurallar sırayla denenir; ilk tutan eğitim gösterilir. rol: Rol Türü ile birebir; sertifika: Sertifika alanında geçen ifade; kelime: pozisyon ya da kısa notta geçen ifade. varsayilan: hiçbir kural tutmazsa gösterilecek eğitimin id'si (boş bırakılabilir).",
- "varsayilan": "",
- "egitimler": []
+ "baslik": "Bu rol için önerilen eğitim",
+ "aciklama": "İlan kartlarında gösterilecek PDU Circle eğitim önerileri. Kurallar yukarıdan aşağı denenir; ilk tutan eğitim gösterilir. rol: Rol Türü ile birebir; kidem: Kıdem ile birebir; sertifika: Sertifika alanında geçen ifade; kelime: pozisyon ya da kısa notta geçen ifade. varsayilan: hiçbir kural tutmazsa gösterilecek eğitimin id'si. url boş olan eğitim gösterilmez.",
+ "varsayilan": "arac-teknik",
+ "egitimler": [
+  {
+   "id": "sorunlu",
+   "ad": "Sorunlu Projelerin Yönetimi",
+   "pdu": "3",
+   "kurallar": {
+    "kelime": [
+     "recovery",
+     "kurtarma",
+     "turnaround",
+     "sorunlu",
+     "troubled",
+     "rescue"
+    ]
+   },
+   "url": ""
+  },
+  {
+   "id": "metotlar",
+   "ad": "Proje Yönetim Metotları",
+   "pdu": "4",
+   "kurallar": {
+    "sertifika": [
+     "PRINCE2",
+     "Agile",
+     "Scrum",
+     "PMI-ACP",
+     "PSM",
+     "CSM",
+     "IPMA",
+     "APM"
+    ],
+    "kelime": [
+     "agile",
+     "çevik",
+     "scrum",
+     "prince2",
+     "hybrid project",
+     "methodolog",
+     "metodoloji"
+    ]
+   },
+   "url": ""
+  },
+  {
+   "id": "koordinasyon",
+   "ad": "Fonksiyonlar Arası Koordinasyon",
+   "pdu": "5",
+   "kurallar": {
+    "rol": [
+     "PMO",
+     "Proje Koordinatörü"
+    ],
+    "kelime": [
+     "koordinasyon",
+     "koordinatör",
+     "coordinat",
+     "cross-functional",
+     "fonksiyonlar arası",
+     "pmo"
+    ]
+   },
+   "url": ""
+  },
+  {
+   "id": "is-sonuclari",
+   "ad": "İş Sonuçları Odaklı Proje Yönetimi",
+   "pdu": "5",
+   "kurallar": {
+    "rol": [
+     "Program Yöneticisi",
+     "Portföy Yöneticisi"
+    ],
+    "kelime": [
+     "dönüşüm",
+     "transformation",
+     "portföy",
+     "portfolio",
+     "benefit",
+     "fayda",
+     "value",
+     "değer",
+     "strateji",
+     "strategy"
+    ]
+   },
+   "url": ""
+  },
+  {
+   "id": "arac-teknik",
+   "ad": "Proje Yönetimi Araç ve Teknikleri",
+   "pdu": "4",
+   "kurallar": {
+    "rol": [
+     "Proje Uzmanı"
+    ],
+    "sertifika": [
+     "PMI-SP"
+    ],
+    "kelime": [
+     "planlama",
+     "planning",
+     "schedul",
+     "maliyet",
+     "cost",
+     "bütçe",
+     "budget",
+     "kapsam",
+     "scope",
+     "risk"
+    ]
+   },
+   "url": ""
+  },
+  {
+   "id": "insan",
+   "ad": "Proje Yönetiminde İnsan Boyutu",
+   "pdu": "4",
+   "kurallar": {
+    "kidem": [
+     "Lider / Yönetici"
+    ],
+    "kelime": [
+     "lider",
+     "leader",
+     "lead",
+     "head of",
+     "ekip",
+     "team",
+     "direktör",
+     "director"
+    ]
+   },
+   "url": ""
+  },
+  {
+   "id": "toplanti",
+   "ad": "Toplantı Yönetimi ve Karar Verimliliği",
+   "pdu": "3",
+   "kurallar": {
+    "kelime": [
+     "toplantı",
+     "meeting",
+     "yönetişim",
+     "governance",
+     "steering",
+     "raporlama",
+     "reporting"
+    ]
+   },
+   "url": ""
+  },
+  {
+   "id": "okuryazarlik",
+   "ad": "Proje Okuryazarlığı",
+   "pdu": "3",
+   "kurallar": {
+    "kidem": [
+     "Giriş"
+    ],
+    "kelime": [
+     "junior",
+     "stajyer",
+     "asistan",
+     "assistant",
+     "yeni mezun"
+    ]
+   },
+   "url": ""
+  }
+ ]
 }

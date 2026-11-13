@@ -90,8 +90,9 @@ Sektör, firmanın bütününe göre değil **rolün çalıştığı iş koluna*
 1. Depoyu güncelle, `staging/ilan-adaylari.json` dosyasını oku.
 2. Yeni adayları mevcut listeye **ekle**. Aynı bağlantı ya da aynı firma + pozisyon ikilisi varsa ekleme. `data/ilanlar.json` içinde yayında olan ilanları da tekrar sayarak atla.
 3. İlan tarihi 21 günden eski adayları listeden çıkar.
-4. `olusturuldu` (ISO tarih, +03:00) ve `adet` alanlarını güncelle. Commit mesajı: `İlan adayları: GG.AA taraması (N yeni)`. Depoya gönder.
-5. İşlenen tüm e-posta dizilerine `ilanlar/islendi` etiketini ekle.
+4. Göndermeden önce `python3 -I staging/kontrol.py staging/ilan-adaylari.json` çalıştırılır. Hata varsa düzeltilir (iç bilgi notu icNot'a taşınır) ve kontrol yeniden çalıştırılır; kontrol geçmeden gönderim yapılmaz.
+5. `olusturuldu` (ISO tarih, +03:00) ve `adet` alanlarını güncelle. Commit mesajı: `İlan adayları: GG.AA taraması (N yeni)`. Depoya gönder.
+6. İşlenen tüm e-posta dizilerine `ilanlar/islendi` etiketini ekle.
 
 ## 6. Özet e-postası
 
