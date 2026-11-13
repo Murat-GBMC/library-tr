@@ -2,6 +2,10 @@
  * GBMC CoE — Kütüphane ve Bağlantılar
  * "Kütüphane Adaylarını Getir" Office Script
  *
+ * Sürüm: 1.0 · 01.11.2026
+ * Değişiklikler:
+ *   1.0 (01.11.2026) İlk sürüm
+ *
  * Claude'un aylık taramada hazırladığı aday kaynakları
  * (depodaki staging/kutuphane-adaylari.json) okur ve Katalog sayfasının
  * sonuna Durum = "Taslak" olarak ekler. Kopyala-yapıştır gerekmez.
@@ -92,6 +96,7 @@ function normal(s: string): string {
 }
 
 async function main(workbook: ExcelScript.Workbook) {
+  console.log("Kütüphane Adaylarını Getir · sürüm 1.0 (01.11.2026)");
   if (GITHUB_TOKEN.indexOf("BURAYA") === 0) {
     throw new Error("Önce scriptin başındaki GITHUB_TOKEN ayarını doldurun.");
   }

@@ -50,3 +50,8 @@ Proje yöneticisi arayan firmaların ilanlarına bağlantı veren PDU Circle say
 - `staging/` klasörü LearnWorlds'te gösterilmez; yalnızca Excel'e aktarım içindir.
 
 Veri adresi: `https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/ilanlar.json`
+
+
+## Sürüm numaraları
+
+Excel'e ya da LearnWorlds'e yapıştırılan her dosyanın (`excel/*.ts`, `learnworlds/*.html`) başında sürüm numarası, tarih ve değişiklik listesi bulunur. Dosya her değiştiğinde sürüm bir artırılır. Excel betikleri çalıştıklarında sürümlerini çıktı paneline yazar; böylece Excel'deki betiğin depodakiyle aynı sürüm olup olmadığı kolayca görülür.

@@ -2,6 +2,12 @@
  * GBMC PDU Circle — İlanlar
  * "Adayları Getir" Office Script
  *
+ * Sürüm: 1.2 · 13.11.2026
+ * Değişiklikler:
+ *   1.2 (13.11.2026) İsteğe bağlı 'Başvuru Uygunluğu' sütununu doldurma
+ *   1.1 (15.10.2026) Başlık satırı A1'de değilse de doğru satıra ekleme
+ *   1.0 (15.10.2026) İlk sürüm
+ *
  * Claude'un düzenli olarak hazırladığı aday ilan listesini
  * (depodaki staging/ilan-adaylari.json) okur ve İlanlar sayfasına
  * Durum = "Taslak" olarak ekler. Siz kontrol edip uygun olanları
@@ -79,6 +85,7 @@ function anahtar(firma: string, pozisyon: string): string {
 }
 
 async function main(workbook: ExcelScript.Workbook) {
+  console.log("Adayları Getir · sürüm 1.2 (13.11.2026)");
   if (GITHUB_TOKEN.indexOf("BURAYA") === 0) {
     throw new Error("Önce scriptin başındaki GITHUB_TOKEN ayarını doldurun.");
   }

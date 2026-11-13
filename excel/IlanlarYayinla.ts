@@ -2,6 +2,14 @@
  * GBMC PDU Circle — İlanlar
  * "İlanları Yayınla" Office Script
  *
+ * Sürüm: 1.4 · 13.11.2026
+ * Değişiklikler:
+ *   1.4 (13.11.2026) İsteğe bağlı 'Başvuru Uygunluğu' sütunu; Körfez ve uzaktan ilanlara varsayılan etiket
+ *   1.3 (11.11.2026) Varsayılan görünme süresi 30 günden 21 güne
+ *   1.2 (16.10.2026) Tarayıcının reddettiği Cache-Control başlığı kaldırıldı
+ *   1.1 (16.10.2026) Önbelleği atlama; sürüm çakışmasında bir kez yeniden deneme
+ *   1.0 (15.10.2026) İlk sürüm
+ *
  * İlanlar sayfasında Durum = "Yayında" olan ve süresi dolmamış satırların
  * yalnızca kamuya açık alanlarını JSON'a çevirir ve GitHub deposundaki
  * data/ilanlar.json dosyasına yazar. LearnWorlds sayfasındaki bileşen bu
@@ -159,6 +167,7 @@ function utf8Base64(metin: string): string {
 }
 
 async function main(workbook: ExcelScript.Workbook) {
+  console.log("İlanları Yayınla · sürüm 1.4 (13.11.2026)");
   if (GITHUB_TOKEN.indexOf("BURAYA") === 0) {
     throw new Error("Önce scriptin başındaki GITHUB_TOKEN ayarını doldurun.");
   }

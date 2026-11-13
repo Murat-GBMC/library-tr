@@ -2,6 +2,10 @@
  * GBMC CoE — Kütüphane ve Bağlantılar
  * "Kütüphaneyi Yayınla" Office Script (GitHub deposu sürümü)
  *
+ * Sürüm: 1.0 · 12.10.2026
+ * Değişiklikler:
+ *   1.0 (12.10.2026) İlk sürüm
+ *
  * Katalog sayfasında Durum = "Yayında" olan satırların yalnızca kart alanlarını
  * JSON'a çevirir ve GitHub deposundaki data/kutuphane.json dosyasına yazar.
  * LearnWorlds sayfasındaki bileşen bu dosyayı okuyarak kartları çizer.
@@ -113,6 +117,7 @@ function utf8Base64(metin: string): string {
 }
 
 async function main(workbook: ExcelScript.Workbook) {
+  console.log("Kütüphaneyi Yayınla · sürüm 1.0 (12.10.2026)");
   if (GITHUB_TOKEN.indexOf("BURAYA") === 0) {
     throw new Error("Önce scriptin başındaki GITHUB_TOKEN ayarını doldurun.");
   }
