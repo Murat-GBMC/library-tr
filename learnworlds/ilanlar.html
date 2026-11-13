@@ -1,7 +1,8 @@
 <!--
   GBMC PDU Circle — İlanlar · İLAN KARTLARI
-  Sürüm: 1.5 · 13.11.2026
+  Sürüm: 1.6 · 13.11.2026
   Değişiklikler:
+    1.6 (13.11.2026) Bağlantısı olmayan eğitim varsayılan olarak da önerilmez; Başvuru Uygunluğu yalnızca üç geçerli değeri kabul eder
     1.5 (13.11.2026) Eğitim önerisinde kıdem kuralı; varsayılan başlık 'Bu rol için önerilen eğitim'
     1.4 (13.11.2026) Kartlarda 'Bu role hazırlık' eğitim önerisi (data/egitimler.json'dan)
     1.3 (13.11.2026) Yurt dışı ilanlara 'Başvuru Uygunluğu' etiketi, 'Yurt dışı' filtresi ve açıklama notu
@@ -135,6 +136,7 @@ html,body{margin:0;padding:0;background:transparent}
     return 'mailto:' + BILDIR + '?subject=' + encodeURIComponent(konu) + '&body=' + encodeURIComponent(govde);
   }
   var EGITIM = null;
+  var BASVURU_GECERLI = ['Vize / taşınma desteği', 'Uzaktan (Türkiye dahil)', 'Yabancı adaya açık (Körfez)'];
   function kucuk(x) { return String(x || '').toLocaleLowerCase('tr-TR'); }
   // Kurallardan biri tutarsa eğitim önerilir: rol ve kıdem (birebir), sertifika (içerir), kelime (pozisyon + not içinde)
   function egitimBul(i) {
@@ -149,7 +151,10 @@ html,body{margin:0;padding:0;background:transparent}
       if ((r.kelime || []).some(function (x) { return metin.indexOf(kucuk(x)) >= 0; })) return e;
     }
     if (EGITIM.varsayilan) {
-      for (var v = 0; v < EGITIM.egitimler.length; v++) if (EGITIM.egitimler[v].id === EGITIM.varsayilan) return EGITIM.egitimler[v];
+      for (var v = 0; v < EGITIM.egitimler.length; v++) {
+        var ev = EGITIM.egitimler[v];
+        if (ev.id === EGITIM.varsayilan && ev.url && ev.ad) return ev;
+      }
     }
     return null;
   }
@@ -191,6 +196,9 @@ html,body{margin:0;padding:0;background:transparent}
     BILDIR = root.getAttribute('data-bildir') || '';
     var bg = bugun();
     // Süresi dolanları ele: son başvuru geçmişse ya da son başvuru yoksa ilan tarihi + ömür geçmişse
+    ((paket && paket.ilanlar) || []).forEach(function (i) {
+      if (BASVURU_GECERLI.indexOf(i.basvuru) < 0 || (i.ulke || 'Türkiye') === 'Türkiye') i.basvuru = '';
+    });
     var tum = ((paket && paket.ilanlar) || []).filter(function (i) {
       var bitis = i.sonBasvuru || (i.ilanTarihi ? gunEkle(i.ilanTarihi, omur) : '');
       return bitis && bitis >= bg && i.url;
