@@ -2,8 +2,9 @@
  * GBMC CoE / PDU Circle — Güncel Modeller
  * "Model Adaylarını Getir" Office Script
  *
- * Sürüm: 1.0 · 23.11.2026
+ * Sürüm: 1.1 · 23.11.2026
  * Değişiklikler:
+ *   1.1 (23.11.2026) Office Scripts uyumu: dizi geri çağrısı ok fonksiyonuna çevrildi
  *   1.0 (23.11.2026) İlk sürüm
  *
  * Claude'un her ay hazırladığı güncelleme önerilerini
@@ -68,7 +69,7 @@ function sade(s: string | number | boolean | undefined): string {
 }
 
 async function main(workbook: ExcelScript.Workbook) {
-  console.log("Model Adaylarını Getir · sürüm 1.0 (23.11.2026)");
+  console.log("Model Adaylarını Getir · sürüm 1.1 (23.11.2026)");
   if (GITHUB_TOKEN.indexOf("BURAYA") === 0) {
     throw new Error("Önce scriptin başındaki GITHUB_TOKEN ayarını doldurun.");
   }
@@ -105,7 +106,7 @@ async function main(workbook: ExcelScript.Workbook) {
     return i;
   };
   const ICERIK = ["Araç", "Hızlı Model", "Güçlü Model", "En Güçlü Model", "Düşünme", "Ücretsiz Sürümde", "Kurumsal Sürüm", "Veri Notu"];
-  const imza = (degerlerListesi: (string | number | boolean | undefined)[]) => degerlerListesi.map(sade).join("|");
+  const imza = (degerlerListesi: (string | number | boolean | undefined)[]) => degerlerListesi.map((x) => sade(x)).join("|");
 
   const mevcut: { [k: string]: boolean } = {};
   let enBuyuk = 0;
