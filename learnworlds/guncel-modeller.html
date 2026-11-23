@@ -1,7 +1,8 @@
 <!--
   GBMC CoE / PDU Circle — Yapay Zekâ Okuryazarlığı · GÜNCEL MODELLER
-  Sürüm: 1.0 · 23.11.2026
+  Sürüm: 1.1 · 23.11.2026
   Değişiklikler:
+    1.1 (23.11.2026) Ülkeye göre renkli vurgu kaldırıldı; bütün veri notları aynı görünümde
     1.0 (23.11.2026) İlk sürüm
 
   LearnWorlds'te eğitimin ana sayfasındaki "Embed / Custom code" öğesine bu dosyanın TAMAMINI yapıştırın.
@@ -36,8 +37,6 @@
 .gbmc-modeller dd{margin:0;color:var(--ink)}
 .gbmc-modeller .gm-data{margin-top:12px;background:var(--soft);border-radius:10px;padding:10px 12px;font-size:13.5px;color:var(--ink2)}
 .gbmc-modeller .gm-data b{color:var(--t2)}
-.gbmc-modeller .gm-data.cn{background:var(--warn);color:var(--warnInk)}
-.gbmc-modeller .gm-data.cn b{color:var(--warnInk)}
 .gbmc-modeller .gm-foot{margin-top:10px;font-size:12px;color:var(--mut);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
 .gbmc-modeller .gm-foot a{color:var(--t);font-weight:600;text-decoration:none}
 .gbmc-modeller .gm-note{margin-top:18px;background:#fff;border:1px dashed var(--line);border-radius:14px;padding:14px 18px;font-size:14px;color:var(--ink2)}
@@ -70,7 +69,7 @@
         h += '<div class="gm-card"><div class="gm-top"><span class="gm-name">' + esc(m.arac) + '</span><span class="gm-co">' + esc(m.sirket) + (m.ulke ? ' · ' + esc(m.ulke) : '') + '</span></div><dl>' +
           satir('Hızlı model', m.hizli) + satir('Güçlü model', m.guclu) + satir('En güçlü', m.enGuclu) + satir('Düşünme', m.dusunme) +
           satir('Ücretsiz sürümde', m.ucretsiz) + satir('Kurumsal sürüm', m.kurumsal) + '</dl>' +
-          (m.veri ? '<div class="gm-data' + (m.ulke === 'Çin' ? ' cn' : '') + '"><b>Veriniz:</b> ' + esc(m.veri) + '</div>' : '') +
+          (m.veri ? '<div class="gm-data"><b>Veriniz:</b> ' + esc(m.veri) + '</div>' : '') +
           '<div class="gm-foot"><span>' + (m.kontrol ? 'Kontrol: ' + esc(trTarih(m.kontrol + 'T12:00:00Z')) : '') + '</span>' +
           (m.kaynak ? '<a href="' + esc(m.kaynak) + '" target="_blank" rel="noopener">Kaynak ↗</a>' : '') + '</div></div>';
       });

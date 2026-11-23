@@ -30,6 +30,7 @@ Bir araçta **anlamlı bir değişiklik** varsa (yeni model, emekliye ayrılan m
 
 - Türkçe, kısa ve olgusal. Pazarlama dili ve kıyaslama ("en iyi", "rakiplerini geçiyor") kullanılmaz.
 - Model adları şirketin kullandığı biçimde yazılır.
+- Veri notu tarafsız yazılır: verinin nereye gittiği aracın kendisine değil, nerede çalıştığına (şirketin kendi uygulaması, kurumsal sürüm, bulut platformu, kurumun kendi sunucusu) bağlıdır. Bunu her araç için aynı ölçüyle yaz; bir ülkeyi ya da şirketi öne çıkaran ifade kullanma.
 - Kaynaklar çelişiyorsa daha temkinli olan yazılır ve `icNot` alanına `KONTROL: ...` ile açıklama eklenir.
 - `degisiklik` alanına bir cümleyle neyin değiştiği yazılır (ör. "Ücretsiz sürüm Luna'dan Terra'ya geçti").
 
