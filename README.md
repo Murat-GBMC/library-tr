@@ -55,3 +55,25 @@ Veri adresi: `https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/
 ## Sürüm numaraları
 
 Excel'e ya da LearnWorlds'e yapıştırılan her dosyanın (`excel/*.ts`, `learnworlds/*.html`) başında sürüm numarası, tarih ve değişiklik listesi bulunur. Dosya her değiştiğinde sürüm bir artırılır. Excel betikleri çalıştıklarında sürümlerini çıktı paneline yazar; böylece Excel'deki betiğin depodakiyle aynı sürüm olup olmadığı kolayca görülür.
+
+---
+
+# Yapay Zekâ Okuryazarlığı — Güncel Modeller
+
+Eğitimin Modül 2 videosu model isimlerini söylemez; güncel isimler eğitimin ana sayfasındaki **Güncel Modeller** bölümünde tutulur. CoE ve PDU Circle'da aynı bileşen kullanılır.
+
+## Akış
+
+1. Claude her ayın başında beş aracı (ChatGPT, Claude, Gemini, Microsoft Copilot, DeepSeek) kontrol eder ve anlamlı değişiklikleri `staging/model-adaylari.json` dosyasına yazar (kurallar: `staging/MODEL-TARAMA.md`). Ardından özet e-postası gönderir.
+2. SharePoint'teki **GBMC_Modeller.xlsx** içinde **Model Adaylarını Getir** düğmesi (`excel/ModelAdaylariniGetir.ts`) önerileri Durum = *Taslak* olarak ekler.
+3. Uygun satırlar *Yayında*, uygun olmayanlar *Reddedildi* yapılır.
+4. **Modelleri Yayınla** düğmesi (`excel/ModelleriYayinla.ts`) her araç için en yeni *Yayında* satırı `data/modeller.json` dosyasına yazar; aynı aracın eski satırlarını *Arşiv*'e alır.
+5. `learnworlds/guncel-modeller.html` bileşeni bu dosyayı okur. Bölümün çapası `#guncel-modeller`; videodaki etkileşimli bağlantı bu adrese gider.
+
+## Kurallar
+
+- `data/modeller.json` yalnızca Excel'deki düğmeyle yazılır; tarama bu dosyaya dokunmaz.
+- Her satırda en az bir `https://` kaynak bulunur. İç Not ve Değişiklik alanları yayına çıkmaz.
+- Aday dosyası gönderilmeden önce `python3 -I staging/model_kontrol.py staging/model-adaylari.json` çalıştırılır.
+
+Veri adresi: `https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/modeller.json`

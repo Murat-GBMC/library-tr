@@ -1,0 +1,84 @@
+<!--
+  GBMC CoE / PDU Circle — Yapay Zekâ Okuryazarlığı · GÜNCEL MODELLER
+  Sürüm: 1.0 · 23.11.2026
+  Değişiklikler:
+    1.0 (23.11.2026) İlk sürüm
+
+  LearnWorlds'te eğitimin ana sayfasındaki "Embed / Custom code" öğesine bu dosyanın TAMAMINI yapıştırın.
+  Bölümün çapası: #guncel-modeller  (videodaki etkileşimli bağlantı bu adrese gidebilir:
+  <eğitim sayfası adresi>#guncel-modeller)
+  Ayar:
+    data-src : depodaki data/modeller.json dosyasının raw adresi (hazır doldurulmuş)
+  Liste Excel'deki "Modelleri Yayınla" düğmesiyle güncellenir; kodu yeniden yapıştırmak gerekmez.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<div class="gbmc-modeller" id="guncel-modeller"
+     data-src="https://raw.githubusercontent.com/Murat-GBMC/library-tr/main/data/modeller.json"></div>
+
+<style>
+.gbmc-modeller{--t:#0B6A6A;--t2:#085656;--ink:#0E2427;--ink2:#1D3538;--mut:#4A5F62;--line:#D5E0E0;--soft:#EEF3F3;--mint:#E1F0EF;--warn:#FBEFE2;--warnInk:#7A410C;
+  font-family:'Raleway',system-ui,-apple-system,'Segoe UI',sans-serif;color:var(--ink);font-size:16px;line-height:1.5;box-sizing:border-box;width:100%}
+.gbmc-modeller *,.gbmc-modeller *::before,.gbmc-modeller *::after{box-sizing:border-box}
+.gbmc-modeller .gm-head{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:18px}
+.gbmc-modeller .gm-kicker{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--t)}
+.gbmc-modeller h2{margin:4px 0 8px;font-size:26px;font-weight:800;color:var(--ink)}
+.gbmc-modeller .gm-intro{margin:0;color:var(--ink2);font-size:15px}
+.gbmc-modeller .gm-date{display:inline-block;margin-top:12px;background:var(--mint);color:var(--t2);font-weight:700;font-size:13px;padding:5px 12px;border-radius:999px}
+.gbmc-modeller .gm-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.gbmc-modeller .gm-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;display:flex;flex-direction:column}
+.gbmc-modeller .gm-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-bottom:2px solid var(--mint);padding-bottom:10px;margin-bottom:10px}
+.gbmc-modeller .gm-name{font-size:20px;font-weight:800;color:var(--t2)}
+.gbmc-modeller .gm-co{font-size:13px;color:var(--mut);text-align:right}
+.gbmc-modeller dl{margin:0;display:grid;grid-template-columns:118px 1fr;gap:7px 10px;font-size:14px}
+.gbmc-modeller dt{font-weight:700;color:var(--mut)}
+.gbmc-modeller dd{margin:0;color:var(--ink)}
+.gbmc-modeller .gm-data{margin-top:12px;background:var(--soft);border-radius:10px;padding:10px 12px;font-size:13.5px;color:var(--ink2)}
+.gbmc-modeller .gm-data b{color:var(--t2)}
+.gbmc-modeller .gm-data.cn{background:var(--warn);color:var(--warnInk)}
+.gbmc-modeller .gm-data.cn b{color:var(--warnInk)}
+.gbmc-modeller .gm-foot{margin-top:10px;font-size:12px;color:var(--mut);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.gbmc-modeller .gm-foot a{color:var(--t);font-weight:600;text-decoration:none}
+.gbmc-modeller .gm-note{margin-top:18px;background:#fff;border:1px dashed var(--line);border-radius:14px;padding:14px 18px;font-size:14px;color:var(--ink2)}
+.gbmc-modeller .gm-empty{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;color:var(--mut)}
+@media (max-width:520px){.gbmc-modeller dl{grid-template-columns:1fr}.gbmc-modeller dt{margin-top:4px}}
+</style>
+
+<script>
+(function () {
+  var kok = document.querySelector('.gbmc-modeller');
+  if (!kok) return;
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  var trTarih = function (iso) {
+    if (!iso) return '';
+    var d = new Date(iso);
+    if (isNaN(d)) return '';
+    return d.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Istanbul' });
+  };
+  var bas = '<div class="gm-head"><div class="gm-kicker">Yapay Zekâ Okuryazarlığı · Modül 2</div><h2>Güncel Modeller</h2>' +
+    '<p class="gm-intro">Videoda anlattığımız kavramlar değişmiyor; değişen, modellerin isimleri. Bu sayfayı her ay kontrol edip güncelliyoruz. Hangi aracın arkasında hangi modelin çalıştığını, ücretsiz sürümde neler olduğunu ve verinizin nereye gittiğini burada bulabilirsiniz.</p>';
+
+  fetch(kok.getAttribute('data-src') + '?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (p) {
+      var list = (p && p.modeller) || [];
+      if (!list.length) throw new Error('bos');
+      var h = bas + '<span class="gm-date">Son güncelleme: ' + esc(trTarih(p.guncellendi)) + '</span></div><div class="gm-grid">';
+      list.forEach(function (m) {
+        var satir = function (et, v) { return v ? '<dt>' + et + '</dt><dd>' + esc(v) + '</dd>' : ''; };
+        h += '<div class="gm-card"><div class="gm-top"><span class="gm-name">' + esc(m.arac) + '</span><span class="gm-co">' + esc(m.sirket) + (m.ulke ? ' · ' + esc(m.ulke) : '') + '</span></div><dl>' +
+          satir('Hızlı model', m.hizli) + satir('Güçlü model', m.guclu) + satir('En güçlü', m.enGuclu) + satir('Düşünme', m.dusunme) +
+          satir('Ücretsiz sürümde', m.ucretsiz) + satir('Kurumsal sürüm', m.kurumsal) + '</dl>' +
+          (m.veri ? '<div class="gm-data' + (m.ulke === 'Çin' ? ' cn' : '') + '"><b>Veriniz:</b> ' + esc(m.veri) + '</div>' : '') +
+          '<div class="gm-foot"><span>' + (m.kontrol ? 'Kontrol: ' + esc(trTarih(m.kontrol + 'T12:00:00Z')) : '') + '</span>' +
+          (m.kaynak ? '<a href="' + esc(m.kaynak) + '" target="_blank" rel="noopener">Kaynak ↗</a>' : '') + '</div></div>';
+      });
+      h += '</div><div class="gm-note">Şirket bilgisiyle çalışacaksanız ilk bakmanız gereken yer, şirketinizin onayladığı araç ve sürümdür. Modül 4’teki veri trafik ışığını unutmayın.</div>';
+      kok.innerHTML = h;
+    })
+    .catch(function () {
+      kok.innerHTML = bas + '</div><div class="gm-empty">Güncel liste şu anda yüklenemedi ya da henüz yayınlanmadı. Lütfen biraz sonra tekrar deneyin.</div>';
+    });
+})();
+</script>
