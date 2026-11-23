@@ -43,7 +43,7 @@ Bir araçta **anlamlı bir değişiklik** varsa (yeni model, emekliye ayrılan m
 
 ## 6. Özet e-postası
 
-Alıcı: m.muratozbilen@gmail.com. Konu: `Güncel Modeller AA.YYYY: N öneri` (öneri yoksa `Güncel Modeller AA.YYYY: değişiklik yok`). Türkçe, kısa:
+Alıcı: murat@ozbilen.com (başka alıcı eklenmez). Konu: `Güncel Modeller AA.YYYY: N öneri` (öneri yoksa `Güncel Modeller AA.YYYY: değişiklik yok`). Türkçe, kısa:
 - Her araç için bir satır: değişti / değişmedi; değiştiyse ne değişti.
 - KONTROL gerektiren noktalar ayrıca.
 - Kullanılan ana kaynakların bağlantıları.
