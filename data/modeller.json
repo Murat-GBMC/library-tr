@@ -1,6 +1,6 @@
 {
  "surum": 1,
- "guncellendi": "2026-11-23T17:55:28.339Z",
+ "guncellendi": "2026-11-23T18:03:18.439Z",
  "adet": 5,
  "modeller": [
   {
@@ -73,9 +73,9 @@
    "enGuclu": "DeepSeek V4 Pro",
    "dusunme": "Her iki modelde düşünme modu (uygulamada “Expert”)",
    "ucretsiz": "Web ve mobil uygulama ücretsiz",
-   "kurumsal": "Ayrı bir kurumsal sohbet sürümü yok; açık model kurumun kendi sunucusuna kurulabilir",
-   "veri": "Kendi uygulaması ve web sitesinde kullanıcı verileri Çin’deki sunucularda saklanır. Model kurumun kendi sunucusunda çalıştırılırsa veri şirket dışına çıkmaz.",
-   "kaynak": "https://api-docs.deepseek.com/updates/",
+   "kurumsal": "Ayrı bir kurumsal sohbet sürümü yok. Kurumlar modeli kendi sunucularında ya da Microsoft Foundry (Azure) gibi bulut platformlarında kullanabilir.",
+   "veri": "Veri, modelin nerede çalıştığına bağlı. DeepSeek’in kendi uygulama ve sitesinde veriler Çin’de saklanır. Kurumun kendi sunucusunda ya da Azure gibi bir bulutta çalıştırıldığında veri o ortamda, seçilen bölgede kalır.",
+   "kaynak": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-deepseek-v4-flash-and-v4-pro-in-microsoft-foundry/4515174",
    "kontrol": "2026-11-23"
   }
  ]
