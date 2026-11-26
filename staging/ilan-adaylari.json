@@ -1,657 +1,9 @@
 {
  "surum": 1,
- "olusturuldu": "2026-11-23T08:58:49+03:00",
+ "olusturuldu": "2026-11-26T08:58:43+03:00",
  "aciklama": "Claude'un hazırladığı aday ilanlar. Excel'deki 'Adayları Getir' düğmesi bunları Taslak olarak ekler. Bu dosya LearnWorlds'te gösterilmez.",
  "adet": 221,
  "adaylar": [
-  {
-   "pozisyon": "Proje Koordinatörü",
-   "firma": "MAPP MERCHANDISING GROUP",
-   "rol": "Proje Koordinatörü",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484351957/",
-   "not": "Türkiye genelindeki saha operasyonlarını planlayıp izleyen, saha ziyaretleri de içeren koordinatörlük.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. Aynı ilan Indeed ve Kariyer.net alarmında da görüldü."
-  },
-  {
-   "pozisyon": "Proje Müdürü",
-   "firma": "ARMES Architechture",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "İnşaat / Altyapı",
-   "sehir": "Ankara",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484315925/",
-   "not": "Ankara'da bir mimarlık firmasında proje müdürlüğü.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok)."
-  },
-  {
-   "pozisyon": "Proje ve Girişimcilik Uzmanı",
-   "firma": "Tenex Tekmer",
-   "rol": "Proje Uzmanı",
-   "kidem": "Uzman",
-   "sektor": "",
-   "sehir": "Eskişehir",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484325541/",
-   "not": "Tepebaşı merkezli; proje ve girişimcilik alanında uzman pozisyonu.",
-   "icNot": "KONTROL: rol (proje yönetimi ağırlığını doğrulayın). KONTROL: şehir (e-postada yalnızca Tepebaşı). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Dijital Proje Uzmanı",
-   "firma": "Mediakademi Sağlık Hizmetleri A.Ş.",
-   "rol": "Proje Uzmanı",
-   "kidem": "Uzman",
-   "sektor": "Sağlık / İlaç",
-   "sehir": "Ankara",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484328190/",
-   "not": "Ankara'da sağlık hizmetleri alanında dijital projelerde uzman.",
-   "icNot": "KONTROL: rol (proje yönetimi ağırlığını doğrulayın)."
-  },
-  {
-   "pozisyon": "Jr. MEP Project Manager",
-   "firma": "Lane People & Projects",
-   "rol": "Proje Yöneticisi",
-   "kidem": "Giriş",
-   "sektor": "İnşaat / Altyapı",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484656378/",
-   "not": "Sarıyer'de mekanik-elektrik-tesisat projelerinde kariyer başı proje yöneticisi.",
-   "icNot": ""
-  },
-  {
-   "pozisyon": "Project Manager",
-   "firma": "PiA (People in Action)",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4482221195/",
-   "not": "İstanbul'da proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Proje Müdürü",
-   "firma": "SİMORA MÜHENDİSLİK",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4473449275/",
-   "not": "İstanbul'da bir mühendislik firmasında proje müdürlüğü.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Assistant Project Manager",
-   "firma": "COFORWARD",
-   "rol": "Proje Yöneticisi",
-   "kidem": "Giriş",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484330089/",
-   "not": "İstanbul'da proje yöneticisi yardımcılığı.",
-   "icNot": "KONTROL: sektör."
-  },
-  {
-   "pozisyon": "IP Project Manager",
-   "firma": "ZTE Corporation",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "Bilişim / Teknoloji",
-   "sehir": "Ankara",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484359607/",
-   "not": "Ankara'da IP alanında proje yöneticisi.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok)."
-  },
-  {
-   "pozisyon": "Project Manager",
-   "firma": "Datassist",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486153352/",
-   "not": "Beyoğlu'nda proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Proje Yönetim Ofisi Yöneticisi",
-   "firma": "Rönesans Enerji",
-   "rol": "PMO",
-   "kidem": "Lider / Yönetici",
-   "sektor": "Enerji",
-   "sehir": "Ankara",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486140071/",
-   "not": "Ankara'da enerji iş kolunda proje yönetim ofisi yöneticisi.",
-   "icNot": "KONTROL: Rönesans Holding için benzer unvan listede var; ayrı ilan olduğunu doğrulayın."
-  },
-  {
-   "pozisyon": "Planning Chief",
-   "firma": "Ronesans Endustri Tesisleri",
-   "rol": "PMO",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486117869/",
-   "not": "İstanbul'da endüstriyel tesis işlerinde planlama şefliği.",
-   "icNot": "KONTROL: rol (planlama/proje kontrol). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör (inşaat mı, sanayi mi)."
-  },
-  {
-   "pozisyon": "Proje Müdürü",
-   "firma": "Toya Grup",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "İnşaat / Altyapı",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484362426/",
-   "not": "İstanbul'da gayrimenkul ve inşaat alanında proje müdürlüğü.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). Kariyer.net alarmında Toya Gayrimenkul Yatırım İnşaat adıyla da görüldü."
-  },
-  {
-   "pozisyon": "Export Project Manager",
-   "firma": "Öztiryakiler",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484658903/",
-   "not": "İstanbul'da ihracat projelerini yürüten proje yöneticisi.",
-   "icNot": "KONTROL: rol (satış/ihracat ağırlığını doğrulayın). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Senior Project Manager - Russian Speaking",
-   "firma": "Commencis",
-   "rol": "Proje Yöneticisi",
-   "kidem": "Kıdemli",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484677540/",
-   "not": "İstanbul'da PMO ekibinde, Rusça bilen kıdemli proje yöneticisi.",
-   "icNot": "KONTROL: sektör. Aynı ilan Indeed alarmında da görüldü."
-  },
-  {
-   "pozisyon": "Project Management Specialist II",
-   "firma": "Honeywell Technologies",
-   "rol": "Proje Uzmanı",
-   "kidem": "Uzman",
-   "sektor": "",
-   "sehir": "",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4479002102/",
-   "not": "Türkiye'de proje yönetimi uzmanı pozisyonu.",
-   "icNot": "KONTROL: şehir ve sektör."
-  },
-  {
-   "pozisyon": "Hub Digital Transformation Lead - Transformers",
-   "firma": "Hitachi Energy",
-   "rol": "Program Yöneticisi",
-   "kidem": "Lider / Yönetici",
-   "sektor": "Enerji",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486856425/",
-   "not": "İstanbul'da transformatör iş kolunda dijital dönüşüm lideri.",
-   "icNot": "KONTROL: rol (dönüşüm programı mı, doğrulayın)."
-  },
-  {
-   "pozisyon": "Proje Ve Operasyon Yöneticisi",
-   "firma": "İkon İnsan Kaynakları",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "Indeed",
-   "url": "https://tr.indeed.com/jobs?q=Proje+Ve+Operasyon+Y%C3%B6neticisi+%C4%B0kon+%C4%B0nsan+Kaynaklar%C4%B1&l=T%C3%BCrkiye",
-   "not": "Şişli'de planlamadan kapanışa projeleri ve saha ekiplerini yöneten rol.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. (E-postadaki kod: 04bfbe885154982c) KONTROL: rol (saha/puantaj operasyonu ağırlıklı olabilir). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "2027 Yaz Dönemi Staj | Proje Süreç Yönetimi ve Dokümantasyon",
-   "firma": "Baykar",
-   "rol": "Proje Uzmanı",
-   "kidem": "Giriş",
-   "sektor": "Savunma / Havacılık",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "Indeed",
-   "url": "https://tr.indeed.com/jobs?q=2027+Yaz+D%C3%B6nemi+Staj+%7C+Proje+S%C3%BCre%C3%A7+Y%C3%B6netimi+ve+Dok%C3%BCmantasyon+Baykar&l=T%C3%BCrkiye",
-   "not": "İstanbul'da proje süreç yönetimi ve dokümantasyon alanında yaz stajı.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. (E-postadaki kod: ad7036df473c915c) KONTROL: staj ilanı; sayfada yayınlanıp yayınlanmayacağına karar verin. KONTROL: İstihdam Türü listede staj yok, boş bırakıldı."
-  },
-  {
-   "pozisyon": "Lojistik Proje Sorumlusu",
-   "firma": "Trend Kurumsal Hizmetler",
-   "rol": "Proje Uzmanı",
-   "kidem": "",
-   "sektor": "Otomotiv",
-   "sehir": "Bursa",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "Indeed",
-   "url": "https://tr.indeed.com/jobs?q=Lojistik+Proje+Sorumlusu+Trend+Kurumsal+Hizmetler&l=T%C3%BCrkiye",
-   "not": "Orhangazi'de otomotiv firmasına hizmet firması üzerinden lojistik proje sorumlusu.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. (E-postadaki kod: 279601b16ca31319) KONTROL: rol (hizmet sözleşmesi/lojistik operasyon olabilir; proje yönetimi ağırlığını doğrulayın). KONTROL: firma (asıl işveren gizli). KONTROL: kıdem (unvanda yıl/işaret yok)."
-  },
-  {
-   "pozisyon": "Proje Mühendisi",
-   "firma": "SEAACADEMY",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "İstanbul",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "Indeed",
-   "url": "https://tr.indeed.com/jobs?q=Proje+M%C3%BChendisi+SEAACADEMY&l=T%C3%BCrkiye",
-   "not": "Tuzla'da yeni ürünleri üretime alan, proje ve üretim ilerlemesini raporlayan rol.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. (E-postadaki kod: 50284ab48582ca1a) KONTROL: rol (unvan mühendis; proje yönetimi ağırlığını doğrulayın). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Transformation Manager",
-   "firma": "Qatar Airways",
-   "rol": "Program Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Doha",
-   "ulke": "Katar",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4485403230/",
-   "not": "Doha'da bir havayolunda dönüşüm yöneticisi.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (dönüşüm programı mı, doğrulayın). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör (havacılık)."
-  },
-  {
-   "pozisyon": "PMO Governance & Portfolio Management, Section Manager",
-   "firma": "alfanar",
-   "rol": "PMO",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Riyad",
-   "ulke": "Suudi Arabistan",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4485407417/",
-   "not": "Riyad'da PMO yönetişimi ve portföy yönetimi bölüm yöneticisi.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Project Execution Manager",
-   "firma": "Hilti Emirates",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Dubai",
-   "ulke": "BAE",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4483462890/",
-   "not": "Dubai'de proje uygulama yöneticisi.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Set up Manager/Expansion Manager/Project Manager",
-   "firma": "GSM - Green SM",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Kuveyt",
-   "ulke": "Kuveyt",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484319169/",
-   "not": "Kuveyt'te kurulum ve yayılma odaklı proje yöneticisi; aynı unvan Doha için de var.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (kurulum/büyüme operasyonu olabilir). KONTROL: Aynı unvan Doha için de görüldü (4484318163). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Manager Project Management",
-   "firma": "EDGE",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Abu Dabi",
-   "ulke": "BAE",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4467895281/",
-   "not": "Abu Dabi'de proje yönetimi müdürü pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Senior Director Planning & Implementation - 50008804 - DA3",
-   "firma": "Qiddiya | القدية",
-   "rol": "PMO",
-   "kidem": "Lider / Yönetici",
-   "sektor": "",
-   "sehir": "Riyad",
-   "ulke": "Suudi Arabistan",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-02",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4477241887/",
-   "not": "Riyad'da planlama ve uygulamadan sorumlu kıdemli direktör.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (planlama/uygulama). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Senior Project Manager / CX Program Manager",
-   "firma": "hmmh Middle East",
-   "rol": "Program Yöneticisi",
-   "kidem": "Kıdemli",
-   "sektor": "",
-   "sehir": "Dubai",
-   "ulke": "BAE",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484679254/",
-   "not": "Dubai'de müşteri deneyimi programlarını yöneten kıdemli proje yöneticisi.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Program Director – Strategy Execution & Transformation Office",
-   "firma": "SOLGulf",
-   "rol": "Program Yöneticisi",
-   "kidem": "Lider / Yönetici",
-   "sektor": "",
-   "sehir": "Riyad",
-   "ulke": "Suudi Arabistan",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484662397/",
-   "not": "Riyad'da strateji uygulama ve dönüşüm ofisinden sorumlu program direktörü.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Project Manager",
-   "firma": "Schneider Electric",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Dubai",
-   "ulke": "BAE",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486083295/",
-   "not": "Dubai'de proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Head of Special Projects",
-   "firma": "eMagine Solutions",
-   "rol": "Proje Yöneticisi",
-   "kidem": "Lider / Yönetici",
-   "sektor": "",
-   "sehir": "Dubai",
-   "ulke": "BAE",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486878786/",
-   "not": "Dubai'de özel projelerden sorumlu birim başkanı.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Manager - Project Management - Payments",
-   "firma": "emaratech",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Dubai",
-   "ulke": "BAE",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486165311/",
-   "not": "Dubai'de ödeme sistemleri alanında proje yönetimi müdürü.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör (ödeme/teknoloji)."
-  },
-  {
-   "pozisyon": "Senior Project Manager",
-   "firma": "Innovative Solutions SA",
-   "rol": "Proje Yöneticisi",
-   "kidem": "Kıdemli",
-   "sektor": "",
-   "sehir": "Riyad",
-   "ulke": "Suudi Arabistan",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486134530/",
-   "not": "Riyad'da kıdemli proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör."
-  },
-  {
-   "pozisyon": "Delivery Director",
-   "firma": "Parsons Corporation",
-   "rol": "Proje Yöneticisi",
-   "kidem": "Lider / Yönetici",
-   "sektor": "İnşaat / Altyapı",
-   "sehir": "Riyad",
-   "ulke": "Suudi Arabistan",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4486166159/",
-   "not": "Riyad'da proje tesliminden sorumlu direktör.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (teslimat yönetimi)."
-  },
-  {
-   "pozisyon": "Senior Project Manager",
-   "firma": "Gizli firma (sektör belirtilmemiş)",
-   "rol": "Proje Yöneticisi",
-   "kidem": "Kıdemli",
-   "sektor": "",
-   "sehir": "Doha",
-   "ulke": "Katar",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484606114/",
-   "not": "Doha'da firması gizli kıdemli proje yöneticisi ilanı.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli)."
-  },
-  {
-   "pozisyon": "Project Manager",
-   "firma": "Multi Technology Company",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "",
-   "sehir": "Riyad",
-   "ulke": "Suudi Arabistan",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "EN",
-   "ilanTarihi": "2026-11-03",
-   "sonBasvuru": "",
-   "kaynak": "LinkedIn",
-   "url": "https://www.linkedin.com/jobs/view/4484303931/",
-   "not": "Riyad bölgesinde proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör."
-  },
   {
    "pozisyon": "Proje Müdürü (İnşaat Mühendisi)",
    "firma": "ACM Mühendislik İnşaat",
@@ -668,7 +20,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486643706/",
    "not": "Malatya'da inşaat mühendisliği geçmişi beklenen proje müdürü pozisyonu.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Coordinator",
@@ -686,7 +39,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487604978/",
    "not": "Gölbaşı'nda firması gizli proje koordinatörü ilanı.",
-   "icNot": "KONTROL: firma ve sektör (gizli). KONTROL: şehir (Gölbaşı; Ankara mı Adıyaman mı). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: firma ve sektör (gizli). KONTROL: şehir (Gölbaşı; Ankara mı Adıyaman mı). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "DWDM Project Manager",
@@ -704,7 +58,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486248273/",
    "not": "Ankara'da optik iletim (DWDM) projelerini yönetecek proje yöneticisi.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Kıdemli Program Yöneticisi",
@@ -722,7 +77,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486232794/",
    "not": "Bankacılıkta kıdemli program yöneticisi pozisyonu.",
-   "icNot": "KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Director Program Management, 2 Hour Learning (Remote) - $200,000/year USD",
@@ -740,7 +96,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486354892/",
    "not": "Eğitim alanında uzaktan çalışmalı program yönetimi direktörlüğü; Türkiye konumuyla listelenmiş.",
-   "icNot": "KONTROL: Türkiye'den uzaktan başvuru gerçekten açık mı ve işverenin niteliği (unvanda maaş, e-postada saatlik ücret çelişkili). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: Türkiye'den uzaktan başvuru gerçekten açık mı ve işverenin niteliği (unvanda maaş, e-postada saatlik ücret çelişkili). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Yöneticisi",
@@ -758,7 +115,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486228231/",
    "not": "Sancaktepe'de mağaza dekorasyonu ve mobilya projelerinde proje yöneticisi.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Business Solutions Project Lead / Manager",
@@ -776,7 +134,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4463489000/",
    "not": "Kartal'da iş çözümleri projelerine liderlik edecek proje yöneticisi.",
-   "icNot": "KONTROL: Holding (iş kolları e-postada yok); rol grup düzeyinde görünüyor, doğrulayın. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: Holding (iş kolları e-postada yok); rol grup düzeyinde görünüyor, doğrulayın. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "IT Project Manager",
@@ -794,7 +153,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487719613/",
    "not": "Ekspres kargo şirketinde BT projelerini yönetecek proje yöneticisi.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Associate Project Manager",
@@ -812,7 +172,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487728707/",
    "not": "İzmit'te kariyerinin başındakiler için yardımcı proje yöneticisi rolü.",
-   "icNot": "KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "TEXTILE PROJECT SPECIALIST",
@@ -830,7 +191,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485832006/",
    "not": "Bursa'da tekstil projelerinde görev alacak proje uzmanı.",
-   "icNot": "KONTROL: rol (ürün geliştirme projesi mi, proje yönetimi mi). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: rol (ürün geliştirme projesi mi, proje yönetimi mi). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Manager",
@@ -848,7 +210,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486791128/",
    "not": "Akıllı bina projelerinde enerji verimliliği odaklı proje yöneticisi.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: Indeed'de de görüldü; sektör Indeed özetindeki bina altyapısı bilgisine göre seçildi. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: Indeed'de de görüldü; sektör Indeed özetindeki bina altyapısı bilgisine göre seçildi. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Management Office (PMO) Executive",
@@ -866,7 +229,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487716808/",
    "not": "Zeytinburnu'nda holding proje yönetim ofisinde görev alacak PMO rolü.",
-   "icNot": "KONTROL: Holding (iş kolları e-postada yok); rol grup düzeyinde. KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: Holding (iş kolları e-postada yok); rol grup düzeyinde. KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Koordinasyon Yöneticisi",
@@ -884,7 +248,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485045934/",
    "not": "Pendik'teki tersanede proje koordinasyonunu yönetecek rol.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Veri Bağı Sistemleri Program Yöneticisi",
@@ -902,7 +267,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4463000561/",
    "not": "Savunma sanayinde veri bağı sistemleri programını yönetecek rol.",
-   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Kongre Proje Koordinatörü",
@@ -920,25 +286,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485093154/",
    "not": "Beşiktaş'ta kongre ve etkinlik projelerinin koordinasyonu.",
-   "icNot": "KONTROL: rol (etkinlik operasyonu mu, proje koordinasyonu mu). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
-  },
-  {
-   "pozisyon": "Üretim Ve Proje Takip Müdürü",
-   "firma": "Optima Technic",
-   "rol": "Proje Yöneticisi",
-   "kidem": "",
-   "sektor": "Üretim / Sanayi",
-   "sehir": "Ankara",
-   "ulke": "Türkiye",
-   "calisma": "",
-   "istihdam": "Tam zamanlı",
-   "dil": "TR",
-   "ilanTarihi": "2026-11-04",
-   "sonBasvuru": "",
-   "kaynak": "Indeed",
-   "url": "https://tr.indeed.com/jobs?q=%C3%9Cretim+Ve+Proje+Takip+M%C3%BCd%C3%BCr%C3%BC+Optima+Technic&l=T%C3%BCrkiye",
-   "not": "Sincan'da projelerin üretim süreçlerini uçtan uca izleyip koordine eden müdür.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: rol (üretim müdürlüğü ağırlıklı olabilir). KONTROL: kıdem (unvanda yıl/işaret yok)."
+   "icNot": "KONTROL: rol (etkinlik operasyonu mu, proje koordinasyonu mu). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Telekomünikasyon Proje Müdürü",
@@ -956,7 +305,8 @@
    "kaynak": "Indeed",
    "url": "https://tr.indeed.com/jobs?q=Telekom%C3%BCnikasyon+Proje+M%C3%BCd%C3%BCr%C3%BC+Kimluha&l=T%C3%BCrkiye",
    "not": "Adana'da telekom altyapı projelerinin planlanması ve teslimi.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok)."
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok).",
+   "basvuru": ""
   },
   {
    "pozisyon": "İnşaat Proje Müdürü",
@@ -974,7 +324,8 @@
    "kaynak": "Indeed",
    "url": "https://tr.indeed.com/jobs?q=%C4%B0n%C5%9Faat+Proje+M%C3%BCd%C3%BCr%C3%BC+Meca+Aluminium+Industriel&l=T%C3%BCrkiye",
    "not": "Antalya'da alüminyum uygulamalı inşaat projelerinde işverenle ilerleme takibi.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok)."
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok).",
+   "basvuru": ""
   },
   {
    "pozisyon": "IT Project Manager",
@@ -992,7 +343,8 @@
    "kaynak": "Indeed",
    "url": "https://tr.indeed.com/jobs?q=IT+Project+Manager+Personify+Health&l=T%C3%BCrkiye",
    "not": "Tuzla'da BT, güvenlik ve otomasyon projelerini talepten teslime yönetecek rol.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok)."
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager",
@@ -1010,7 +362,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4484663614/",
    "not": "Riyad'da kıdemli proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager",
@@ -1028,7 +381,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486217687/",
    "not": "Abu Dabi'de kıdemli proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "IT Specialist - Projects",
@@ -1046,7 +400,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4479824111/",
    "not": "Dubai'de BT projelerinde görev alacak uzman.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (BT uzmanlığı mı, proje yönetimi mi). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (BT uzmanlığı mı, proje yönetimi mi). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Planning Manager",
@@ -1064,7 +419,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486229884/",
    "not": "Riyad'da proje planlamasından sorumlu kıdemli yönetici.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). Rol türü: planlama/proje kontrol. KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). Rol türü: planlama/proje kontrol. KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "PMO Lead",
@@ -1082,7 +438,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487726267/",
    "not": "Dubai'de işe alım firması üzerinden PMO lideri ilanı.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Strategic planning and projects management",
@@ -1100,7 +457,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485832077/",
    "not": "Riyad'da stratejik planlama ve proje yönetimi rolü.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Vice President - Project Delivery",
@@ -1118,7 +476,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485827462/",
    "not": "Abu Dabi'de proje teslimden sorumlu başkan yardımcılığı; firma adı gizli.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager (PMO)",
@@ -1136,7 +495,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4434401202/",
    "not": "Riyad'da PMO ağırlıklı kıdemli proje yöneticisi.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Head of Technology Transformation & Portfolio Management",
@@ -1154,7 +514,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487712133/",
    "not": "Bankada teknoloji dönüşümü ve proje portföyünü yönetecek birim başkanı.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager",
@@ -1172,7 +533,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4479139901/",
    "not": "BAE'de kıdemli proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: şehir. KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: şehir. KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager",
@@ -1190,7 +552,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487785050/",
    "not": "Riyad'da işe alım firması üzerinden kıdemli proje yöneticisi ilanı.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Manager - Kuwait",
@@ -1208,7 +571,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487717501/",
    "not": "Kuveyt'te firması gizli proje yöneticisi ilanı.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Specialist Project Management",
@@ -1226,7 +590,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4468003163/",
    "not": "Abu Dabi'de proje yönetimi uzmanı pozisyonu.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "PMO Coordinator",
@@ -1244,7 +609,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485063454/",
    "not": "Abu Dabi'de PMO koordinasyon rolü.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Consultant - Project Governance",
@@ -1262,7 +628,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487001195/",
    "not": "Doha'da proje yönetişimi alanında danışman.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "PMO Lead - Planning, Performance & Transformation",
@@ -1280,7 +647,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4485091571/",
    "not": "Planlama, performans ve dönüşüm odaklı PMO liderliği.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Head of E&M Transformation Programme",
@@ -1298,7 +666,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487257476/",
    "not": "Doha'da elektrik-mekanik dönüşüm programını yönetecek başkan.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: İlan tarihi e-posta tarihidir."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Yöneticisi / Yönetmeni",
@@ -1316,7 +685,8 @@
    "kaynak": "Kariyer.net",
    "url": "https://www.kariyer.net/is-ilanlari/pozitera+perakende",
    "not": "Perakende geliştirme hizmetleri veren bir firmada proje yöneticiliği rolü.",
-   "icNot": "KONTROL: Kariyer.net bağlantısı geçici. Kariyer.net'te ilanı açıp adres çubuğundaki kariyer.net/is-ilani/... adresini yapıştırın; şehir ve çalışma şeklini doldurun. E-postadaki Başvur düğmesine basmayın. KONTROL: kıdem"
+   "icNot": "KONTROL: Kariyer.net bağlantısı geçici. Kariyer.net'te ilanı açıp adres çubuğundaki kariyer.net/is-ilani/... adresini yapıştırın; şehir ve çalışma şeklini doldurun. E-postadaki Başvur düğmesine basmayın. KONTROL: kıdem",
+   "basvuru": ""
   },
   {
    "pozisyon": "Program Operations Lead, Apple Developer Academy Türkiye",
@@ -1334,7 +704,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4488376800/",
    "not": "Apple Developer Academy Türkiye programının operasyonlarını yöneten lider rolü.",
-   "icNot": "KONTROL: rol (program operasyonu; proje/program yönetimi ağırlığını ilanda doğrulayın). PMO Türkiye alarmından geldi."
+   "icNot": "KONTROL: rol (program operasyonu; proje/program yönetimi ağırlığını ilanda doğrulayın). PMO Türkiye alarmından geldi.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Execution Team Leader",
@@ -1352,7 +723,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4476647876/",
    "not": "İstanbul'da proje uygulama ekibini yöneten takım lideri pozisyonu; şirket aktif işe alım yapıyor.",
-   "icNot": "KONTROL: sektör (Enerji varsayıldı; e-postada iş kolu yok)."
+   "icNot": "KONTROL: sektör (Enerji varsayıldı; e-postada iş kolu yok).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Global Supply Chain Transformation & Project Management Specialist / Senior Specialist",
@@ -1370,7 +742,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487136914/",
    "not": "Küresel tedarik zinciri dönüşümü ve proje yönetimi üzerine uzman/kıdemli uzman pozisyonu.",
-   "icNot": "KONTROL: kıdem (unvan 'Specialist / Senior Specialist'; Uzman ya da Kıdemli). KONTROL: sektör (FMCG varsayıldı)."
+   "icNot": "KONTROL: kıdem (unvan 'Specialist / Senior Specialist'; Uzman ya da Kıdemli). KONTROL: sektör (FMCG varsayıldı).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Müdürü",
@@ -1388,7 +761,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4489447677/",
    "not": "Ankara'da firması gizli tutulan bir şirkette proje müdürlüğü.",
-   "icNot": "KONTROL: firma ve sektör (gizli). KONTROL: kıdem."
+   "icNot": "KONTROL: firma ve sektör (gizli). KONTROL: kıdem.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Uzmanı",
@@ -1406,7 +780,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487820577/",
    "not": "Ankara'da proje uzmanı pozisyonu.",
-   "icNot": "KONTROL: sektör."
+   "icNot": "KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Yöneticisi",
@@ -1424,7 +799,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487481375/",
    "not": "Ankara'da proje yöneticisi pozisyonu; şirket hızlı büyüyor.",
-   "icNot": "KONTROL: kıdem. KONTROL: sektör (e-postada iş kolu yok)."
+   "icNot": "KONTROL: kıdem. KONTROL: sektör (e-postada iş kolu yok).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Team Member",
@@ -1442,7 +818,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487479118/",
    "not": "Kocaeli'de proje ekibinde yer alacak ekip üyesi pozisyonu.",
-   "icNot": "KONTROL: rol (proje ekip üyesi; proje yönetimi ağırlığını doğrulayın). KONTROL: kıdem (unvandan Giriş varsayıldı). KONTROL: sektör."
+   "icNot": "KONTROL: rol (proje ekip üyesi; proje yönetimi ağırlığını doğrulayın). KONTROL: kıdem (unvandan Giriş varsayıldı). KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Ar-Ge Proje Uzmanı",
@@ -1460,7 +837,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487120873/",
    "not": "Ankara Sincan'da Ar-Ge projeleri yürütecek proje uzmanı.",
-   "icNot": ""
+   "icNot": "",
+   "basvuru": ""
   },
   {
    "pozisyon": "Planlama Sorumlusu",
@@ -1478,7 +856,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487105122/",
    "not": "İstanbul'da bir yapı firmasında proje planlama sorumlusu.",
-   "icNot": "KONTROL: rol (planlama sorumlusu; proje planlaması mı üretim planlaması mı doğrulayın). KONTROL: kıdem."
+   "icNot": "KONTROL: rol (planlama sorumlusu; proje planlaması mı üretim planlaması mı doğrulayın). KONTROL: kıdem.",
+   "basvuru": ""
   },
   {
    "pozisyon": "ERP Account & Project Specialist",
@@ -1496,7 +875,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487128428/",
    "not": "Gebze'de ERP müşteri ve proje süreçlerini yürütecek uzman.",
-   "icNot": "KONTROL: rol (hesap yönetimi + proje; müşteri yönetimi ağırlıklıysa çıkarın)."
+   "icNot": "KONTROL: rol (hesap yönetimi + proje; müşteri yönetimi ağırlıklıysa çıkarın).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Cyber Security Project Manager ( İstanbul / Ankara)",
@@ -1514,7 +894,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487148274/",
    "not": "Siber güvenlik projelerini yönetecek proje yöneticisi; İstanbul ya da Ankara.",
-   "icNot": "KONTROL: kıdem. KONTROL: şehir (İstanbul/Ankara)."
+   "icNot": "KONTROL: kıdem. KONTROL: şehir (İstanbul/Ankara).",
+   "basvuru": ""
   },
   {
    "pozisyon": "TRANSFORMATION AND PROJECT MANAGEMENT OFFICE MANAGER",
@@ -1532,7 +913,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486235120/",
    "not": "Dönüşüm ve proje yönetim ofisinin yönetimi; şirket aktif işe alım yapıyor.",
-   "icNot": "KONTROL: sektör (e-postada iş kolu yok)."
+   "icNot": "KONTROL: sektör (e-postada iş kolu yok).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Bölge Proje Müdürü",
@@ -1550,7 +932,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4488785898/",
    "not": "İstanbul'da bölge proje müdürlüğü pozisyonu.",
-   "icNot": "KONTROL: rol (seramik sektöründe 'bölge proje müdürü' proje satışı olabilir; satışsa çıkarın). KONTROL: kıdem."
+   "icNot": "KONTROL: rol (seramik sektöründe 'bölge proje müdürü' proje satışı olabilir; satışsa çıkarın). KONTROL: kıdem.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Manager",
@@ -1568,7 +951,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487149249/",
    "not": "İzmir'de proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: kıdem. KONTROL: sektör."
+   "icNot": "KONTROL: kıdem. KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Yöneticisi",
@@ -1586,7 +970,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4478698354/",
    "not": "İstanbul'da doğrudan pazarlama alanında proje yöneticisi; şirket hızlı büyüyor.",
-   "icNot": "KONTROL: kıdem. KONTROL: sektör."
+   "icNot": "KONTROL: kıdem. KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Yöneticisi",
@@ -1604,7 +989,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487177230/",
    "not": "İstanbul'da turizm firmasında proje yöneticisi pozisyonu.",
-   "icNot": "KONTROL: kıdem."
+   "icNot": "KONTROL: kıdem.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Business Program Office Consultant",
@@ -1622,7 +1008,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4488876174/",
    "not": "Maltepe'de iş program ofisinde danışman pozisyonu; şirket hızlı büyüyor.",
-   "icNot": "KONTROL: kıdem. KONTROL: sektör."
+   "icNot": "KONTROL: kıdem. KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Yönetimi",
@@ -1640,7 +1027,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486692897/",
    "not": "Manisa'da elektrik-elektronik firmasında proje yönetimi pozisyonu.",
-   "icNot": "KONTROL: kıdem. KONTROL: sektör."
+   "icNot": "KONTROL: kıdem. KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Sorumlusu",
@@ -1658,7 +1046,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486237275/",
    "not": "Kağıthane'de mimarlık ofisinde proje sorumlusu.",
-   "icNot": "KONTROL: rol (mimari tasarım sorumluluğu olabilir; proje yönetimi değilse çıkarın). KONTROL: kıdem."
+   "icNot": "KONTROL: rol (mimari tasarım sorumluluğu olabilir; proje yönetimi değilse çıkarın). KONTROL: kıdem.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Asistanı",
@@ -1676,7 +1065,8 @@
    "kaynak": "Indeed",
    "url": "https://tr.indeed.com/jobs?q=Proje+Asistanı+Mass+Dırect&l=T%C3%BCrkiye",
    "not": "Koşuyolu ofisinde, bir gıda firması için proje takibi ve raporlama yapacak asistan.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: sektör."
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Proje Planlama & Lojistik Mühendisi",
@@ -1694,7 +1084,8 @@
    "kaynak": "Indeed",
    "url": "https://tr.indeed.com/jobs?q=Proje+Planlama+&+Lojistik+Mühendisi+Frigo+Mekanik&l=T%C3%BCrkiye",
    "not": "Esenyurt'ta proje takvimi, raporlama ve yurt dışı işlerin lojistiğini yürütecek mühendis.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem. KONTROL: sektör."
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem. KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Uygulama Güvenliği Proje Uzmanı / Sorumlusu",
@@ -1712,7 +1103,8 @@
    "kaynak": "Indeed",
    "url": "https://tr.indeed.com/jobs?q=Uygulama+Güvenliği+Proje+Uzmanı+/+Sorumlusu+BNP+Paribas&l=T%C3%BCrkiye",
    "not": "Bankada uygulama güvenliği projelerini yürütecek uzman; iyi İngilizce ve mühendislik diploması aranıyor.",
-   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın."
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın.",
+   "basvuru": ""
   },
   {
    "pozisyon": "PMO Manager",
@@ -1730,7 +1122,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4489439441/",
    "not": "Riyad'da PMO yönetimi; ilan bir işe alım firması üzerinden.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). İşveren adı ilanda geçiyorsa Firma'ya yazın."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). İşveren adı ilanda geçiyorsa Firma'ya yazın.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Chief Projects Officer",
@@ -1748,7 +1141,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487441589/",
    "not": "Dubai'de projelerden sorumlu üst yönetici rolü; ilan bir işe alım firması üzerinden.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). İşveren adı ilanda geçiyorsa Firma'ya yazın."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). İşveren adı ilanda geçiyorsa Firma'ya yazın.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager",
@@ -1766,7 +1160,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487466032/",
    "not": "Abu Dabi'de kıdemli proje yöneticisi; şirket hızlı büyüyor.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Manager Projects",
@@ -1784,7 +1179,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487439512/",
    "not": "Doha'da havacılık hizmetleri firmasında projelerden sorumlu kıdemli müdür.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı).",
+   "basvuru": ""
   },
   {
    "pozisyon": "PMO Manager",
@@ -1802,7 +1198,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487458550/",
    "not": "Cidde'de otomotiv firmasında PMO yönetimi.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Executive Program Director - UAE Program",
@@ -1820,7 +1217,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487815333/",
    "not": "Dubai'de BAE programını yönetecek program direktörü; şirket aktif işe alım yapıyor.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Portfolio Manager",
@@ -1838,7 +1236,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487475654/",
    "not": "Abu Dabi'de proje portföyü yönetimi; şirket hızlı büyüyor.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem. KONTROL: sektör."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem. KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Director",
@@ -1856,7 +1255,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4482082942/",
    "not": "Riyad'da firması gizli bir şirkette kıdemli proje direktörlüğü.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Head of Project Management & Cost Control",
@@ -1874,7 +1274,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487154530/",
    "not": "Doha'da proje yönetimi ve maliyet kontrolü biriminin başı; firma gizli.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Project Director",
@@ -1892,7 +1293,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487165095/",
    "not": "Dubai'de proje direktörü; ilan 'Confidential Careers' adıyla verilmiş.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager Doha",
@@ -1910,7 +1312,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487180359/",
    "not": "Doha'da kıdemli proje yöneticisi; şirket hızlı büyüyor.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Manager, Business Transformation",
@@ -1928,7 +1331,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4489102793/",
    "not": "Abu Dabi'de iş dönüşümü yönetimi rolü.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). KONTROL: rol (dönüşüm ofisi mi doğrulayın)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Körfez unvanı). KONTROL: rol (dönüşüm ofisi mi doğrulayın).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior PMO Manager - Strategic Programs",
@@ -1946,7 +1350,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4486683908/",
    "not": "Doha'da adı açıklanmayan bir kamu kurumunda stratejik programlar PMO'su.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma (gizli kamu kurumu). Kamu kurumunda vatandaşlık şartını özellikle kontrol edin."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma (gizli kamu kurumu). Kamu kurumunda vatandaşlık şartını özellikle kontrol edin.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Director - Project Management - AG6",
@@ -1964,7 +1369,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487646385/",
    "not": "Riyad'da Qiddiya bünyesinde proje yönetimi direktörlüğü (AG6 kademe).",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Program Manager – Manufacturing Facility Development",
@@ -1982,7 +1388,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4488755980/",
    "not": "Dubai'de üretim tesisi kurulumunu yönetecek program yöneticisi; şirket aktif işe alım yapıyor.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem.",
+   "basvuru": ""
   },
   {
    "pozisyon": "Senior Project Manager",
@@ -2000,7 +1407,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4484933108/",
    "not": "Riyad'da kıdemli proje yöneticisi.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör (çok sektörlü holding)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör (çok sektörlü holding).",
+   "basvuru": ""
   },
   {
    "pozisyon": "IT Specialist - PMO (Kirby)",
@@ -2018,7 +1426,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4488775763/",
    "not": "Kuveyt'te grubun Kirby birimi için BT PMO uzmanı; şirket aktif işe alım yapıyor.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör (çok sektörlü holding; rol BT)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör (çok sektörlü holding; rol BT).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Projects & Operations Specialist",
@@ -2036,7 +1445,8 @@
    "kaynak": "LinkedIn",
    "url": "https://www.linkedin.com/jobs/view/4487101009/",
    "not": "Riyad'da yönetim danışmanlığı firmasında proje ve operasyon uzmanı.",
-   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin)."
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin).",
+   "basvuru": ""
   },
   {
    "pozisyon": "Managing Consultant, Advisors & Consulting Services, Deploy",
@@ -4088,6 +3498,709 @@
    "url": "https://www.linkedin.com/jobs/view/4492063331/",
    "not": "Dubai'de kıdemli proje yöneticisi.",
    "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Customer Project Manager",
+   "firma": "Ericsson",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Telekom",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/jobs?q=Customer+Project+Manager+Ericsson&l=T%C3%BCrkiye",
+   "not": "İstanbul'da telekom yazılımı dönüşüm ve entegrasyon projelerini yürütecek deneyimli müşteri proje yöneticisi.",
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: kıdem (unvanda yıl/işaret yok).",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Elektrik Mühendisi",
+   "firma": "Detam Grup",
+   "rol": "Proje Uzmanı",
+   "kidem": "",
+   "sektor": "İnşaat / Altyapı",
+   "sehir": "Ankara",
+   "ulke": "Türkiye",
+   "calisma": "Ofis",
+   "istihdam": "Tam zamanlı",
+   "dil": "TR",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "Indeed",
+   "url": "https://tr.indeed.com/jobs?q=Elektrik+M%C3%BChendisi+Detam+Grup&l=T%C3%BCrkiye",
+   "not": "Ankara İncek merkez ofisinde PMO ekibine katılacak, şantiye ve proje süreçlerinde deneyimli elektrik mühendisi.",
+   "icNot": "KONTROL: Indeed bağlantısı geçici. İlanı açıp adres çubuğundaki vjk= kodunu https://tr.indeed.com/viewjob?jk=KOD olarak yazın. KONTROL: rol (unvan mühendis; PMO ekibi için). KONTROL: kıdem. KONTROL: sektör.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Project Support Officer",
+   "firma": "Spektrum",
+   "rol": "Proje Koordinatörü",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "İzmir",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4494112202/",
+   "not": "İzmir'de proje yönetimine destek verecek proje destek sorumlusu.",
+   "icNot": "KONTROL: kıdem. KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Project Manager",
+   "firma": "SESTEK",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493748783/",
+   "not": "Türkiye'de bir teknoloji firmasında proje yöneticisi.",
+   "icNot": "KONTROL: şehir (yalnızca Türkiye yazıyor). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Project Chief (Hybrid)",
+   "firma": "Amaris Consulting",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Danışmanlık",
+   "sehir": "Bursa",
+   "ulke": "Türkiye",
+   "calisma": "Hibrit",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493975413/",
+   "not": "Bursa'da hibrit çalışmalı proje şefi pozisyonu.",
+   "icNot": "KONTROL: rol (proje şefliğinin kapsamını doğrulayın). KONTROL: kıdem. KONTROL: sektör (danışmanlık; müşteri sektörü belirsiz). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Proje Asistanı",
+   "firma": "Marka Works",
+   "rol": "Proje Koordinatörü",
+   "kidem": "Giriş",
+   "sektor": "",
+   "sehir": "Antalya",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "TR",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4494108088/",
+   "not": "Antalya Konyaaltı'nda proje süreçlerini destekleyecek proje asistanı.",
+   "icNot": "KONTROL: şehir (e-postada Konyaaltı). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Project Manager, Engineering",
+   "firma": "Damen",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Üretim / Sanayi",
+   "sehir": "Antalya",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4450230252/",
+   "not": "Antalya'da mühendislik proje yöneticisi.",
+   "icNot": "KONTROL: kıdem. KONTROL: sektör (gemi inşa). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Project Manager - South Korea",
+   "firma": "Karadeniz Holding",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4487152278/",
+   "not": "İstanbul merkezli, Güney Kore'deki işleri yürütecek proje yöneticisi.",
+   "icNot": "KONTROL: sektör (çok sektörlü holding). KONTROL: çalışma yeri (Kore'de görev olabilir). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Proje Yönetim Ofisi Uzmanı",
+   "firma": "Ela Excellence Resort Belek",
+   "rol": "PMO",
+   "kidem": "Uzman",
+   "sektor": "",
+   "sehir": "Antalya",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "TR",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4472274536/",
+   "not": "Belek'te bir tatil otelinin proje yönetim ofisinde uzman.",
+   "icNot": "KONTROL: sektör (turizm; listede karşılığı yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Senior Director, Technology Strategy, Product & Delivery Lead",
+   "firma": "Pfizer",
+   "rol": "Program Yöneticisi",
+   "kidem": "Lider / Yönetici",
+   "sektor": "Sağlık / İlaç",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493627656/",
+   "not": "İstanbul'da teknoloji stratejisi, ürün ve teslimattan sorumlu kıdemli direktör.",
+   "icNot": "KONTROL: rol (strateji/ürün ağırlığı; teslimat yönetimini doğrulayın). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Enterprise Transformation & Capital Programmes Manager",
+   "firma": "ISG - Istanbul Sabiha Gokcen International Airport",
+   "rol": "Program Yöneticisi",
+   "kidem": "",
+   "sektor": "Savunma / Havacılık",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493657347/",
+   "not": "Sabiha Gökçen Havalimanı'nda kurumsal dönüşüm ve yatırım programları yöneticisi.",
+   "icNot": "KONTROL: şehir (e-postada Pendik). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör (havalimanı işletmesi). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Senior IT Project Manager",
+   "firma": "Concentrix",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4483959123/",
+   "not": "İstanbul Kâğıthane'de kıdemli BT proje yöneticisi.",
+   "icNot": "KONTROL: şehir (e-postada Kâğıthane). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Project Manager",
+   "firma": "OREDATA",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "İstanbul",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493197399/",
+   "not": "İstanbul'da proje yöneticisi pozisyonu.",
+   "icNot": "KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Technical Product Owner / Project Manager",
+   "firma": "Inkteo",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "",
+   "ulke": "Türkiye",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493106402/",
+   "not": "Teknik ürün sahipliği ile proje yöneticiliğini birleştiren rol.",
+   "icNot": "KONTROL: şehir (yalnızca Türkiye yazıyor). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": ""
+  },
+  {
+   "pozisyon": "Technology PMO Expert",
+   "firma": "stc",
+   "rol": "PMO",
+   "kidem": "Uzman",
+   "sektor": "Telekom",
+   "sehir": "Riyad",
+   "ulke": "Suudi Arabistan",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4494114346/",
+   "not": "Riyad'da telekom şirketinin teknoloji biriminde PMO uzmanı.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Expert unvanı). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "PMO Analyst",
+   "firma": "Namaa Partners",
+   "rol": "PMO",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "Riyad",
+   "ulke": "Suudi Arabistan",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4494371723/",
+   "not": "Riyad'da PMO analisti pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem. KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Senior Project Manager",
+   "firma": "beOnd",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "",
+   "sehir": "Dubai",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4494107163/",
+   "not": "Dubai'de kıdemli proje yöneticisi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör (havacılık). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "HEAD, PROJECT CONTROLS & SERVICES",
+   "firma": "QatarEnergy",
+   "rol": "PMO",
+   "kidem": "Lider / Yönetici",
+   "sektor": "Enerji",
+   "sehir": "Doha",
+   "ulke": "Katar",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4485456992/",
+   "not": "Doha'da enerji şirketinde proje kontrol ve hizmetleri biriminin başı.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kamu şirketinde vatandaşlık şartını özellikle kontrol edin. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Project Manager - AI",
+   "firma": "Qatar Airways",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "Doha",
+   "ulke": "Katar",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4494038162/",
+   "not": "Doha'da yapay zekâ projeleri yöneticisi.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör (havacılık). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Manager Enterprise Effectiveness – (In-House Consulting Portfolio Lead)",
+   "firma": "Emirates",
+   "rol": "Portföy Yöneticisi",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "Dubai",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492647255/",
+   "not": "Dubai'de kurum içi danışmanlık portföyünü yönetecek rol.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (iç danışmanlık; portföy yönetimi ağırlığını doğrulayın). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Senior Project Manager",
+   "firma": "Ogenus Offshore",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "Enerji",
+   "sehir": "Dubai",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493906276/",
+   "not": "Dubai'de kıdemli proje yöneticisi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör (offshore). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Senior Project Manager",
+   "firma": "JLL",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "İnşaat / Altyapı",
+   "sehir": "",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-25",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493693446/",
+   "not": "BAE'de kıdemli proje yöneticisi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: şehir. KONTROL: sektör (gayrimenkul). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Senior PMO Manager - Project controls",
+   "firma": "Gizli firma (sektör belirtilmemiş)",
+   "rol": "PMO",
+   "kidem": "Kıdemli",
+   "sektor": "",
+   "sehir": "Dubai",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492604615/",
+   "not": "Dubai'de firması gizli, proje kontrol odaklı kıdemli PMO yöneticisi.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Head of Project Delivery",
+   "firma": "Gizli firma (sektör belirtilmemiş)",
+   "rol": "Program Yöneticisi",
+   "kidem": "Lider / Yönetici",
+   "sektor": "",
+   "sehir": "Abu Dabi",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493627063/",
+   "not": "Abu Dabi'de firması gizli, proje teslim biriminin başı.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "PMO / Project Management - Oracle Fusion",
+   "firma": "Raqmiyat",
+   "rol": "PMO",
+   "kidem": "",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "Abu Dabi",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492398999/",
+   "not": "Abu Dabi'de Oracle Fusion uygulama projelerinde PMO ve proje yönetimi.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Project Management",
+   "firma": "COOEC",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "Enerji",
+   "sehir": "Doha",
+   "ulke": "Katar",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493602864/",
+   "not": "Doha'da proje yönetimi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: pozisyon (unvan genel). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Project Lead",
+   "firma": "Bateel International",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Lider / Yönetici",
+   "sektor": "Perakende / FMCG",
+   "sehir": "Dubai",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492397034/",
+   "not": "Dubai'de proje lideri pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (proje türünü doğrulayın). KONTROL: kıdem (Körfez unvanı). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Transformation Manager",
+   "firma": "ADNOC Distribution",
+   "rol": "Program Yöneticisi",
+   "kidem": "",
+   "sektor": "Enerji",
+   "sehir": "Abu Dabi",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493643203/",
+   "not": "Abu Dabi'de dönüşüm yöneticisi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (dönüşüm programı mı, doğrulayın). KONTROL: kıdem (Körfez unvanı). Kamu şirketinde vatandaşlık şartını kontrol edin. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Senior Strategic Project Manager (f/m/d)",
+   "firma": "Siemens Energy",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "Enerji",
+   "sehir": "Dammam",
+   "ulke": "Suudi Arabistan",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493773498/",
+   "not": "Dammam'da kıdemli stratejik proje yöneticisi.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Senior Program Manager, Digital Strategy",
+   "firma": "ADNOC Group",
+   "rol": "Program Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "Enerji",
+   "sehir": "Abu Dabi",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-24",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493632869/",
+   "not": "Abu Dabi'de enerji grubunun dijital stratejisinde kıdemli program yöneticisi.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). Kamu şirketinde vatandaşlık şartını kontrol edin. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Project Manager",
+   "firma": "Starlink Qatar",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "Doha",
+   "ulke": "Katar",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492348881/",
+   "not": "Doha'da proje yöneticisi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Director – Manufacturing Expansion",
+   "firma": "eMagine Solutions",
+   "rol": "Program Yöneticisi",
+   "kidem": "Lider / Yönetici",
+   "sektor": "Üretim / Sanayi",
+   "sehir": "Dubai",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493323498/",
+   "not": "Dubai'de üretim kapasitesi genişleme projelerinden sorumlu direktör.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: rol (genişleme programı mı, doğrulayın). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Senior Project Manager",
+   "firma": "HyROI Solutions",
+   "rol": "Proje Yöneticisi",
+   "kidem": "Kıdemli",
+   "sektor": "",
+   "sehir": "Doha",
+   "ulke": "Katar",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493197423/",
+   "not": "Doha'da kıdemli proje yöneticisi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Project Manager",
+   "firma": "SiiRA",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4493264852/",
+   "not": "BAE'de proje yöneticisi pozisyonu.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: şehir. KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Assistant Manager - Special Projects and Innovation",
+   "firma": "Qiddiya",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "İnşaat / Altyapı",
+   "sehir": "Riyad",
+   "ulke": "Suudi Arabistan",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4485196845/",
+   "not": "Riyad'da özel projeler ve inovasyon alanında müdür yardımcısı.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: kıdem (Assistant Manager). KONTROL: sektör. KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "Project Manager",
+   "firma": "Gizli firma (sektör belirtilmemiş)",
+   "rol": "Proje Yöneticisi",
+   "kidem": "",
+   "sektor": "",
+   "sehir": "Doha",
+   "ulke": "Katar",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4492351310/",
+   "not": "Doha'da firması gizli proje yöneticisi ilanı.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: firma ve sektör (gizli). KONTROL: kıdem (unvanda yıl/işaret yok). KONTROL: İlan tarihi e-posta tarihidir.",
+   "basvuru": "Yabancı adaya açık (Körfez)"
+  },
+  {
+   "pozisyon": "IT Project Officer (m/f/d)",
+   "firma": "Halian",
+   "rol": "Proje Koordinatörü",
+   "kidem": "",
+   "sektor": "Bilişim / Teknoloji",
+   "sehir": "Abu Dabi",
+   "ulke": "BAE",
+   "calisma": "",
+   "istihdam": "Tam zamanlı",
+   "dil": "EN",
+   "ilanTarihi": "2026-11-23",
+   "sonBasvuru": "",
+   "kaynak": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs/view/4490940580/",
+   "not": "Abu Dabi'de BT projelerinde proje sorumlusu; ilan bir işe alım firması üzerinden.",
+   "icNot": "KONTROL: vize (Körfez; 'yalnızca vatandaş' şartı olup olmadığını ilanda kontrol edin). KONTROL: işveren (işe alım ajansı). KONTROL: kıdem. KONTROL: İlan tarihi e-posta tarihidir.",
    "basvuru": "Yabancı adaya açık (Körfez)"
   }
  ]
